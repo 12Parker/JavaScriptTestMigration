@@ -33,30 +33,6 @@ def clone_repo(repo):
         return None
     return repo_name
 
-def check_dependencies(repo_path,file_path):
-    path = os.path.join(repo_path,file_path)
-    try:
-        # Read the package.json file
-        with open(path, 'r', encoding='utf-8') as file:
-            package_json = json.load(file)
-        
-        # Check for dependencies and devDependencies
-        dependencies = package_json.get('dependencies', {})
-        dev_dependencies = package_json.get('devDependencies', {})
-        
-        # Check if Enzyme or @testing-library/react are present
-        has_enzyme = 'enzyme' in dependencies or 'enzyme' in dev_dependencies
-        has_testing_library = '@testing-library/react' in dependencies or '@testing-library/react' in dev_dependencies
-        
-        if has_enzyme or has_testing_library:
-            print(f'Has DOM testing library')
-        else:
-            print(f'Doesn\'t have DOM testing library')
-        return has_enzyme or has_testing_library
-    except (FileNotFoundError, json.JSONDecodeError) as error:
-        print(f'Error reading or parsing package.json: {error}')
-        return False
-
 def install_dependencies(repo_path):
     if os.path.exists(os.path.join(repo_path, 'yarn.lock')):
         # Use yarn to install dependencies
@@ -118,7 +94,7 @@ def main():
         if repo_name:
             env_name = repo_name.replace('/', '_')
             repo_path = os.path.join(os.getcwd(), repo_name)
-            get_test_files(repo_name)
+            # get_test_files(repo_name)
             if install_dependencies(repo_path) and run_npm_test(repo_path):
                 success.append(repo_name)
     return success

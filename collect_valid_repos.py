@@ -40,7 +40,7 @@ def check_package_in_repo(repo, package_names, branch='master'):
                 if package_name in dependencies or package_name in dev_dependencies:
                     print(f"{package_name} found in dependencies.")
                     try:
-                        with open('testTwo.txt', mode='a', encoding='utf-8') as file:
+                        with open('valid_repos.txt', mode='a', encoding='utf-8') as file:
                             file.write(repo + ',\n')
                         print(f"{package_name} written to file")
                     except Exception as e:
