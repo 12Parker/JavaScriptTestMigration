@@ -1,3 +1,6 @@
 node_modules/
 __pycache__
 constants.py
+dist
+JavaScript_Test_Migration.egg-info
+JavaScriptTestMigration/repositories
