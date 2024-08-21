@@ -1,9 +1,9 @@
 import argparse
 
-# Use this when you want to re-test every repo that was verified previously
-from ..repo_names.repos_with_running_tests import repos
 from ..utils.utils import test_single_repo
 
+
+# # python -m JavaScriptTestMigration.scripts.setup_and_test_single_repo --repo "akameco/pixivdeck"
 def main(repo):
     test_single_repo(repo)
 

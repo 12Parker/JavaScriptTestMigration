@@ -1,0 +1,12 @@
+repo_name, passing_tests_after_migration, failing_tests_after_migration, passing_test_suites_after_migration, failing_test_suites_after_migration, passing_tests_after_repair, failing_tests_after_repair, passing_test_suites_after_repair, failing_test_suites_after_repair
+pixivdeck,98,1,35,1
+pixivdeck,98,1,35,1
+pixivdeck,98,0,35,1
+pixivdeck,85,0,32,5
+pixivdeck,85,0,32,5
+pixivdeck,89,0,33,4
+pixivdeck,89,0,33,4
+pixivdeck,93,0,34,2
+pixivdeck,93,0,34,2
+dash-daq,5,93,0,15
+dash-daq,3,166,0,15

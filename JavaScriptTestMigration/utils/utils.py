@@ -256,11 +256,12 @@ def remove_directory(directory_path):
         print(f'Error removing directory: {e}')
         return False
 
-def test_single_repo(repo_name):
+def test_single_repo(repo):
+    repo_name = clone_repo(repo)
     if repo_name:
         repo_path = os.path.join(ABSOLUTE_PATH, repo_name)
         if install_dependencies(repo_path, 0):
-            passing_tests, failing_tests = run_test_suite(repo_path, 0)
+            passing_tests, failing_tests, passing_tests_suites, failing_tests_suites = run_test_suite(repo_path, 0)
             print(f"Ran tests for {repo_name}. {passing_tests} passed and {failing_tests} failed.")
 
 def read_names_from_csv(file_path):
