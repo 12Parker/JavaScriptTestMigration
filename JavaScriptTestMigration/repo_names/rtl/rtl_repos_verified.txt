@@ -1,0 +1,13 @@
+albertogasparin/react-magnetic-di,144,0,167,0, [ Cannot find module 'cheerio/lib/utils' from 'node_modules/enzyme/build/Utils.js'. Details:
+    /home/jovyan/code/JavaScriptTesting/JavaScriptTestMigration/JavaScriptTestMigration/repositories/react-magnetic-di/node_modules/cheerio/dist/browser/index.js:1
+    ({"Object.<anonymous>":function(module.exports.require.__dirname.__filename.jest){export { contains. merge } from './static.js';
+                                                                                      ^^^^^^
+    SyntaxError: Unexpected token 'export']
+craig1123/react-recipes,80,0,80,0, [(Might need to re-run with prompt to add the enzyme adapter) Cannot find module 'node:stream' from 'node_modules/parse5-parser-stream/dist/cjs/index.js']
+mfix22/calendarx,1511,0
+jonatanklosko/material-ui-confirm,21,0,21,0, [SyntaxError: Unexpected token 'export' (from cheerio)]
+ctrlplusb/easy-peasy,178,0,178,0, [SyntaxError: Unexpected token 'export' (from cheerio)]
+whawker/react-jsx-highcharts,339,0,339,0, [ SyntaxError: Unexpected token 'export' (from cheerio again)]
+adeled/react-paginate,100,0,100,0, [ran out of tokens for outputting the file (need to do in chunks?). SyntaxError: Unexpected token 'export' (from cheerio)]
+nickcolley/jest-axe,27,0,0,0, [removed lint from test script. ReferenceError: TextEncoder is not defined]
+szhsin/react-transition-state,27,0,27,0, [SyntaxError: Unexpected token 'export' (from cheerio)]

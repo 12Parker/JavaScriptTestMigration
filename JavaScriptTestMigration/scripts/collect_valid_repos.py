@@ -13,9 +13,9 @@ from ..constants import SEART_REPOS
 def main():
     repos = read_names_from_csv(SEART_REPOS)
     print("Repos: ", len(repos))
-    package_names = ['enzyme', '@testing-library/react']
+    package_names = ['@testing-library/react']
 
-    run_parallel_package_checks(repos[50:150], package_names)
+    run_parallel_package_checks(repos, package_names)
     print("All checks completed.")
 if __name__ == '__main__':
     main()

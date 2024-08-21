@@ -10,22 +10,13 @@ import argparse
 # Set up your OpenAI API key
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-def RTL_TO_ENZYME_PROMPT(package_json_file): 
-    return f"Update the package.json file to include 'enzyme' the approriate enzyme-react-adapter package. \
-                If the React version in package.json is 17 use '@wojtekmaj/enzyme-adapter-react-17'. \
-                If the React version in package.json is 16 use 'enzyme-adapter-react-16'. \
-                If the React version in package.json is 15 use 'enzyme-adapter-react-15'. \
-                If the React version in package.json is 14 use 'enzyme-adapter-react-14'. \
-                If the React version in package.json is 13 use 'enzyme-adapter-react-13'. \
-                Also include 'react-dom' if it is not present. \
-                Here is the package.json file: {package_json_file}.\
-                Do not include code tags or any comments. Return only the updated file"
-
-def ENZYME_TO_RTL_PROMPT(package_json_file):
-    return f"Update the package.json file to include '@testing-library/react' and '@testing-library/jest-dom'. \
-                Also include '@testing-library/user-event'. \
-                Here is the package.json file: {package_json_file}.\
-                Do not include code tags or any comments. Return only the updated file"
+def PACKAGE_UPDATE_PROMPT(package_json_file, error_file_content, history):
+    return f"Here is a package.json file: {package_json_file}.\n\
+            These dependencies were added previously: {history}\n\n \
+            Using this error message as context: {error_file_content}\n\n \
+            Determine if the package.json file needs to be updated. \
+            If the file needs to be updated, you should only update the previously added dependencies.\
+            Do not include code tags or any comments. Return only the updated file"
 
 def read_file(file_path):
     print("FILE: ", file_path)
@@ -38,33 +29,31 @@ def write_file(file_path, content):
     with open(file_path, 'w') as file:
         file.write(content)
 
-def make_changes_to_content(content, original_test_framework, new_test_framework):
+def make_changes_to_content(content, original_test_framework, new_test_framework, error_file_content):
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
-            {"role": "user", "content":f"Here is a text file content:\n\n{content}\n\nPlease perform the following tasks:\
-                1. Complete the conversion for the test file.\
-                2. Convert all test cases and ensure the same number of tests in the file\
-                3. Replace {original_test_framework} methods with the equivalent {new_test_framework} methods.\
-                4. Update {original_test_framework} imports to {new_test_framework} imports.\
-                5. Adjust {original_test_framework} matchers for {new_test_framework}.\
-                6. Return the entire file with all converted test cases.\
-                7. Do not modify anything else, including imports for React components and helpers.\
-                8. Preserve all abstracted functions as they are and use them in the converted file.\
-                9. Maintain the original organization and naming of describe and it blocks.\
-                10. VERY IMPORTANT: Do not include code tags or any comments. Return only the updated file"
+            {"role": "user", "content":f"Here is a test file that was previously migrated from {original_test_framework} to {new_test_framework}:\n\n{content}\n\n \
+                There are errors that need to be fixed for the tests to pass: {error_file_content} \
+                Using the errors as context you must fix the file to ensure all tests are passing. \
+                You must ensure to: \
+                1. Return the entire file with all converted test cases.\
+                2. Do not modify anything else, including imports for React components and helpers.\
+                3. Preserve all abstracted functions as they are and use them in the converted file.\
+                4. Maintain the original organization and naming of describe and it blocks.\
+                5. VERY IMPORTANT: Do not include code tags or any comments. Return only the updated file"
             }
         ],
     )
     return response.choices[0].message.content
 
-def make_changes_to_package(history, package_json_file, original_test_framework, new_test_framework):
+def make_changes_to_package(history, package_json_file, original_test_framework, new_test_framework, error_file_content):
     print("History: ", history)
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
             {"role": "assistant", "content": f"Previously added packages: {history}"},
-            {"role": "user", "content": ENZYME_TO_RTL_PROMPT(package_json_file)
+            {"role": "user", "content": PACKAGE_UPDATE_PROMPT(package_json_file, error_file_content, history)
             }
         ],
     )
@@ -123,10 +112,13 @@ def remove_code_tags_from_string(text):
 
 # TODO: Update the params to accept a list of repo's or make new method to handle single migration 
 def main(repo_name):
-    start = 0
+    start = 5
     for repo in repos[start:]:
         files = find_test_files(repo)
         new_packages = set()
+
+        full_repo_path = os.path.join(ABSOLUTE_PATH, repo_name)
+        error_file_content = os.path.join(full_repo_path, 'test_suite_results.txt')
 
         print("Found test files: ", len(files))
         for file in files:
@@ -136,10 +128,8 @@ def main(repo_name):
             full_file_name = f"{input_file_path}"
             content = read_file(full_file_name)
 
-            # Add a check here for the import statements (try to ignore testing specific imports)
-
             # Make changes to the content using OpenAI API
-            modified_content = make_changes_to_content(content, 'enzyme', '@testing-library/react')
+            modified_content = make_changes_to_content(content, 'enzyme', '@testing-library/react', error_file_content)
 
             # Attempt to remove any code tags from beginning and end of the file
             modified_content = remove_code_tags_from_string(modified_content)
@@ -158,20 +148,18 @@ def main(repo_name):
 
         package_json_file_path = REPO_DIR + repo + '/package.json'
         package_json_file = read_file(package_json_file_path) 
-        modified_package_json = make_changes_to_package(new_packages, package_json_file, 'enzyme', '@testing-library/react')
+        
+        modified_package_json = make_changes_to_package(new_packages, package_json_file, 'enzyme', '@testing-library/react', error_file_content)
         write_file(package_json_file_path, modified_package_json)
+        
         #Re-run the test suite and save the results
-        print("\nRe-running the test suite after migration\n")
+        print("\nRe-running the test suite after attempting to fix errors\n")
         try:
-            verify_tests_can_run(repo, 0, ENZYME_REPOS_WITH_RUNNING_TESTS_PATH, True, True)
+            verify_tests_can_run(repo, 0, ENZYME_REPOS_WITH_RUNNING_TESTS_AFTER_FIX_PATH, True, True)
         except Exception as e:
             print(f"Encountered exception {e}, for repo {repo}")
 
-        # Add one more check where we pass in the test_suite_results file and attempt to fix the errors
-        # test_suite_results_path = os.path.join(full_repo_path, 'test_suite_results.txt')
-        # We can probably do this recursively? -> Set it up to go 1-3 levels deep and see if there are any improvements?
-
-# Ex. python -m JavaScriptTestMigration.scripts.migrate_test_files --repo react-native-label-select
+# Ex. python -m JavaScriptTestMigration.scripts.migrate_and_fix_test_files --repo react-native-label-select
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Test your repo')
     parser.add_argument('--repo', metavar='path', required=True,

@@ -1,0 +1,23 @@
+repos = [
+    "akameco/pixivdeck",
+    "plotly/dash-daq",
+    "react-bootstrap/react-router-bootstrap",
+    "ryanhefner/react-scroll-trigger",
+    "zoltantothcom/design-patterns-javascript",
+    "oklas/react-breadcrumbs-dynamic",
+    "diegohaz/arc",
+    "adriantoine/enzyme-to-json",
+    "wwwaiser/react-js-pagination",
+    "oayres/react-ssr",
+    "webscopeio/react-textarea-autocomplete",
+    "maurocarrero/sinon-jest-cheatsheet",
+    "hideoo/intro.js-react",
+    "lawnstarter/react-native-picker-select",
+    "busyorg/busy",
+    "signavio/react-mentions",
+    "khan/math-input",
+    "kevinsqi/react-calendar-heatmap",
+    "auth0/lock",
+    "hypeserver/react-date-range",
+    "react-grid-layout/react-resizable"
+]
