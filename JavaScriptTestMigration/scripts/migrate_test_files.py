@@ -1,8 +1,8 @@
 from openai import OpenAI
 import subprocess
 from ..constants import *
-from ..repo_names.enzyme_repos_with_running_tests import repos
-# from ..repo_names.rtl_repos_with_running_tests import repos
+from ..repo_names.enzyme.enzyme_repos_with_running_tests import repos
+# from ..repo_names.rtl.rtl_repos_with_running_tests import repos
 from ..utils.utils import verify_tests_can_run
 import os
 import argparse
@@ -83,7 +83,8 @@ def list_new_packages(original_file,updated_file):
     return response.choices[0].message.content
 
 def find_test_files(repo_path):
-    full_path = REPO_DIR + repo_path
+    full_path = os.path.join(ABSOLUTE_PATH,repo_path)
+
     test_files = []
     for root, dirs, files in os.walk(full_path):
         # Skip node_modules directory
@@ -122,24 +123,36 @@ def remove_code_tags_from_string(text):
     return "\n".join(lines)
 
 # TODO: Update the params to accept a list of repo's or make new method to handle single migration 
-def main(repo_name):
+def main():
     start = 0
+
     for repo in repos[start:]:
+        migrated_test_files = 0
         files = find_test_files(repo)
+        is_Yarn_repo = False
+        full_repo_path = os.path.join(ABSOLUTE_PATH, repo)
+        if os.path.exists(os.path.join(full_repo_path, 'yarn.lock')):
+            is_Yarn_repo = True
         new_packages = set()
 
         print("Found test files: ", len(files))
         for file in files:
             input_file_path = file  # Path to the input file
-            output_file_path = add_migrated_to_filename(file)  # Path to the output file
+            output_file_path = file  # Path to the output file
             # Read the content from the input file
             full_file_name = f"{input_file_path}"
+            print("COMPARE: ", input_file_path, "\nvs: ", full_file_name)
             content = read_file(full_file_name)
 
             # Add a check here for the import statements (try to ignore testing specific imports)
+            framework_conversion_info = {'original': 'enzyme', 'new': '@testing-library/react'}
+            if framework_conversion_info['original'] not in content and framework_conversion_info['new'] not in content: 
+                # Either it was already migrated or it doesn't use a DOM testing library
+                print("Doesn't contain required testing library")
+                continue
 
             # Make changes to the content using OpenAI API
-            modified_content = make_changes_to_content(content, 'enzyme', '@testing-library/react')
+            modified_content = make_changes_to_content(content, framework_conversion_info['original'], framework_conversion_info['new'])
 
             # Attempt to remove any code tags from beginning and end of the file
             modified_content = remove_code_tags_from_string(modified_content)
@@ -155,15 +168,41 @@ def main(repo_name):
             # Add each item to the set
             for item in items:
                 new_packages.add(item)
+            migrated_test_files += 1
 
-        package_json_file_path = REPO_DIR + repo + '/package.json'
-        package_json_file = read_file(package_json_file_path) 
-        modified_package_json = make_changes_to_package(new_packages, package_json_file, 'enzyme', '@testing-library/react')
-        write_file(package_json_file_path, modified_package_json)
+        try:
+            if is_Yarn_repo:
+                res = subprocess.run(
+                    ['yarn', 'add', '--dev', '@testing-library/react', '@testing-library/jest-dom'],
+                    cwd=full_repo_path,
+                    capture_output=True,
+                    check=False,
+                    text=True,
+                    timeout=GLOBAL_TIMEOUT
+                )
+
+            else:
+                res = subprocess.run(
+                    ['npm', 'install', '--save-dev', '@testing-library/react', '@testing-library/jest-dom'],
+                    cwd=full_repo_path,
+                    capture_output=True,
+                    check=False,
+                    text=True,
+                    timeout=GLOBAL_TIMEOUT
+                )
+
+        except Exception as e:
+            print("There was an error while adding new packages: ", e)
+            break
+
+        # package_json_file_path = ABSOLUTE_PATH + repo + '/package.json'
+        # package_json_file = read_file(package_json_file_path) 
+        # modified_package_json = make_changes_to_package(new_packages, package_json_file, 'enzyme', '@testing-library/react')
+        # write_file(package_json_file_path, modified_package_json)
         #Re-run the test suite and save the results
         print("\nRe-running the test suite after migration\n")
         try:
-            verify_tests_can_run(repo, 0, ENZYME_REPOS_WITH_RUNNING_TESTS_PATH, True, True)
+            verify_tests_can_run(ABSOLUTE_PATH, repo, 0, ENZYME_REPOS_WITH_RUNNING_TESTS_ZERO_SHOT_PATH, True, False, migrated_test_files)
         except Exception as e:
             print(f"Encountered exception {e}, for repo {repo}")
 
@@ -173,11 +212,7 @@ def main(repo_name):
 
 # Ex. python -m JavaScriptTestMigration.scripts.migrate_test_files --repo react-native-label-select
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Test your repo')
-    parser.add_argument('--repo', metavar='path', required=True,
-                        help='the repo name you want to test')
-    args = parser.parse_args()
-    main(repo_name=args.repo)
+    main()
 
 
 # TODO: add docs as context: https://testing-library.com/docs/react-testing-library/migrate-from-enzyme/

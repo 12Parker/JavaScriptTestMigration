@@ -6,6 +6,6 @@ from ..constants import ENZYME_REPOS_WITH_NO_CHANGES_PATH
 def main():
     start = 0
     end = 0
-    run_parallel_verifications(repos[1:], ENZYME_REPOS_WITH_NO_CHANGES_PATH)
+    run_parallel_verifications(repos[0:], ENZYME_REPOS_WITH_NO_CHANGES_PATH)
 if __name__ == '__main__':
     main()

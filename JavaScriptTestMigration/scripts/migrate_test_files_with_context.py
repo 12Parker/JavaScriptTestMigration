@@ -122,7 +122,7 @@ def list_new_packages(original_file, updated_file):
 
 
 def find_test_files(repo_path):
-    full_path = os.path.join(REPO_DIR, repo_path)
+    full_path = os.path.join(ABSOLUTE_PATH, repo_path)
     test_files = []
 
     for root, dirs, files in os.walk(full_path):
@@ -181,13 +181,13 @@ def main():
 
             new_packages.update(list_new_packages(original_content, updated_content))
         
-        package_json_file = os.path.join(REPO_DIR, repo, 'package.json')
+        package_json_file = os.path.join(ABSOLUTE_PATH, repo, 'package.json')
         package_content = read_file(package_json_file)
         modified_package_json = generate_package_updates(new_packages, package_content, "test_suite_results.txt")
         write_file(package_json_file, modified_package_json)
 
         print(f"\nRe-running test suite for {repo}\n")
-        verify_tests_can_run(repo, 0, ENZYME_REPOS_WITH_RUNNING_TESTS_USING_CONTEXT_PATH, True, True)
+        verify_tests_can_run(ABSOLUTE_PATH, repo, 0, ENZYME_REPOS_WITH_RUNNING_TESTS_USING_CONTEXT_PATH, True, True)
 
 
 if __name__ == '__main__':

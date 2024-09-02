@@ -18,7 +18,7 @@ from ..constants import RTL_FILTERED_REPOS
 
 def save_test_suite_results(repo_path, test_suite_results_path, res):
     print("Writing to: ", test_suite_results_path)
-    print("Writing data: ", res)
+    # print("Writing data: ", res)
     try:
         # Check if `res` is None or not a string
         if res is None:
@@ -74,15 +74,15 @@ def get_test_files(directory):
                 test_files.append(os.path.join(root, file))
     return test_files
 
-def clone_repo(repo):
+def clone_repo(repo_path, repo):
     url = f'https://github.com/{repo}.git'
     repo_name = repo.split('/')[-1]
 
-    if os.path.exists(os.path.join(ABSOLUTE_PATH, repo_name)):
+    if os.path.exists(os.path.join(repo_path, repo_name)):
         print(f'{repo_name} already exists. Skipping clone.')
         return repo_name
     try:
-        result = subprocess.run(['git', 'clone', url], cwd=ABSOLUTE_PATH, check=True, capture_output=True, text=True, timeout=GLOBAL_TIMEOUT)
+        result = subprocess.run(['git', 'clone', url], cwd=repo_path, check=True, capture_output=True, text=True, timeout=GLOBAL_TIMEOUT)
         print(f'Successfully cloned {repo} into {repo_name}')
     except subprocess.CalledProcessError as e:
         print(f'Error cloning {repo}: {e.stderr}')
@@ -221,22 +221,22 @@ def found_match(pattern, text):
         return match.group(1)
     return 0
 
-def verify_tests_can_run(repo, idx, file_path_to_update, should_write_to_file = True, is_post_migration = True):
-    repo_name = clone_repo(repo)
+def verify_tests_can_run(repo_path, repo, idx, file_path_to_update, should_write_to_file = True, is_post_migration = True, files_migrated = '-1'):
+    repo_name = clone_repo(repo_path, repo)
     if repo_name:
-        repo_path = os.path.join(ABSOLUTE_PATH, repo_name)
+        repo_path = os.path.join(repo_path, repo_name)
         if install_dependencies(repo_path, idx):
             try:
                 passing_tests, failing_tests, passing_test_suites, failing_test_suites = run_test_suite(repo_path, idx)
                 print("Preparing to write to file")
                 if is_post_migration:
                     print(f"Writing post_migration for {repo}")
-                    data_to_append = [str(passing_tests), str(failing_tests), str(passing_test_suites), str(failing_test_suites)]
+                    data_to_append = [str(passing_tests), str(failing_tests), str(passing_test_suites), str(failing_test_suites), str(files_migrated)]
                     append_to_csv(file_path_to_update, repo, data_to_append)
-                elif should_write_to_file and passing_tests > 0:
+                elif should_write_to_file:
                     print(f"Writing for {repo}")
                     with open(file_path_to_update, mode='a', encoding='utf-8') as file:
-                        text_to_write = f"{repo},{str(passing_tests)},{str(failing_tests)},{str(passing_test_suites)},{str(failing_test_suites)}\n"
+                        text_to_write = f"{repo},{str(passing_tests)},{str(failing_tests)},{str(passing_test_suites)},{str(failing_test_suites)},{str(files_migrated)}\n"
                         print("text_to_write: ", text_to_write)
                         file.write(text_to_write)
                     print(f"{repo_name} written to file")
@@ -256,8 +256,8 @@ def remove_directory(directory_path):
         print(f'Error removing directory: {e}')
         return False
 
-def test_single_repo(repo):
-    repo_name = clone_repo(repo)
+def test_single_repo(repo, repo_path = ABSOLUTE_PATH, ):
+    repo_name = clone_repo(repo_path, repo)
     if repo_name:
         repo_path = os.path.join(ABSOLUTE_PATH, repo_name)
         if install_dependencies(repo_path, 0):
@@ -322,7 +322,7 @@ def run_parallel_package_checks(repos, package_names, branch='master'):
 
 def run_parallel_verifications(repos, file_to_update):
     with concurrent.futures.ThreadPoolExecutor(max_workers=None) as executor:
-        futures = {executor.submit(verify_tests_can_run, repo, idx, file_to_update, True, False): repo for idx,repo in enumerate(repos)}
+        futures = {executor.submit(verify_tests_can_run, ABSOLUTE_PATH, repo, idx, file_to_update, True, False): repo for idx,repo in enumerate(repos)}
         for future in concurrent.futures.as_completed(futures):
             repo = futures[future]
             repo_name = repo.split('/')[-1]

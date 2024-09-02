@@ -72,7 +72,7 @@ def list_new_packages(original_file,updated_file):
     return response.choices[0].message.content
 
 def find_test_files(repo_path):
-    full_path = REPO_DIR + repo_path
+    full_path = ABSOLUTE_PATH + repo_path
     test_files = []
     for root, dirs, files in os.walk(full_path):
         # Skip node_modules directory
@@ -146,7 +146,7 @@ def main(repo_name):
             for item in items:
                 new_packages.add(item)
 
-        package_json_file_path = REPO_DIR + repo + '/package.json'
+        package_json_file_path = ABSOLUTE_PATH + repo + '/package.json'
         package_json_file = read_file(package_json_file_path) 
         
         modified_package_json = make_changes_to_package(new_packages, package_json_file, 'enzyme', '@testing-library/react', error_file_content)
@@ -155,7 +155,7 @@ def main(repo_name):
         #Re-run the test suite and save the results
         print("\nRe-running the test suite after attempting to fix errors\n")
         try:
-            verify_tests_can_run(repo, 0, ENZYME_REPOS_WITH_RUNNING_TESTS_AFTER_FIX_PATH, True, True)
+            verify_tests_can_run(ABSOLUTE_PATH, repo, 0, ENZYME_REPOS_WITH_RUNNING_TESTS_AFTER_FIX_PATH, True, True)
         except Exception as e:
             print(f"Encountered exception {e}, for repo {repo}")
 

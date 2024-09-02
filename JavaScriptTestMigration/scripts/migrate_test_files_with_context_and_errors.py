@@ -14,6 +14,23 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 
 MODEL = 'gpt-4o-mini'
 
+ESLINT = """{
+  "extends": ["@react-bootstrap", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-props-no-spreading": "off",
+    "max-len": "off",
+    "no-nested-ternary": "off",
+    "import/prefer-default-export": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}"""
+
 def build_package_update_prompt(package_json_file, error_file_content, history, new_testing_framework):
     return f"""Here is a package.json file: {package_json_file}.
             These dependencies were added previously: {history}
@@ -49,9 +66,10 @@ def request_full_file_update(content, framework_conversion_info, imported_file_c
                 
                 \nImports at the top of the file:
                 {imported_file_contents}\n  
+
+                The new file should respect the linting rules: {ESLINT}
                 
                 Please ensure the following:
-                IMPORTANT: Remove any duplicate or repeated imports
                 Fix the Tests: Resolve all errors to ensure that the tests pass successfully in the new framework.
                 Preserve Structure: Maintain the original structure and organization of the file, including:
                 Abstracted functions
@@ -80,6 +98,8 @@ def request_code_update(content, framework_conversion_info, imported_file_conten
                 
                 \nContent of the imports used in the test file:
                 {imported_file_contents}\n  
+
+                The new file should respect the linting rules: {ESLINT}
                 
                 Please ensure the following:
                     Fix the Tests: 
@@ -107,27 +127,40 @@ def request_code_update(content, framework_conversion_info, imported_file_conten
     )
     return response.choices[0].message.content
 
+REQUIRED_ENZYME_IMPORTS = ""
+REQUIRED_RTL_IMPORTS = """These are the common imports for react-testing-library: 
+    import {render, fireEvent, screen} from '@testing-library/react'
+    import userEvent from '@testing-library/user-event'
+    """
 
-def request_import_update(content, framework_conversion_info):
+
+
+def request_import_update(migrated_file, imports, framework_conversion_info, common_imports):
     message = f"""You are tasked with migrating the following test file from {framework_conversion_info['original']} to {framework_conversion_info['new']}:
                 Your first task is to update the imports to work with {framework_conversion_info['new']} 
-                Do not perform an update if {framework_conversion_info['new']} already exists in the file.
-                Remove any duplicate imports.
-                \nThese are the imports to be modified:
-                {content}\n  
+                For reference, this is the file that was migrated: {migrated_file}
+                You should adjust the imports to match this file.
+                Be sure to include only the required imports for this specific file.
+
+                \nThese are the current imports to be modified:
+                {imports}\n  
+
+                Only modify the imports. Do not modify other areas of the code.
+
+                These imports are commonly used for {framework_conversion_info['new']}: {common_imports}
                 
                 Please ensure the following:
                 Preserve Structure: 
                     Maintain the original structure and organization of the file, including:
                         Abstracted functions
                 
-                \nDo Not Modify Unrelated Code: Only modify the code necessary for the migration to ensure compatibility with the new framework.\n
+                \nDo Not Modify Unrelated Code: Only modify the inputs necessary for the migration to ensure compatibility with the new framework.\n
                 
                 \nDo Not Include:
                 VERY IMPORTANT: Do not include any code tags (such as ```)
                 Comments or explanations in the returned code
                 
-                \nOutput: Return only the fully migrated and functional test file. The file should be ready to execute.
+                \nOutput: Return only the migrated imports.
             """
     
     response = client.chat.completions.create(
@@ -209,7 +242,7 @@ def list_new_packages(original_file, updated_file):
 
 
 def find_test_files(repo_path):
-    full_path = os.path.join(REPO_DIR, repo_path)
+    full_path = os.path.join(ABSOLUTE_PATH, repo_path)
     test_files = []
 
     for root, dirs, files in os.walk(full_path):
@@ -244,51 +277,28 @@ def remove_code_tags_from_string(text):
     # Join the lines back into a single string
     return "\n".join(lines)
 
-def split_test_file(file_content):
-    # Regular expressions for detecting different sections
-    import_pattern = r"^(const|import).+$"
-    describe_pattern = r"^describe\(.*$"
-    function_pattern = r"^(beforeEach|afterEach|function|it).*$"
-    
+def split_file_to_strings(file_path):
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+
     imports = []
     describe_blocks = []
-    
-    current_block = 'imports'  # Start with imports by default
-    describe_block = []
-    bracket_count = 0
-    is_inside_describe = False
+    in_imports = True
 
-    for line in file_content.splitlines():
-        stripped_line = line.strip()
-        
-        # Handle the import section
-        if current_block == 'imports' and re.match(import_pattern, stripped_line):
-            imports.append(line)
-            continue
-        
-        # Detect the beginning of a top-level describe block
-        if re.match(describe_pattern, stripped_line) and not is_inside_describe:
-            if current_block == 'imports':
-                current_block = 'describe'  # Transition from imports to describe blocks
-            is_inside_describe = True  # Mark that we are inside a describe block
-            bracket_count = 1  # Start counting brackets
-            describe_block.append(line)
-            continue
+    for line in lines:
+        if in_imports:
+            if line.startswith("describe('") or line.startswith("describe("):
+                in_imports = False
+                describe_blocks.append(line)
+            else:
+                imports.append(line)
+        else:
+            describe_blocks.append(line)
 
-        # If we're inside a describe block, handle it
-        if is_inside_describe:
-            # Count opening and closing brackets to detect when we exit a describe block
-            bracket_count += line.count("{")
-            bracket_count -= line.count("}")
-            describe_block.append(line)
-            
-            # If bracket count returns to 0, we've closed a top-level describe block
-            if bracket_count == 0:
-                describe_blocks.append("\n".join(describe_block))
-                describe_block = []
-                is_inside_describe = False  # Reset flag to indicate we've exited the block
-    
-    return imports, describe_blocks
+    imports_section = ''.join(imports)
+    describe_section = ''.join(describe_blocks)
+
+    return imports_section, describe_section
 
 def convert_blocks_to_file(blocks):
     """
@@ -302,61 +312,50 @@ def convert_blocks_to_file(blocks):
     """
     # Add each block, separated by a new line
     file_content = ""
-    for block in blocks:
+    for block in reversed(blocks):
         file_content += block + "\n\n"  # Ensure each block is separated by two newlines
 
     return file_content
 
-def remove_duplicate_imports(file_content):
-    # Regular expression to match import statements
-    import_pattern = re.compile(r"import\s+((?:\*\s+as\s+\w+)|(?:\{[^}]+\})|(?:[^'{}]+))\s+from\s+['\"]([^'\"]+)['\"];?")
+def remove_duplicate_imports(input_string):
+    lines = input_string.splitlines()
     
-    import_dict = defaultdict(list)
-    output_lines = []
+    import_dict = {}
+    other_lines = []
+    current_import = []
+    inside_multiline_import = False
 
-    # Split file content into lines
-    lines = file_content.splitlines()
-
-    # Collect imports and other lines separately
     for line in lines:
-        match = import_pattern.match(line.strip())
-        if match:
-            import_spec = match.group(1).strip()
-            import_source = match.group(2).strip()
-            
-            # If it's not a wildcard or default import, split into named imports
-            if import_spec.startswith("{"):
-                named_imports = [imp.strip() for imp in import_spec.strip("{}").split(",")]
-                import_dict[import_source].extend(named_imports)
-            else:
-                # For wildcard or default imports, store them directly
-                import_dict[import_source].append(import_spec)
+        # Detect the start of a multiline import
+        if line.startswith('import') and '{' in line and '}' not in line:
+            inside_multiline_import = True
+            current_import.append(line)
+        elif inside_multiline_import:
+            # Continue collecting the lines for multiline imports
+            current_import.append(line)
+            if '}' in line:
+                full_import = '\n'.join(current_import)
+                import_part = current_import[0].split('from')[0].strip()
+                if import_part not in import_dict:
+                    import_dict[import_part] = full_import
+                current_import = []
+                inside_multiline_import = False
+        elif line.startswith('import') and not inside_multiline_import:
+            # Single-line import
+            import_part = line.split('from')[0].strip()
+            if import_part not in import_dict:
+                import_dict[import_part] = line
         else:
-            # Non-import lines are kept as they are
-            output_lines.append(line)
+            other_lines.append(line)
 
-    # Combine the imports back into valid import statements
-    unique_imports = []
-    for source, imports in import_dict.items():
-        # Get unique imports for the source
-        unique_imports_set = sorted(set(imports))
-        
-        # Handle wildcard/default imports and named imports separately
-        default_or_wildcard_imports = [imp for imp in unique_imports_set if not re.match(r"\w+\s+as\s+", imp) and not re.match(r"\{", imp)]
-        named_imports = [imp for imp in unique_imports_set if not imp in default_or_wildcard_imports]
-        
-        if default_or_wildcard_imports:
-            unique_imports.append(f"import {default_or_wildcard_imports[0]} from '{source}';")
-        if named_imports:
-            unique_imports.append(f"import {{ {', '.join(named_imports)} }} from '{source}';")
-
-    # Combine the unique imports with the rest of the code
-    file_content_cleaned = "\n".join(unique_imports + output_lines)
-
-    return file_content_cleaned
+    # Combine unique imports and other lines back into a string
+    unique_imports = sorted(import_dict.values())
+    output_string = '\n'.join(unique_imports + other_lines)
+    
+    return output_string
 
 def main():
-    for repo in repos[1:2]:
+    for repo in repos[3:]:
         migrated_test_files = 0
         test_files = find_test_files(repo)
         new_packages = set()
@@ -379,34 +378,28 @@ def main():
             print("Found a testing library, continuing")
             
             imported_file_contents = [search_and_load_import_content(path, test_file) for path in import_paths]
-
-            print("Splitting the test file")
-            imports, describe_blocks = split_test_file(original_content)
             updated_content = []
-            updated_file = ''
-            # print("imports: ", imports)
-            # print("describe_blocks: ", describe_blocks)
-
+            print("Splitting the test file")
+            imports, describe = split_file_to_strings(test_file)
+            # print("Imports: ", imports)
+            # print("\n\n\nDescribe: ", describe)
 
             # TODO: Think of better way to handle this...
             # If we don't have a describe block then the test file doesn't contain any describe statements
             # In this case we just pass the entire file to be migrated (until we can come up with a better splitting method)
-            if imports and describe_blocks:
-                if framework_conversion_info['new'] not in imports: 
-                    # First pass in the imports -> perform the updates
-                    updated_imports_pre_fix = request_import_update(imports[0], framework_conversion_info)
-                    updated_content.append(remove_code_tags_from_string(updated_imports_pre_fix))
-                else:
-                    updated_content.append(imports[0])
-          
-                # Next pass in each describe block -> Save the output
-                for idx, block in enumerate(describe_blocks):
-                    print(f"Processing block {idx}")
+            if imports and describe:        
+                updated_content_pre_fix = request_code_update(describe, framework_conversion_info, imported_file_contents, error_file_content)
+                # Attempt to remove any code tags from beginning and end of the file
+                updated_content.append(remove_code_tags_from_string(updated_content_pre_fix))
 
-                    updated_content_pre_fix = request_code_update(block, framework_conversion_info, imported_file_contents, error_file_content)
-                    # Attempt to remove any code tags from beginning and end of the file
-                    updated_content.append(remove_code_tags_from_string(updated_content_pre_fix))
-                
+                # Pass in the imports -> perform the updates
+                updated_imports_pre_fix = request_import_update(updated_content[0], imports, framework_conversion_info, REQUIRED_RTL_IMPORTS)
+                # print("\n\nupdated_imports_pre_fix: ", updated_imports_pre_fix)
+                updated_imports_after_fix = remove_code_tags_from_string(updated_imports_pre_fix)
+                # print("\n\nupdated_imports_after_fix: ", updated_imports_after_fix)
+                updated_content.append(updated_imports_after_fix)
+
+                updated_content[1] = remove_duplicate_imports(updated_content[1])
                 # Convert the blocks back into a proper file
                 updated_file = convert_blocks_to_file(updated_content)
             else:
@@ -414,10 +407,9 @@ def main():
                 updated_file_pre_fix = request_full_file_update(original_content, framework_conversion_info, imported_file_contents, error_file_content)
                 updated_file = remove_code_tags_from_string(updated_file_pre_fix)
 
-            print("updated_file: ", updated_file)
+            print("\n\nupdated_file: ", updated_file)
 
-            removed_duplicate_imports = remove_duplicate_imports(updated_file)
-            updated_file = remove_code_tags_from_string(removed_duplicate_imports)
+            updated_file = remove_code_tags_from_string(updated_file)
 
             # Overwriting the file now instead of adding -migrated
             # output_file = update_file_name_with_migrated(test_file)
@@ -425,7 +417,7 @@ def main():
             new_packages.update(list_new_packages(original_content, updated_file))
             migrated_test_files += 1
         
-        package_json_file = os.path.join(REPO_DIR, repo, 'package.json')
+        package_json_file = os.path.join(ABSOLUTE_PATH, repo, 'package.json')
         package_content = read_file(package_json_file)
         
         modified_package_json_pre_fix = generate_package_updates(new_packages, package_content, "test_suite_results.txt", framework_conversion_info['new'])
@@ -436,7 +428,7 @@ def main():
         print(f"\n\nMigrated {migrated_test_files}\n\n")
 
         print(f"\nRe-running test suite for {repo}\n")
-        verify_tests_can_run(repo, 0, ENZYME_REPOS_WITH_RUNNING_TESTS_USING_CONTEXT_AND_ERRORS_PATH, True, False)
+        verify_tests_can_run(ABSOLUTE_PATH, repo, 0, ENZYME_REPOS_WITH_RUNNING_TESTS_USING_CONTEXT_AND_ERRORS_PATH, True, False, migrated_test_files)
 
 # python -m JavaScriptTestMigration.scripts.migrate_test_files_with_context_and_errors
 # TODO: Make a script to store all the test files at a timestamp to the repo.
