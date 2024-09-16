@@ -1,3 +1,4 @@
+import ast
 import os
 import subprocess
 import json
@@ -8,14 +9,38 @@ import concurrent.futures
 import shutil
 import argparse
 import re
+import logging
 
-from ..constants import ABSOLUTE_PATH
-from ..constants import GLOBAL_TIMEOUT
-from ..constants import ENZYME_REPOS_WITH_RUNNING_TESTS_PATH
-from ..constants import RTL_REPOS_WITH_RUNNING_TESTS_PATH
-from ..constants import ENZYME_FILTERED_REPOS
-from ..constants import RTL_FILTERED_REPOS
+from threading import Lock
+from itertools import product
+from collections import Counter
+from ..constants import *
 
+logging.basicConfig(level=logging.INFO, format='%(threadName)s: %(message)s')
+file_lock = Lock()
+
+def extract_repo_name_and_brace_UI_test_framework(filename):
+    results = []
+    
+    with open(filename, 'r') as file:
+        for line in file:
+            # Extract the dictionary-like string at the beginning of the line
+            match = re.search(r'\{.*?\}', line)
+            if match:
+                dict_str = match.group()
+                # Safely evaluate the string as a Python literal
+                data_dict = ast.literal_eval(dict_str)
+                repo_name = data_dict.get('repo_name', '')
+                UI_test_framework = data_dict.get('UI_test_framework', [])
+            else:
+                repo_name = ''
+                UI_test_framework = []
+            
+            # Append the extracted data to the results list
+            results.append({'repo_name': repo_name, 'UI_test_framework': UI_test_framework})
+    
+    return results
+    
 def save_test_suite_results(repo_path, test_suite_results_path, res):
     print("Writing to: ", test_suite_results_path)
     # print("Writing data: ", res)
@@ -75,6 +100,7 @@ def get_test_files(directory):
     return test_files
 
 def clone_repo(repo_path, repo):
+    print(f'{repo} - clone')
     url = f'https://github.com/{repo}.git'
     repo_name = repo.split('/')[-1]
 
@@ -136,6 +162,7 @@ def install_dependencies(repo_path, idx):
                 if stderr_output:
                     file.write("\nStandard Error:\n")
                     file.write(stderr_output)
+                    return False
             
             print(f"Command output saved to {test_suite_results_path}")
             return True
@@ -221,27 +248,62 @@ def found_match(pattern, text):
         return match.group(1)
     return 0
 
-def verify_tests_can_run(repo_path, repo, idx, file_path_to_update, should_write_to_file = True, is_post_migration = True, files_migrated = '-1'):
-    repo_name = clone_repo(repo_path, repo)
-    if repo_name:
-        repo_path = os.path.join(repo_path, repo_name)
-        if install_dependencies(repo_path, idx):
-            try:
-                passing_tests, failing_tests, passing_test_suites, failing_test_suites = run_test_suite(repo_path, idx)
-                print("Preparing to write to file")
-                if is_post_migration:
-                    print(f"Writing post_migration for {repo}")
-                    data_to_append = [str(passing_tests), str(failing_tests), str(passing_test_suites), str(failing_test_suites), str(files_migrated)]
-                    append_to_csv(file_path_to_update, repo, data_to_append)
-                elif should_write_to_file:
-                    print(f"Writing for {repo}")
-                    with open(file_path_to_update, mode='a', encoding='utf-8') as file:
-                        text_to_write = f"{repo},{str(passing_tests)},{str(failing_tests)},{str(passing_test_suites)},{str(failing_test_suites)},{str(files_migrated)}\n"
-                        print("text_to_write: ", text_to_write)
-                        file.write(text_to_write)
-                    print(f"{repo_name} written to file")
-            except Exception as e:
-                print(f"An error occurred: {e}")
+def verify_tests_can_run(repo_path, repo, idx, file_path_to_update, file_path_to_update_failures=None, should_write_to_file=True, is_post_migration=False, files_migrated=-1, should_clone = True):
+    repo_name = repo
+    if should_clone:
+        repo_name = clone_repo(repo_path, repo['repo_name'])    
+
+    if not repo_name:
+        logging.error(f"Failed to clone repository {repo}")
+        if should_write_to_file and file_path_to_update_failures is not None:
+            write_failure(repo, file_path_to_update_failures)
+        return
+
+    repo_path = os.path.join(repo_path, repo_name)
+    if not install_dependencies(repo_path, idx):
+        logging.error(f"Failed to install dependencies for {repo}")
+        if should_write_to_file and file_path_to_update_failures is not None:
+            write_failure(repo, file_path_to_update_failures)
+        return
+
+    try:
+        passing_tests, failing_tests, passing_test_suites, failing_test_suites = run_test_suite(repo_path, idx)
+    except Exception as e:
+        logging.error(f"An error occurred while running the test suite for {repo}: {e}")
+        if should_write_to_file and file_path_to_update_failures is not None:
+            write_failure(repo, file_path_to_update_failures)
+        return
+
+    logging.info(f"Test suite completed for {repo}")
+
+    if passing_tests == -1:
+        logging.warning(f"No passing tests for {repo}")
+        if should_write_to_file and file_path_to_update_failures is not None:
+            write_failure(repo, file_path_to_update_failures)
+        return
+
+    if should_write_to_file:
+        data_to_append = [
+            str(passing_tests), str(failing_tests),
+            str(passing_test_suites), str(failing_test_suites),
+            str(files_migrated)
+        ]
+        if is_post_migration:
+            append_to_csv(file_path_to_update, repo, data_to_append)
+        else:
+            write_success(repo, data_to_append, file_path_to_update)
+
+    logging.info(f"Results written for {repo}")
+
+def write_failure(repo, failure_file):
+    with file_lock:
+        with open(failure_file, mode='a', encoding='utf-8') as file:
+            file.write(f"{repo}\n")
+
+def write_success(repo, data, success_file):
+    with file_lock:
+        with open(success_file, mode='a', encoding='utf-8') as file:
+            file.write(f"{repo}," + ",".join(data) + "\n")
 
 def remove_directory(directory_path):
     try:
@@ -282,55 +344,117 @@ def read_names_from_csv(file_path):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-def check_package_in_repo(repo, package_names, branch='master'):
+def find_all_matching_strings(dependencies, dev_dependencies, string_list):
+    dependencies_result = {s for s in string_list if s in dependencies}
+    dev_dependencies_result = {s for s in string_list if s in dev_dependencies}
+    return dependencies_result.union(dev_dependencies_result)
+
+def increment_nested_counter(nested_counter, UI_test_framework, unit_test_library, ui_framework, test_framework=None, unit_library=None):
+    print("Increment the counter: ", nested_counter, test_framework, unit_library)
+    if ui_framework in nested_counter:
+        print("Increment the framework: ", ui_framework)
+        if test_framework in UI_test_framework:
+            nested_counter[ui_framework][test_framework] += 1
+        if unit_library in unit_test_library:
+            nested_counter[ui_framework][unit_library] += 1
+    else:
+        print(f"{ui_framework} is not in the list of UI frameworks.")
+
+def check_package_in_repo(repo, nested_counter, UI_framework, UI_test_framework, unit_test_library, branch='master'):
     url = f'https://raw.githubusercontent.com/{repo}/{branch}/package.json'
     response = requests.get(url)
-    print("Checking repo: ", repo)
     
-    if response.status_code == 200:
-        try:
-            package_json = response.json()
-            dependencies = package_json.get('dependencies', {})
-            dev_dependencies = package_json.get('devDependencies', {})
-            
-            for package_name in package_names:
-                if package_name in dependencies or package_name in dev_dependencies:
-                    print(f"{package_name} found in dependencies.")
-                    try:
-                        with open(ENZYME_FILTERED_REPOS, mode='a', encoding='utf-8') as file:
-                            file.write(repo + ',\n')
-                            print("Writing")
-                        print(f"{package_name} written to file")
-                    except Exception as e:
-                        print(f"An error occurred: {e}")
-                    return True
-            return False
-        except:
-            print(f'Error with response for {repo}')
-    else:
+    
+    print(f"Checking repo: {repo}")
+
+    if response.status_code != 200:
+        print(f"Failed to fetch {url}")
+        return False
+    
+    try:
+        package_json = response.json()
+    except ValueError:
+        print(f"Error decoding JSON for {repo}")
         return False
 
-def run_parallel_package_checks(repos, package_names, branch='master'):
+    dependencies = package_json.get('dependencies', {})
+    dev_dependencies = package_json.get('devDependencies', {})
+
+    for package_name in UI_framework:
+        if package_name in dependencies or package_name in dev_dependencies:
+            print(f"{package_name} found in dependencies.")
+            repo_name = 'angular' if package_name == '@angular/core' else package_name
+            repos_with_UI_framework_path = os.path.join(SEART_FILTERED_REPOS, repo_name, 'repos_with_UI_framework.txt')
+            
+            # try:
+            #     with open(repos_with_UI_framework_path, mode='a', encoding='utf-8') as file:
+            #         file.write(f"{repo}\n")
+            #         print(f"{package_name} written to file")
+            # except Exception as e:
+            #     print(f"An error occurred while writing to file: {e}") 
+            
+            # Consolidate test framework and unit test library matching
+            test_frameworks = find_all_matching_strings(dependencies, dev_dependencies, UI_test_framework)   
+            unit_test_libraries = find_all_matching_strings(dependencies, dev_dependencies, unit_test_library)
+
+            # Iterate through every combination of test_frameworks and unit_test_libraries
+            for test_framework, unit_library in product(test_frameworks, unit_test_libraries):
+                print("Updating counter")
+                increment_nested_counter(nested_counter, UI_test_framework, unit_test_library, package_name, test_framework, unit_library)
+
+            if not test_frameworks:
+                print("No test framework")
+                continue
+
+            ui_repo_path = os.path.join(SEART_FILTERED_REPOS, repo_name, 'repos.txt')
+
+            try:
+                with open(ui_repo_path, mode='a', encoding='utf-8') as file:
+                    file.write(f"{repo},{test_frameworks},{unit_test_libraries}\n")
+                    print(f"{package_name} written to file")
+            except Exception as e:
+                print(f"An error occurred while writing to file: {e}")  
+            return True
+    return False
+
+
+def run_parallel_package_checks(repos, nested_counter, UI_framework, UI_test_framework, unit_test_library, branch='master'):
     with concurrent.futures.ThreadPoolExecutor(max_workers=None) as executor:
-        futures = {executor.submit(check_package_in_repo, repo, package_names, branch): repo for repo in repos}
+        futures = {executor.submit(check_package_in_repo, repo, nested_counter, UI_framework, UI_test_framework, unit_test_library, branch): repo for repo in repos}
         for future in concurrent.futures.as_completed(futures):
             repo = futures[future]
             try:
-                future.result()
+                future.result(timeout=GLOBAL_TIMEOUT)
             except Exception as exc:
                 print(f"Repo {repo} generated an exception: {exc}")
 
-def run_parallel_verifications(repos, file_to_update):
-    with concurrent.futures.ThreadPoolExecutor(max_workers=None) as executor:
-        futures = {executor.submit(verify_tests_can_run, ABSOLUTE_PATH, repo, idx, file_to_update, True, False): repo for idx,repo in enumerate(repos)}
+def run_parallel_verifications(repos, file_to_update, failure_file_to_update):
+    with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
+        futures = {
+            executor.submit(
+                verify_tests_can_run,
+                ABSOLUTE_PATH,
+                repo,
+                idx,
+                file_to_update,
+                failure_file_to_update,
+                False,
+                False
+            ): repo for idx, repo in enumerate(repos)
+        }
         for future in concurrent.futures.as_completed(futures):
             repo = futures[future]
-            repo_name = repo.split('/')[-1]
+            repo_name = repo['repo_name'].split('/')[-1]
+            path = os.path.join(ABSOLUTE_PATH, repo_name)
             try:
+                # Ensure the future completed successfully
                 future.result()
-                # remove_directory(repo_name)
+                print("Done verifying tests can run for", repo_name)
             except Exception as exc:
                 print(f"Repo {repo} generated an exception: {exc}")
-                remove_directory(repo_name)
+            finally:
+                # Clean up the directory regardless of success or failure
+                print("Removing directory...")
+                # remove_directory(path)
 
 

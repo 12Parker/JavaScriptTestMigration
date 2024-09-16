@@ -1,0 +1,17 @@
+{'repo_name': 'south-paw/react-vector-maps', 'UI_test_framework': ['@testing-library/react']},0,0,0,1,-1
+{'repo_name': 'dimitrydushkin/sliding-pane', 'UI_test_framework': ['@testing-library/react']},0,0,0,1,-1
+{'repo_name': 'chrisjpatty/crooks', 'UI_test_framework': ['@testing-library/react']},0,0,0,1,-1
+{'repo_name': 'schiehll/react-alert', 'UI_test_framework': ['@testing-library/react']},18,0,1,0,-1
+{'repo_name': 'atomiks/tippyjs-react', 'UI_test_framework': ['@testing-library/react']},37,0,3,0,-1
+{'repo_name': 'neighborhood999/react-gh-like-diff', 'UI_test_framework': ['@testing-library/react']},4,0,2,0,-1
+{'repo_name': 'dozoisch/react-async-script', 'UI_test_framework': ['@testing-library/react']},16,0,1,0,-1
+{'repo_name': 'oblosys/react-lifecycle-visualizer', 'UI_test_framework': ['@testing-library/react']},18,0,2,0,-1
+{'repo_name': 'andreaswilli/react-verification-input', 'UI_test_framework': ['@testing-library/react']},39,0,1,0,-1
+{'repo_name': 'hazyzh/jest-html-reporters', 'UI_test_framework': ['@testing-library/react']},26,0,10,0,-1
+{'repo_name': 'mfix22/calendarx', 'UI_test_framework': ['@testing-library/react']},1511,0,2,0,-1
+{'repo_name': 'starptech/next-localization', 'UI_test_framework': ['@testing-library/react']},9,0,1,0,-1
+{'repo_name': 'storybookjs/marksy', 'UI_test_framework': ['@testing-library/react', 'preact']},39,0,1,0,-1
+{'repo_name': 'nmn/react-timeago', 'UI_test_framework': ['@testing-library/react']},13,0,1,0,-1
+{'repo_name': 'ctrlplusb/easy-peasy', 'UI_test_framework': ['@testing-library/react']},178,0,27,0,-1
+{'repo_name': 'beizhedenglong/react-hooks-lib', 'UI_test_framework': ['@testing-library/react']},33,0,13,0,-1
+{'repo_name': 'vikpe/react-webpack-typescript-starter', 'UI_test_framework': ['@testing-library/react']},0,0,0,1,-1

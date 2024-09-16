@@ -1,0 +1,29 @@
+vitalii-andriiovskyi/ngx-owl-carousel-o,set(),{'karma'}
+johnpapa/angular2-force,set(),{'karma'}
+matiastucci/ionic-ocr-example,set(),set()
+bradtraversy/angular60,set(),{'karma'}
+salemdar/angular2-cookie,set(),{'karma'}
+datatypevoid/vulgar,set(),{'mocha', 'karma', 'chai'}
+domfarolino/angular2-login-seed,set(),{'karma'}
+antonybudianto/angular-starter,set(),{'karma'}
+preboot/angular-library-seed,set(),{'karma'}
+preboot/angular-webpack,set(),{'karma'}
+auth0-blog/angular2-authentication-sample,set(),set()
+alexcastillo/ng2-notifications,set(),{'karma'}
+airingursb/sunnybaby,set(),set()
+samteb/angular-7-webpack-4-boilerplate,set(),set()
+microsoft/cordova-samples,set(),set()
+filipesilva/angular-quickstart-lib,set(),{'karma'}
+chihu-team/chihu2,set(),set()
+angular/quickstart,set(),{'karma'}
+patrickjs/angular-starter,set(),{'karma'}
+chenqingspring/ng-lottie,set(),{'karma', 'chai'}
+marcoturi/ionic-boilerplate,set(),{'karma'}
+cipchk/ngx-ueditor,set(),{'karma'}
+filenation/filenation,set(),{'karma'}
+hfreire/get-me-a-date,set(),{'mocha', 'jest'}
+chrisguttandin/angular-prerender,set(),{'mocha', 'chai'}
+ganatan/angular-ssr,set(),{'karma'}
+nartc/angular-three,set(),{'jest'}
+ed3ath/cbtracker,set(),{'karma'}
+patrickjs/mfe-starter,set(),{'karma'}

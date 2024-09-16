@@ -1,0 +1,162 @@
+egoist/vue-inter,{'@vue/test-utils'},set()
+hjkcai/vue-modal-dialogs,{'@vue/test-utils'},{'karma', 'mocha', 'chai'}
+peachscript/sketch-plugin-monster,{'@vue/test-utils'},{'jest'}
+ankurk91/vue-bootstrap-datetimepicker,{'@vue/test-utils'},{'jest'}
+elhebert/vue-fineuploader,{'@vue/test-utils'},set()
+ms-design/ms-design,{'@vue/test-utils'},set()
+hjl19911127/vue-drawer-layout,{'@vue/test-utils'},set()
+posva/vue-tweezing,{'@vue/test-utils'},{'jest'}
+chrisvfritz/hello-vue-components,{'@vue/test-utils'},set()
+mazipan/vue2-simplert,{'@vue/test-utils'},{'jest'}
+terryz/v-selectmenu,{'@vue/test-utils'},{'mocha', 'chai'}
+terryz/v-region,{'@vue/test-utils'},set()
+mcibique/vue-testing-examples,{'@vue/test-utils'},{'chai'}
+statnett/vue-plotly,{'@vue/test-utils'},{'karma', 'mocha', 'chai'}
+chimera-js/vue-chimera,{'@vue/test-utils'},{'jest'}
+khoanguyen96/vue-paypal-checkout,{'@vue/test-utils'},{'jest'}
+anthonygore/vuex-undo-redo,{'@vue/test-utils'},{'jest'}
+david-desmaisons/vue-plotly,{'@vue/test-utils'},set()
+vkcyan/vue-element-asynclogin,{'@vue/test-utils'},set()
+formschema/elementui,{'@vue/test-utils'},set()
+viljamis/vue-design-system,{'@vue/test-utils'},{'jest'}
+fritx/vue-threejs,{'@vue/test-utils'},set()
+openfext/vue-form-builder,{'@vue/test-utils'},{'jest'}
+terryz/v-selectpage,{'@vue/test-utils'},set()
+znck/lazy-hydration,{'@vue/test-utils'},{'jest'}
+godofbrowser/vuejs-dialog,{'@vue/test-utils'},{'karma', 'mocha', 'chai'}
+duyanpeng/vue-quick-loadmore,{'@vue/test-utils'},{'karma', 'mocha', 'chai'}
+viko16/vue-ghpages-blog,{'@vue/test-utils'},{'karma', 'mocha', 'chai'}
+kefranabg/bento-starter,{'@vue/test-utils'},set()
+craigh411/vue-star-rating,{'@vue/test-utils'},{'jest'}
+posva/vue-local-scope,{'@vue/test-utils'},{'jest'}
+shhdgit/vue-easy-slider,{'@vue/test-utils'},{'jest'}
+jofftiquez/vue-morphling,{'@vue/test-utils'},{'jest'}
+yourtion/vue-json-ui-editor,{'@vue/test-utils'},{'jest'}
+joffreyberrier/vue-spreadsheet,{'@vue/test-utils'},set()
+privatenumber/vue-2-3,{'@vue/test-utils'},{'jest'}
+sortablejs/vue.draggable.next,{'@vue/test-utils'},set()
+charliekassel/vuejs-autocomplete,{'@vue/test-utils'},{'jest', 'chai'}
+amsik/liquor-tree,{'@vue/test-utils'},{'jest'}
+dfcook/vue-webpack4-template,{'@vue/test-utils', '@testing-library/vue'},{'jest'}
+linusborg/vue-reactive-provide,{'@vue/test-utils'},set()
+molunerfinn/vue-koa-demo,{'@vue/test-utils'},{'jest'}
+matteogabriele/vue-progressive-image,{'@vue/test-utils'},set()
+firenzia/sakura-ui,{'@vue/test-utils'},{'chai'}
+l-hammer/v-track,{'@vue/test-utils'},set()
+vivify-ideas/vue-draggable,{'@vue/test-utils'},{'mocha', 'chai'}
+mercs600/vue2-perfect-scrollbar,{'@vue/test-utils'},{'karma', 'mocha', 'chai'}
+kelin2025/vue-timers,{'@vue/test-utils'},{'jest'}
+misrob/vue-tree-navigation,{'@vue/test-utils'},set()
+dobromir-hristov/vuelidate-error-extractor,{'@vue/test-utils'},{'jest'}
+vue-generators/vue-form-generator,{'@vue/test-utils'},{'mocha', 'chai'}
+matiastucci/vue-input-tag,{'@vue/test-utils'},set()
+saintplay/vue-swatches,{'@vue/test-utils'},set()
+lucpotage/vue-katex,{'@vue/test-utils'},set()
+ssense/vue-carousel,{'@vue/test-utils'},{'jest'}
+semantic-ui-vue/semantic-ui-vue,{'@vue/test-utils'},{'jest'}
+eliep/vue-avatar,{'@vue/test-utils'},{'karma', 'mocha', 'chai'}
+lukaszflorczak/vue-agile,{'@vue/test-utils'},set()
+codebender828/breadstick,{'@vue/test-utils'},{'jest'}
+txs1992/fast-amap,{'@vue/test-utils'},{'karma', 'mocha', 'chai'}
+dafrok/v-hotkey,{'@vue/test-utils'},set()
+darrenjennings/vue-autosuggest,{'@vue/test-utils'},{'jest'}
+mudin/vue-vr,{'@vue/test-utils'},set()
+yariksav/vuetify-dialog,{'@vue/test-utils'},{'jest'}
+yoychen/v-craft,{'@vue/test-utils'},set()
+belphemur/vue-json-csv,{'@vue/test-utils'},{'jest'}
+baianat/hooper,{'@vue/test-utils'},{'jest'}
+maoberlehner/vuex-map-fields,{'@vue/test-utils'},{'jest'}
+njleonzhang/vue-data-tables,{'@vue/test-utils'},{'karma', 'mocha', 'chai'}
+fullcalendar/fullcalendar-vue,{'@vue/test-utils'},{'karma'}
+albertlucianto/vue-text-highlight,{'@vue/test-utils'},{'jest'}
+saeris/vue-spinners,{'@vue/test-utils'},{'jest'}
+nwutils/nw-vue-cli-example,{'@vue/test-utils'},set()
+femessage/el-form-renderer,{'@vue/test-utils'},{'jest'}
+kartoteket/vue-image-upload-resize,{'@vue/test-utils'},set()
+gorkys/vue-draggable-resizable-gorkys,{'@vue/test-utils'},{'karma', 'mocha', 'chai'}
+lmxdawn/vue-admin-html,{'@vue/test-utils'},set()
+delaford/game,{'@vue/test-utils'},set()
+d2-projects/d2-admin-start-kit,{'@vue/test-utils'},set()
+arturmiz/vuent,{'@vue/test-utils'},{'jest'}
+fodelf/esaymarket,{'@vue/test-utils'},{'chai'}
+d2-projects/d2-admin-xiya-go-cms,{'@vue/test-utils'},set()
+beepboopbangbang/githoard,{'@vue/test-utils'},{'chai'}
+charliekassel/vuejs-datepicker,{'@vue/test-utils'},{'jest'}
+ankurk91/vue-loading-overlay,{'@vue/test-utils'},{'jest'}
+ankurk91/vue-cleave-component,{'@vue/test-utils'},{'jest'}
+mathieustan/vue-datepicker,{'@vue/test-utils'},set()
+wearebraid/vue-formulate,{'@vue/test-utils'},{'jest'}
+algolia/vue-instantsearch,{'@vue/test-utils'},{'jest'}
+nuxt-community/nuxt-property-decorator,{'@vue/test-utils'},{'jest'}
+wangdabaoqq/vue-drag-tree,{'@vue/test-utils'},set()
+riophae/vue-treeselect,{'@vue/test-utils'},{'jasmine-core', 'karma'}
+klausschaefers/vue-low-code,{'@vue/test-utils'},{'jest'}
+starkwang/vue-virtual-collection,{'@vue/test-utils'},{'mocha', 'chai'}
+panjiachen/vue-admin-template,{'@vue/test-utils'},set()
+kloudless/meeting-scheduler,{'@vue/test-utils'},{'jest'}
+vue-a11y/vue-announcer,{'@vue/test-utils'},{'jest'}
+sortablejs/vue.draggable,{'@vue/test-utils'},set()
+codepilotai/codepilot,{'@vue/test-utils'},{'mocha'}
+janguillermo/vue3-markdown-it,{'@vue/test-utils'},set()
+zouyaoji/vue-cesium,{'@vue/test-utils'},{'jest'}
+schmich/marinara,{'@vue/test-utils'},{'chai'}
+niiknow/vue-datatables-net,{'@vue/test-utils'},{'jest'}
+neighborhood999/vue-signature-pad,{'@vue/test-utils'},{'jest'}
+iliyazelenko/vue-cool-select,{'@vue/test-utils'},{'jest'}
+single-spa/single-spa-vue,{'@vue/test-utils'},{'jest'}
+zenuml/web-sequence,{'enzyme', 'preact'},{'jest'}
+leocardoso94/animated-number-vue,{'@vue/test-utils'},set()
+tangbc/vue-virtual-scroll-list,{'@vue/test-utils'},{'jest'}
+vue-leaflet/vue2leaflet,{'@vue/test-utils'},{'jest'}
+mengxiong10/vue2-datepicker,{'@vue/test-utils'},{'jest'}
+chakra-ui/chakra-ui-vue,{'@vue/test-utils', '@testing-library/vue'},{'jest'}
+jbaysolutions/vue-grid-layout,{'@vue/test-utils'},set()
+d2-projects/d2-admin,{'@vue/test-utils'},set()
+checkly/headless-recorder,{'@vue/test-utils'},{'jest'}
+fortawesome/vue-fontawesome,{'@vue/test-utils'},{'jest'}
+mengsixing/front-end-navigation,{'@vue/test-utils'},{'karma', 'mocha', 'chai'}
+ndelvalle/v-click-outside,{'@vue/test-utils'},{'jest'}
+zhongantech/zarm-vue,{'@vue/test-utils'},{'jest'}
+druxt/druxt.js,{'@vue/test-utils'},{'jest'}
+bootstrap-vue/bootstrap-vue,{'@vue/test-utils'},{'jest'}
+sagalbot/vue-select,{'@vue/test-utils'},{'jest'}
+shentao/vue-multiselect,{'@vue/test-utils'},set()
+ghettovoice/vuelayers,{'@vue/test-utils'},{'chai'}
+symfony/webpack-encore,{'preact'},{'mocha', 'chai'}
+ktsn/vue-thin-modal,{'@vue/test-utils'},{'jest'}
+probil/vue-socket.io-extended,{'@vue/test-utils'},{'jest'}
+noopkat/electric-io,{'@vue/test-utils'},{'jest'}
+happy-coding-clans/vue-easytable,{'@vue/test-utils'},{'jest'}
+testing-library/vue-testing-library,{'@vue/test-utils'},set()
+uiv-lib/uiv,{'@vue/test-utils'},{'jest'}
+posva/vuex-mock-store,{'@vue/test-utils'},{'jest'}
+ankurk91/vue-toast-notification,{'@vue/test-utils'},{'jest'}
+orangexc/vue-coverflow,{'@vue/test-utils'},set()
+fengyuanchen/vue-barcode,{'@vue/test-utils'},{'jest'}
+nicolasbeauvais/vue-social-sharing,{'@vue/test-utils'},{'jest'}
+posva/vue-ts-lib,{'@vue/test-utils'},{'jest'}
+gomah/vue-places,{'@vue/test-utils'},{'jest'}
+setaman/vue-ellipse-progress,{'@vue/test-utils'},{'chai'}
+probil/v-mask,{'@vue/test-utils'},{'jest'}
+gothinkster/vue-realworld-example-app,{'@vue/test-utils'},set()
+formvuelate/formvuelate,{'@vue/test-utils'},{'jest'}
+j-t-mcc/vue3-chartjs,{'@vue/test-utils'},{'jest'}
+lecoueyl/mijin,{'@vue/test-utils'},set()
+talelin/lin-cms-vue,{'@vue/test-utils'},set()
+kouts/vue-dataset,{'@vue/test-utils'},set()
+xjh22222228/vue-authorized,{'@vue/test-utils'},{'jest'}
+alfg/opendrinks,{'@vue/test-utils'},set()
+martinageradams/easy-resume,{'@vue/test-utils'},set()
+vuesomedev/todomvc-vue-composition-api,{'@vue/test-utils'},{'chai'}
+janiskelemen/formvuelar,{'@vue/test-utils'},set()
+foxusa/storedown,{'@vue/test-utils'},{'jest'}
+terryz/v-dialogs,{'@vue/test-utils'},set()
+dd3v/snippets.ninja,{'@vue/test-utils'},{'jest'}
+rei/rei-cedar-vue-2,{'@vue/test-utils'},{'jest'}
+arielsalminen/vue-design-system,{'@vue/test-utils'},{'jest'}
+11ty/is-land,{'preact'},set()
+liberty-liu/everright-formeditor,{'@vue/test-utils'},set()
+w3bdesign/laravel-vue-ecommerce,{'@testing-library/vue'},{'jest'}
+gilbitron/laravel-vue-pagination,{'@vue/test-utils'},set()
+BlueDancers/vue-element-asyncLogin,{'@vue/test-utils'},set()
+vueform/vueform,{'@vue/test-utils'},{'jest'}

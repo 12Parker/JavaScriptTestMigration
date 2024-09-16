@@ -4,3 +4,5 @@ constants.py
 dist
 JavaScript_Test_Migration.egg-info
 JavaScriptTestMigration/repositories
+outdated/
+react_enzyme_repositories*

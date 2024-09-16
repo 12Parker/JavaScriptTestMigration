@@ -1,0 +1,3244 @@
+minasamir11/react-native-in-app-review,set(),{'jest'}
+nexclipper/exporterhub.io,{'@testing-library/react'},set()
+pablopunk/nextjs-redirect,set(),set()
+arabold/serverless-react-boilerplate,set(),{'jest'}
+dimitrydushkin/sliding-pane,{'@testing-library/react'},{'jest'}
+alitajs/alita,set(),{'jest'}
+modulz/stitches,set(),set()
+pmndrs/react-postprocessing,set(),set()
+garrylachman/electrocrud,{'@testing-library/react'},{'jest'}
+walletconnect/walletconnect-docs,set(),set()
+pbteja1998/nextjs-starter,set(),set()
+umijs/dumi,set(),set()
+south-paw/react-vector-maps,{'@testing-library/react'},{'jest'}
+lightsound/nexst,{'@testing-library/react'},{'jest'}
+styled-icons/styled-icons,set(),set()
+gritzko/todomvc-swarm,set(),set()
+gilbox/vizone,set(),set()
+josephsavona/valuable,set(),{'mocha', 'chai'}
+yuanyan/react-timesheet,set(),set()
+yuanyan/react-ajax,set(),set()
+ironhee/step-by-step-frontend,set(),set()
+risingstack/react-way-immutable-flux,set(),set()
+insin/react-lessons,set(),set()
+materliu/gallery-by-react,set(),{'karma'}
+sgwilym/relay-visual-learners,set(),set()
+azproduction/node-mc,set(),set()
+vesparny/morpheus,set(),{'mocha'}
+jdarling/d3rrc,set(),set()
+sonnylazuardi/react-tomato-timer,set(),set()
+dfilatov/bem-react,set(),{'jasmine'}
+supnate/react-tab-selector,set(),set()
+macalinao/ghfollowers,set(),{'mocha', 'chai'}
+mizchi/md2react,set(),{'mocha', 'chai'}
+carlosazaustre/universal-js-boilerplate,set(),{'mocha', 'chai'}
+michelebertoli/react-worker,set(),set()
+jchapron/redux-friendlist-demo,set(),set()
+vaffel/react-components,set(),set()
+rileyjshaw/challenger,set(),{'mocha', 'chai'}
+martyjs/marty,set(),set()
+okoala/react-redux-antd,set(),set()
+wwsun/starter-node-react,set(),set()
+netgusto/idiomaticreact,set(),set()
+stoeffel/react-cond,set(),set()
+nikgraf/future-react-ui,set(),set()
+milankinen/react-bacon-todomvc,set(),set()
+lmatteis/peer-tweet,set(),{'mocha', 'chai'}
+omnidan/redux-undo-boilerplate,set(),{'mocha', 'chai'}
+ryanflorence/react-magic-move,set(),set()
+stevenvachon/handlebars-react,set(),{'mocha', 'chai'}
+pieterv/react-googlemaps,set(),set()
+lloeki/matterfront,set(),{'mocha', 'chai'}
+adphorus/react-summary,set(),set()
+sskyy/redux-task,set(),{'mocha'}
+whoisandy/react-blocks,set(),{'mocha', 'karma', 'chai'}
+vicapow/explained-visually,set(),set()
+lamosty/lexi,set(),set()
+mir3z/react-virtual-list,set(),{'karma'}
+vodkabears/another-one-fucking-boilerplate,set(),{'mocha', 'chai'}
+bruderstein/unexpected-react-shallow,set(),{'mocha'}
+kvoti/redux-rest,set(),{'mocha'}
+victorb/ipfsbin,set(),{'mocha'}
+gpbl/isomorphic500,set(),set()
+crysislinux/chrome-react-perf,set(),{'jasmine'}
+af/jsnox,set(),set()
+prakhar1989/react-term,set(),set()
+reapp/reapp-ui,set(),set()
+esbullington/react-d3,set(),{'mocha', 'karma', 'chai'}
+jurassix/react-immutable-render-mixin,set(),{'mocha', 'chai'}
+airtoxin/electron-react-boilerplate,set(),set()
+jslauthor/react-audio-component,set(),set()
+stage88/react-weather,set(),set()
+jakemmarsh/react-tour-guide,set(),set()
+iwgang/gankcamp-react-native,set(),set()
+knowbody/redux-react-router-example-app,set(),{'mocha'}
+sqlectron/sqlectron-term,set(),set()
+tgecho/react-prosemirror,set(),{'karma'}
+fullstackreact/react-yelp-clone,{'enzyme'},{'mocha', 'karma', 'chai'}
+insin/react-heatpack,set(),set()
+jlebensold/peckish,set(),set()
+scup/atellier,set(),set()
+alexkuz/webpack-chart,set(),set()
+yohnz/maoyanfilm,set(),set()
+risingstack/react-way-getting-started,set(),set()
+raisemarketplace/ground-control,set(),set()
+mastermoo/rn-emoji-feedback,set(),set()
+timarney/redux-trackjs-logger,{'enzyme'},{'mocha'}
+pbomb/redux-devtools-profiler-monitor,set(),set()
+bgrsquared/d3-react-squared,set(),set()
+phodal/mole,{'enzyme'},{'mocha', 'karma', 'chai'}
+jlyman/rn-navigationexperimental-redux-example,set(),set()
+theadd/react-panels,set(),set()
+nikgraf/cartejaune,set(),{'mocha', 'chai'}
+wridder/react-spa,set(),set()
+wildhoney/standalone,set(),set()
+wildhoney/interpose,{'enzyme'},set()
+conorhastings/redux-test-recorder,set(),set()
+casesandberg/react-context,set(),set()
+dozoisch/koa-react-full-example,set(),{'mocha'}
+mantrajs/mantra-sample-blog-app,{'enzyme'},{'mocha', 'chai'}
+chemdemo/webpack-seed,set(),set()
+felixgirault/pure-render-decorator,set(),{'mocha', 'chai'}
+jxnblk/ejsx,set(),set()
+zalmoxisus/crossbuilder,{'enzyme'},{'mocha'}
+mattdesl/prot,set(),set()
+nihgwu/react-native-sudoku,set(),set()
+rsamec/react-designer,set(),{'mocha', 'karma', 'chai'}
+taion/rrtr,set(),{'mocha', 'karma'}
+robinweser/react-look,set(),{'mocha', 'chai'}
+lightning-viz/lightning,set(),{'mocha'}
+taskrabbit/reactnativesampleapp,set(),{'mocha', 'chai'}
+relax/relate,set(),{'mocha'}
+whoisandy/yoda,set(),set()
+silentcicero/react-dapp-boilerplate,{'enzyme'},{'mocha', 'karma', 'chai'}
+theevilcorp/overreact,set(),{'mocha', 'chai'}
+paramaggarwal/rn-paper-interface,set(),set()
+abalone0204/clairvoyance,set(),{'mocha', 'chai'}
+sahat/newedenfaces-react,set(),set()
+seedstars/reactnative-mobile-app-base,set(),set()
+yanbober/rnpolymerpo,set(),set()
+srn/react-webpack-boilerplate,set(),set()
+bkniffler/draft-wysiwyg,set(),set()
+alexkuz/flask-react-boilerplate,set(),{'jest'}
+cd-fe/react-component,set(),set()
+soup-js/omnistream,set(),{'mocha'}
+buildreactnative/assemblies,set(),set()
+cloverfield-tools/universal-react-boilerplate,set(),set()
+hswolff/betterweather,set(),set()
+irvinebroque/isomorphic-hot-loader,set(),set()
+lelandrichardson/redux-entity,set(),{'mocha', 'chai'}
+narqo/react-islands,{'enzyme'},{'mocha', 'chai'}
+wildhoney/dory,{'enzyme'},set()
+ryanflorence/async-props,set(),{'mocha', 'karma'}
+stoneweb/elm-react-native,set(),{'jest'}
+mhart/simple-relay-starter,set(),set()
+joshwcomeau/react-collection-helpers,{'enzyme'},{'chai'}
+anorudes/redux-easy-boilerplate,{'enzyme'},{'mocha', 'chai'}
+ngduc/react-setup,set(),{'mocha', 'chai'}
+zpratt/react-tdd-guide,{'@testing-library/react'},{'jest'}
+technology-ebay-de/universal-react-router4,set(),set()
+mrsimonfletcher/react-progressive-web-app,{'enzyme'},{'mocha', 'chai'}
+mantrajs/meteor-mantra-kickstarter,{'enzyme'},{'mocha', 'chai'}
+christophercliff/flatmarket,set(),{'mocha', 'karma', 'chai'}
+wssgcg1213/koa2-react-isomorphic-boilerplate,set(),{'mocha'}
+nicksp/redux-webpack-es6-boilerplate,set(),{'mocha', 'chai'}
+hharnisc/tabbie,set(),set()
+rewonc/pastalog,set(),{'mocha', 'chai'}
+im-js/im.js,set(),{'jest'}
+rnplay/rnplay-web,set(),set()
+krasevych/react-redux-styled-hot-universal,set(),set()
+greenish/react-mount,set(),set()
+jovey-zheng/react-start-kit,set(),set()
+zhufengketang/app,set(),{'jest'}
+magiccube/movie-board,set(),set()
+krasimir/react-webpack-starter,set(),{'mocha', 'karma', 'chai'}
+cqupt-yifanwu/blog,set(),set()
+christianalfoni/webpack-bin,set(),set()
+mxstbr/login-flow,set(),set()
+olegakbarov/react-redux-starter-kit,set(),set()
+gearz-lab/react-metaform,set(),{'mocha', 'karma', 'chai'}
+guoyongfeng/webpack-dev-boilerplate,set(),{'mocha'}
+pshrmn/rrc,{'enzyme'},{'jest'}
+mhink/react-ionize,set(),{'mocha', 'chai'}
+alfredkam/yakojs,set(),{'mocha', 'chai'}
+thrivingkings/animo,set(),{'mocha', 'karma'}
+eleteam/shop-react-native,set(),set()
+scaphold-io/slackr-graphql-subscriptions-starter-kit,set(),set()
+kiki-le-singe/react-redux-universal-boilerplate,{'enzyme'},{'mocha', 'karma', 'chai'}
+pocotan001/react-styleguide-generator,set(),set()
+jgillich/faststack,set(),set()
+team-gryff/react-monocle,set(),{'mocha', 'chai'}
+malucomarinero/react-wastage-monitor,set(),set()
+storybook-eol/storyshots,set(),{'jest'}
+ansavvides/d3act,set(),set()
+dhruv-kumar-jha/productivity-frontend,set(),set()
+storybook-eol/react-storybook-addon-info,{'enzyme'},{'mocha', 'chai'}
+storybook-eol/storybook-addon-knobs,{'enzyme'},{'mocha', 'chai'}
+xantier/nerd-stack,set(),{'mocha', 'chai'}
+themeteorchef/base,set(),set()
+cfsghost/lantern,set(),set()
+tkh44/data-driven-motion,set(),{'jest'}
+universalavenue/react-compose,{'enzyme'},set()
+pepaar/typescript-webpack-react-redux-boilerplate,set(),set()
+lucifier129/isomorphism-react-todomvc,set(),set()
+cicada-team/react-lego,set(),set()
+jasonbai007/reactspa,set(),set()
+banyan/react-emoji,set(),{'karma'}
+slashdotdash/phoenix-react-redux-example,set(),set()
+echenley/react-news,set(),{'mocha', 'karma', 'chai'}
+christianalfoni/markdown-to-react-components,set(),set()
+lipp/next-todos,set(),set()
+toplan/react-hold,{'enzyme'},{'jest'}
+sonnylazuardi/reactriot2017-dotamania,set(),set()
+storybook-eol/react-native-storybook,set(),set()
+blackjk3/react-form-builder,set(),{'mocha'}
+auth0-blog/redux-auth,set(),set()
+nnarhinen/react-pdf,set(),set()
+paulhoughton/remember,set(),{'jest'}
+jessepollak/command,set(),set()
+r-park/todo-redux-saga,{'enzyme'},set()
+jiayihu/react-kanban,set(),{'mocha', 'chai'}
+ismaelga/react-json-editor,set(),set()
+faridsafi/react-native-basketball,set(),{'jest'}
+vitalets/autotester,set(),{'mocha'}
+robeio/robe-react-ui,{'enzyme'},{'mocha', 'chai'}
+agrcrobles/react-native-live-translator,set(),{'jest'}
+r-park/soundcloud-redux,{'enzyme'},set()
+justinjung04/universal-boilerplate,set(),set()
+jxnblk/nano-component,set(),set()
+hunterjm/fifa-autobuyer,{'enzyme'},{'mocha', 'chai'}
+schovi/webpack-chrome-extension,set(),set()
+lorensr/react-payment,set(),set()
+angus-c/es6-react-mixins,set(),{'mocha', 'chai'}
+bohdantkachenko/webpack-split-by-path,set(),set()
+gaearon/flux-react-router-example,set(),set()
+wangdicoder/juejinclient,set(),{'jest'}
+enigma-io/boundless,set(),set()
+tilomitra/bedrock,set(),set()
+wbkd/react-starterkit,set(),set()
+freiksenet/react-calendar,{'enzyme'},{'mocha', 'chai'}
+febobo/react-native-redux-feinn,set(),set()
+vitalybe/reactnativeuniversal,set(),{'jest'}
+scalable-react/scalable-react-boilerplate,{'enzyme'},{'jest'}
+dowjones/react-cellblock,set(),{'mocha'}
+jxnblk/react-css-grid,set(),set()
+jkettmann/relay-authentication,set(),{'mocha', 'chai'}
+bodyno/universal-react-starter-kit,{'enzyme'},{'mocha', 'karma', 'chai'}
+laoqiren/isomorphic-redux-cnode,set(),set()
+fiberjw/pul,set(),set()
+web-pal/dbglass,set(),set()
+mohebifar/grafgiti,set(),set()
+jessy1092/react-semantify,set(),set()
+uber/r-dom,set(),set()
+pluma/fynx,set(),{'mocha'}
+puranjayjain/react-materialui-notifications,set(),set()
+cazala/react-coin-hive,set(),set()
+mlaursen/react-dd-menu,set(),set()
+fcsonline/react-transmission,{'enzyme'},{'jest'}
+finom/github-embed,set(),set()
+benjeffery/react-plotlyjs,set(),set()
+alanbsmith/react-router-example,{'enzyme'},{'mocha'}
+bakery/meteor-devtools,set(),set()
+r-park/todo-react-redux,{'enzyme'},set()
+bdefore/universal-redux,set(),{'mocha', 'karma', 'chai'}
+azazdeaz/react-gsap-enhancer,set(),{'mocha', 'chai'}
+jirichara/kindergarten,set(),{'jasmine', 'karma'}
+redux-autoform/redux-autoform,set(),{'mocha', 'karma', 'chai'}
+woodenconsulting/react-js-diagrams,{'enzyme'},{'mocha'}
+philcockfield/ui-harness,set(),{'mocha', 'chai'}
+tngan/loopback-redux-react-boilerplate,set(),set()
+align-capstone/align,{'enzyme'},{'mocha', 'chai'}
+xiaolin3303/react-music-player,set(),set()
+davidwells/isomorphic-react-example,set(),set()
+yang-wei/rd3,set(),{'mocha', 'karma', 'chai'}
+choujimmy/jmui,{'enzyme'},{'mocha', 'karma', 'chai'}
+sonnylazuardi/react-komik,set(),set()
+srtucker22/glipchat,{'enzyme'},set()
+kuuup/mobx-ssr-example,set(),set()
+togayther/react-native-cnblogs,set(),set()
+badsyntax/react-seed,set(),{'mocha', 'karma', 'chai'}
+cloudmu/react-redux-starter-kit,set(),set()
+fireyy/react-antd-admin,{'enzyme'},{'mocha', 'chai'}
+planetoftheweb/reactinterface,set(),set()
+georgiowan/oi,set(),set()
+krasimir/react-place,set(),{'karma', 'chai'}
+ericwooley/react-nativeish,{'enzyme'},set()
+lvarayut/relay-fullstack,set(),set()
+xtuc/async-reactor,{'enzyme'},{'mocha', 'chai'}
+gaearon/react-blessed-hot-motion,set(),set()
+tifa2up/netly,set(),set()
+chikara-chan/react-isomorphic-boilerplate,set(),set()
+noamelb/shouldcomponentupdate-children,set(),{'jest'}
+alt-j/fast-react-render,set(),{'mocha', 'chai'}
+redsx/nami,set(),set()
+wdfe/ideploy,set(),set()
+leolebras/react-native-redux-starter-kit,set(),set()
+c-h-/universal-native-boilerplate,set(),{'jest'}
+ryanflorence/react-title-component,set(),{'mocha', 'karma'}
+aputinski/react-navigation-controller,set(),{'mocha', 'karma', 'chai'}
+alexloof/soundize,set(),set()
+aerolab/nextjs-pwa,set(),set()
+wahengchang/react-redux-boilerplate,{'enzyme'},{'jest'}
+didierfranc/redux-react-starter,set(),{'jest'}
+tinysymphony/react-native-zoom-image,{'enzyme'},{'jest'}
+babel/babel-standalone,set(),{'jest'}
+dabbott/react-framer,set(),set()
+akiran/react-foundation-apps,set(),set()
+lionsharecapital/lionshare-desktop,set(),set()
+pmg1989/dva-admin,set(),set()
+jayphelps/react-observable-subscribe,set(),{'mocha'}
+emmenko/redux-react-router-async-example,set(),set()
+xwartz/pupafm,set(),set()
+foxhound87/rfx-stack,set(),set()
+markerikson/project-minimek,set(),set()
+rciesielczuk/hackerbuzz-reactnative,{'enzyme'},{'chai', 'jest'}
+kristoferbaxter/react-hn,set(),set()
+sugarac/react-cnodejs.org,set(),set()
+goopscoop/ga-react-tutorial,set(),set()
+aus0049/react-component,set(),set()
+stipsan/uikit-react,set(),set()
+jedwatson/react-md-editor,set(),set()
+falkojoseph/things-calendar,set(),{'jest'}
+sghiassy/react-native-sglistview,{'enzyme'},{'mocha'}
+capaj/jspm-react,{'enzyme'},{'mocha', 'chai'}
+etherbithq/donut,set(),set()
+jakesidsmith/react-fastclick,set(),{'mocha', 'chai'}
+xeodou/react-crouton,set(),set()
+dtschust/redux-bug-reporter,{'enzyme'},{'mocha', 'chai'}
+aredotna/pilgrim,set(),{'mocha'}
+litdevelopers/tinder,{'enzyme'},{'mocha', 'karma', 'chai'}
+legitcode/scheduler,set(),{'mocha', 'chai'}
+manosim/gitify-mobile,set(),set()
+heimi-block/egg-antdesignpro,{'enzyme'},{'jest'}
+matthisk/es6console,{'enzyme'},{'mocha', 'karma', 'chai'}
+cesarandreu/web-app,set(),{'mocha', 'karma'}
+c8r/micro-react,set(),set()
+mandarinconlabarba/react-tree-menu,set(),set()
+akveo/react-native-ui-kitten-demo-app,set(),{'jest'}
+joshwcomeau/react-retro-hit-counter,set(),{'jest'}
+glitchbone/vscode-base16-term,set(),{'jest'}
+jxnblk/macro-components,set(),set()
+leopoldjoy/react-ethereum-dapp-example,set(),{'chai', 'mocha', 'karma', 'jest'}
+nickjanssen/react-native-swipe-a-lot,set(),set()
+jxnblk/axs,set(),set()
+joshwcomeau/waveforms,set(),{'jest'}
+digag/digag-pc-react,set(),{'jest'}
+salesforce/runway-browser,set(),{'mocha'}
+shastajs/shasta,set(),{'mocha'}
+infinitered/chainreactapp2017,{'enzyme'},set()
+kiok46/duckduckgo,set(),{'jest'}
+bokuweb-sandbox/react-motion-menu,{'enzyme'},{'mocha', 'karma'}
+unimonkiez/react-cordova-boilerplate,set(),{'mocha', 'chai'}
+gcazaciuc/redux-fractal,{'enzyme'},set()
+pzavolinsky/react-unit,set(),set()
+vicapow/react-map-gl-heatmap-overlay,set(),set()
+jxnblk/system-components,set(),set()
+larrymyers/react-mini-router,set(),{'mocha', 'karma'}
+rexxars/react-lowlight,set(),{'jest'}
+reactprimer/reactprimer,{'enzyme'},{'jest'}
+elijahmanor/spectacle-terminal,set(),set()
+automerge/pixelpusher,set(),set()
+prometheusresearch-archive/react-stylesheet,set(),set()
+jedireza/aqua,set(),set()
+mlmorg/react-hyperscript,set(),set()
+gillesdemey/cumulus,set(),set()
+keyz/react-atv-img,set(),{'mocha'}
+hapenly/reactnative-fileupload,set(),{'jest'}
+davefp/handsome,{'enzyme'},{'mocha', 'chai'}
+gs-akhan/react-native-chooser,set(),set()
+infiniteluke/next-static,set(),{'jest'}
+garth/material-components,set(),{'mocha', 'chai'}
+acdlite/redux-router,set(),{'mocha', 'chai'}
+jasonslyvia/react-anything-sortable,set(),{'mocha', 'karma', 'chai'}
+kodyl/react-document-meta,set(),{'jest'}
+supnate/command-pad,{'enzyme'},{'mocha', 'chai'}
+drcmda/react-springy-parallax,set(),set()
+grvcoelho/react-voice-components,set(),set()
+wellguimaraes/actionware,{'enzyme'},{'mocha', 'chai'}
+kadira-samples/react-storybook-demo,set(),{'mocha'}
+xyc/react-object-inspector,set(),{'karma'}
+dooly-ai/draft-js-typeahead,set(),set()
+sevenleaps/chat-template,{'enzyme'},{'mocha', 'chai'}
+davidhu2000/youtube_desktop,set(),set()
+donavon/react-af,set(),{'jest'}
+canisminor1990/bilibili-client,set(),set()
+shanamaid/oho-reader,set(),{'mocha', 'karma', 'chai'}
+lakshyaranganath/pwa,set(),{'jest'}
+arunoda/react-komposer,{'enzyme'},{'mocha', 'chai'}
+vesparny/statty,{'enzyme'},{'jest'}
+ljunb/react-native-ishiwupai,set(),set()
+bringking/react-web-animation,{'enzyme'},{'chai', 'jest'}
+drummerhead/react-flow-diagram,set(),set()
+juliancwirko/scotty,set(),set()
+florapdx/react-drafts,{'enzyme'},{'mocha', 'chai'}
+heimashi/easy_mock_api,set(),set()
+kadira-samples/react-graphql-todos,set(),set()
+souporserious/react-motion-ui-pack,set(),set()
+bekatom/react-redux-firebase-boilerplate,set(),{'mocha', 'chai'}
+finnfiddle/potion,{'enzyme'},{'mocha', 'chai'}
+younth/react-swipes,{'enzyme'},{'chai'}
+aweary/react-perimeter,{'enzyme'},{'jest'}
+devrsi0n/react-2048-game,{'enzyme'},{'jest'}
+jxnblk/react-x-ray,set(),set()
+anthonydugois/polynom,set(),set()
+dominiek/word2vec-explorer,set(),set()
+vesparny/react-kickstart,{'enzyme'},set()
+jxnblk/refunk,set(),set()
+3lang3/tv,set(),{'mocha'}
+petergombos/react-pledge,set(),{'jest'}
+xkawi/react-universal-saga,set(),{'jest'}
+grigio/hagnostic-news,set(),set()
+syncano/syncano-dashboard,set(),set()
+webcomponents/react-integration,set(),set()
+messutied/colors.sh,set(),{'jest'}
+peter-mouland/react-lego,{'enzyme'},{'jest'}
+jxnblk/rebranch,set(),set()
+trueadm/ssr-with-prepack-hackathon,set(),set()
+davezuko/react-redux-starter-kit,{'enzyme'},{'mocha', 'karma', 'chai'}
+rubencodes/recal,set(),set()
+c8r/iso,set(),{'jest'}
+lukasmartinelli/postgis-editor,set(),set()
+simpletut/react-starter-kit,set(),set()
+reacttraining/react-broadcast,set(),{'jest'}
+gaojingran/react-eleme,set(),set()
+ydeshayes/react-highlight,{'enzyme'},{'chai', 'mocha', 'jest'}
+bokuweb/re-bulma,set(),set()
+aliyun/ram-policy-editor,set(),set()
+jrm2k6/react-markdown-editor,{'enzyme'},{'mocha', 'jest'}
+abraztsov/react-sweet-progress,set(),set()
+svrcekmichal/react-sketchpad,set(),set()
+dabit3/heard,set(),{'jest'}
+zaaack/elaunch,set(),set()
+saikat/react-apollo-starter-kit,set(),set()
+verekia/js-stack-boilerplate,set(),{'jest'}
+kuitos/kuitos.github.io,set(),set()
+gcanti/tcomb-react,set(),{'mocha'}
+stitchfix/pyxleyjs,set(),set()
+jmurzy/react-native-foldview,set(),{'chai'}
+nicolasdelfino/react-metro,set(),{'jest'}
+ramsaylanier/wordexpress,set(),{'mocha', 'chai'}
+lawjolla/prisma-auth0-example,set(),set()
+hyojin/material-ui-datatables,{'enzyme'},{'chai'}
+webpack-contrib/react-proxy-loader,set(),{'jest'}
+trazyn/jjjkkk,set(),set()
+pheuter/essential-react,{'enzyme'},set()
+formidablelabs/victory-chart,{'enzyme'},{'mocha', 'chai'}
+51nb/miox,set(),{'karma'}
+yuthelloworld/vortex-react,set(),set()
+hallister/semantic-react,{'enzyme'},{'mocha', 'karma', 'chai'}
+eemebarbe/schemebeam,set(),set()
+marmelab/admin-on-rest,{'enzyme'},{'mocha'}
+alecaivazis/redux-responsive,set(),{'chai', 'mocha', 'jest'}
+gabrielbull/react-aim,set(),{'mocha', 'chai'}
+styleguidist/snapguidist,{'enzyme'},{'jest'}
+alexindigo/ndash,set(),{'jest'}
+tiagovtristao/clipmir-desktop,set(),set()
+davidrayoussef/react-quiz,set(),set()
+jinjiaxing/react-template-easily,set(),set()
+palmerhq/router-suspense,set(),set()
+davezuko/react-reformed,set(),set()
+ffxsam/formous,set(),{'mocha', 'chai'}
+misterfresh/react-easy-transition,{'enzyme'},{'mocha', 'chai'}
+mtsee/mtui-react,set(),set()
+fiffty/react-treeview-mui,set(),set()
+thinkmill/react-markings,set(),{'jest'}
+kendricktan/ledger-analytics,{'enzyme'},set()
+vesparny/marky,set(),set()
+norbusan/tlmgr-electron-react,set(),set()
+whitestormjs/whitestorm-typescript-boilerplate,{'enzyme'},{'jest'}
+bmorelli25/interactive-bitcoin-price-chart,set(),set()
+jxnblk/rmdi,set(),{'jest'}
+tranbathanhtung/re-jok,{'enzyme'},set()
+drcmda/react-contextual,{'enzyme'},{'jest'}
+survivejs/react-component-boilerplate,{'enzyme'},{'chai', 'jest'}
+jxnblk/tachyons-components,set(),set()
+rock-solid/pwa-theme-woocommerce,set(),set()
+tictail/tide,set(),{'jest'}
+instructure-react/react-tokeninput,set(),{'mocha', 'karma', 'chai'}
+react-love/react-echarts-modules,set(),set()
+beilunyang/otakuren,set(),set()
+negomi/redux-burger-menu,{'enzyme'},{'mocha', 'chai'}
+ilhammeidi/boss-lite,{'enzyme'},{'jest'}
+expo/xde,set(),set()
+frintjs/frint,{'enzyme'},{'mocha', 'chai'}
+joshgeller/react-redux-jwt-auth-example,set(),{'mocha', 'karma'}
+michelebertoli/react-fix-it,{'enzyme'},{'jest'}
+oney/rctwebrtcdemo,set(),set()
+hung-phan/koa-react-isomorphic,{'enzyme'},{'jest'}
+yury-dymov/habr-app,set(),set()
+spchuang/fb-local-chat-bot,set(),{'mocha', 'chai'}
+brigand/react-mixin,set(),{'mocha'}
+steamerjs/steamer-react,set(),set()
+eddyystop/feathers-starter-react-redux-login-roles,set(),{'mocha', 'chai'}
+pedronauck/react-simpletabs,set(),set()
+jasonslyvia/react-menu-aim,set(),{'mocha', 'karma', 'chai'}
+ekmartin/unicode-style,set(),set()
+planttheidea/remeasure,{'enzyme'},set()
+tsuruclient/tsuru,set(),set()
+mortarjs/mortar-js,set(),set()
+owenthereal/hacker-menu,set(),set()
+gordyd/3ree,set(),{'mocha', 'karma', 'chai'}
+rrdelaney/reason-scripts,set(),{'jest'}
+jakemmarsh/react-rocket-boilerplate,set(),{'mocha', 'chai'}
+ctrlplusb/react-component-queries,{'enzyme'},{'jest'}
+austintgriffith/bouncer-proxy,set(),{'mocha'}
+suevalov/next-blog-firestore,set(),set()
+mkermani144/wanna,{'enzyme'},set()
+reactjs/react-router-redux,set(),{'mocha', 'karma'}
+jameshadfield/phandango,set(),{'mocha', 'chai'}
+jbkuczma/nbareact,set(),{'jest'}
+joshwcomeau/panther,set(),{'mocha', 'chai'}
+vigzmv/what_the_thing,set(),{'jest'}
+jxnblk/ram,set(),set()
+outlandishideas/kasia,{'enzyme'},{'jest'}
+nebulouslabs/sia-ui,{'enzyme'},{'mocha', 'chai'}
+drcmda/immer-wieder,{'enzyme'},{'jest'}
+bosnaufal/react-simple-pwa,set(),set()
+swizec/react-particles-experiment,set(),set()
+codingphasedotcom/starter-kit-2018,set(),set()
+bigardone/phoenix-trello,set(),set()
+philipp-spiess/react-recomponent,set(),{'jest'}
+jurassix/react-validation-mixin,set(),{'mocha', 'karma', 'chai'}
+zksailor534/react-adminlte-dash,{'enzyme'},{'jest'}
+ziaochina/mk-demo,set(),set()
+drcmda/mauerwerk,{'enzyme'},{'jest'}
+originprotocol/origin-playground,set(),set()
+lucified/lucify-refugees,set(),{'mocha'}
+ziaochina/reactmonkey,set(),{'mocha', 'chai'}
+ziaochina/mk-docs,set(),set()
+negativetwelve/jest-plugins,set(),{'jest'}
+jamiebuilds/spectacle-code-slide,set(),set()
+sidorares/react-x11,set(),set()
+xlsdg/dva-antd-mobile-starter,set(),set()
+antwarjs/antwar,set(),{'jest'}
+gregberge/recompact,{'enzyme'},{'jest'}
+jpsierens/webpack-react-redux,set(),set()
+lucagez/sky,set(),set()
+swizec/react-lazyload-fadein,set(),set()
+schovi/react-iscroll,set(),set()
+drmongo/drmongo,set(),set()
+paypal/glamorous,{'enzyme'},set()
+lmammino/judo-heroes-2,set(),set()
+paqmind/react-ultimate,set(),{'mocha', 'chai'}
+jaggerwang/zqc-app-demo,set(),set()
+miadwang/sou-react-table,set(),set()
+bvaughn/redux-devtools-filterable-log-monitor,set(),{'jasmine', 'karma'}
+thk2b/autoscroll-react,{'enzyme'},{'jest'}
+elementalui/elemental,set(),set()
+formidablelabs/redux-little-router,{'enzyme'},{'mocha', 'chai'}
+btholt/complete-intro-to-react,{'enzyme'},{'jest'}
+skidding/illustrated-algorithms,set(),{'jest'}
+tkh44/react-geolocation,set(),{'jest'}
+npms-io/npms-www,set(),set()
+alexkuz/redux-devtools-inspector,set(),set()
+ctrlplusb/react-jobs,{'enzyme'},{'jest'}
+imshubhamsingh/15-puzzle,set(),set()
+jplayer/react-jplayer,{'enzyme'},{'mocha'}
+binbytes/react-native-firebase-chat,set(),{'jest'}
+tarassh/fairy-wallet,{'enzyme'},{'jest'}
+ctrlplusb/react-universally,{'enzyme'},{'jest'}
+anvilabs/react-native-image-carousel,set(),set()
+cssinjs/styled-jss,{'enzyme'},{'jest'}
+ianobermiller/nuclearmail,set(),set()
+bruz/react-native-redux-groceries,set(),set()
+typicode/react-lodash,{'enzyme'},{'jest'}
+kysely/framer-modules,set(),set()
+sonnylazuardi/react-native-nike-running,set(),{'jest'}
+mlajtos/l1,set(),set()
+inextensodigital/react-enhanced-form,set(),set()
+siddharthkp/bae,set(),set()
+nygardk/react-loader-advanced,set(),{'karma'}
+gil--/gatsby-starter-shopifypwa,set(),set()
+rebassjs/components,set(),{'jest'}
+flexdinesh/react-render-in-browser,{'enzyme'},{'chai', 'jest'}
+sugarac/react-native-github-trending,set(),{'jest'}
+anemy/svgurt,set(),set()
+eleweek/inside_python_dict,set(),{'jest'}
+tkh44/holen,set(),{'jest'}
+michelebertoli/react-automata,set(),{'jest'}
+agermanidis/livepython,set(),set()
+tomchentw/react-toastr,set(),set()
+jslancerteam/crystal-dashboard,set(),{'jest'}
+moarwick/react-mt-svg-lines,{'enzyme'},{'jest'}
+mderrick/react-html5video,{'enzyme'},{'jest'}
+ueno-llc/starter-kit-universally,{'enzyme'},{'jest'}
+foremanwang/reactnative-douban,set(),{'jest'}
+clearc2/react-excel-workbook,set(),set()
+minutemailer/react-popup,{'enzyme'},set()
+oliviertassinari/react-event-listener,{'enzyme'},{'mocha', 'chai'}
+jamiebuilds/bey,set(),set()
+kadirahq/react-mounter,set(),{'mocha', 'chai'}
+salomonelli/personal-portfolio,set(),set()
+jscissr/react-polymer,set(),set()
+lucasbento/react-native-thumbnail-video,set(),{'jest'}
+sghall/resonance,{'enzyme'},{'mocha', 'chai'}
+aweary/react-copy-write,set(),{'jest'}
+astrocoders/epitath,set(),set()
+yixianle/google-translate,set(),set()
+leozdgao/react-async-script-loader,set(),{'mocha', 'karma', 'chai'}
+iusehooks/redhooks,set(),{'jest'}
+yesmeck/react-with-hooks,set(),{'jest'}
+lukechadwick/linux-intel-undervolt-gui,{'enzyme'},{'jest'}
+kubricksllc/kubricks,set(),set()
+mu29/react-stepper,set(),set()
+mattmcfarland/react-darkroom,set(),{'jest'}
+sokra/rawact,set(),{'jest'}
+ajainvivek/preact-fluid,set(),{'jest'}
+markusenglund/react-kanban,set(),set()
+ericwindmill/gatsby-starter-docs,set(),set()
+moltin/react-demo-store,set(),set()
+buildkite/frontend,{'enzyme'},{'jest'}
+kardanovir/wavesplatform.com,set(),set()
+bartonhammond/snowflake,set(),{'jest'}
+ianstormtaylor/react-values,{'enzyme'},{'mocha'}
+nathvarun/react-native-layout-tutorial-series,set(),set()
+hasura/react-check-auth,{'enzyme'},{'jest'}
+bradfrost/gatsby-style-guide-guide,set(),set()
+chrisjpatty/crooks,{'@testing-library/react'},{'jest'}
+amiuhle/kasisto,set(),{'jest'}
+temando/open-api-renderer,set(),{'jest'}
+moox/postcss-cssnext,set(),set()
+moox/react-svg-inline,set(),set()
+gigacore/react-redux-sass-starter,set(),set()
+relay-tools/relay-subscriptions,{'enzyme'},{'jest'}
+cssivision/qrcode-react,set(),set()
+apjs/reactvelocity,set(),{'jest'}
+justinrhodes1/react-power-tooltip,{'enzyme'},{'jest'}
+starotitorov/react-native-deep-link,set(),{'jest'}
+tadeuzagallo/githubpulse,set(),set()
+lobos/react-ui,{'enzyme'},{'mocha', 'karma', 'chai'}
+electinth/election-live,set(),{'jest'}
+henryboldi/felony,set(),{'mocha', 'chai'}
+skempin/lyrics-king-react-native,set(),set()
+mjswensen/themer-gui,set(),{'jest'}
+mmw/react-password-strength,set(),{'jasmine', 'karma'}
+rd17/react-trumbowyg,set(),set()
+webiny/webiny,{'enzyme'},{'mocha', 'chai'}
+caspg/datamaps.co,set(),set()
+marionebl/share-cli,set(),set()
+plouc/react-svg-buttons,set(),set()
+flyfloor/react-image-cropper,set(),set()
+xdae/styled-bootstrap,{'enzyme'},{'jest'}
+officedev/script-lab-2017,set(),{'jest'}
+michelebertoli/react-gmaps,set(),set()
+webbylab/itsquiz-wall,set(),set()
+threepointone/react-act-examples,set(),{'jest'}
+nfl/react-wildcat,set(),{'chai', 'mocha', 'karma', 'jest'}
+formidablelabs/react-shuffle,set(),{'mocha', 'karma', 'chai'}
+ctrlplusb/react-tree-walker,{'enzyme'},{'jest'}
+formidablelabs/radium-grid,set(),{'mocha', 'chai'}
+helior/react-highlighter,set(),{'mocha', 'chai'}
+react-love/react-latest-framework,set(),set()
+bensmithett/webpack-css-example,set(),set()
+m-izadmehr/react-slider-kit,set(),set()
+pathephone/pathephone-desktop,set(),{'mocha', 'chai'}
+valentinogagliardi/django-drf-react-quickstart,set(),set()
+cfereday/coder-newbie-advice,set(),{'jest'}
+google-fabric/velocity-react,set(),set()
+eveningkid/reacto,set(),{'jest'}
+thinkmill/react-conf-app,set(),{'jest'}
+charlesmangwa/react-data-fetching,set(),{'jest'}
+clayallsopp/graphqlhub,set(),set()
+25th-floor/revalidation,set(),{'mocha'}
+marcysutton/empathy-driven-development,set(),set()
+gianu/react-fittext,set(),set()
+steniowagner/store-system,set(),set()
+oliviertassinari/a-journey-toward-better-style,set(),set()
+fusionjs/fusion-cli,{'enzyme'},{'jest'}
+llsourcell/watch_me_build_a_marketing_startup,set(),{'chai'}
+typicode/react-fake-props,set(),{'jest'}
+princejwesley/mancy,set(),set()
+ecmadao/react-times,{'enzyme'},{'mocha', 'chai'}
+akittana/aws-virtual-bastion,set(),set()
+21-23/wsc,set(),set()
+jxnblk/mdx-blocks,set(),{'jest'}
+optimizely/nuclear-js,set(),{'jasmine', 'karma'}
+medipass/react-credit-card-input,set(),set()
+shizukuichi/fake-screen,set(),set()
+evercoder/clipboard-inspector,set(),set()
+hubspot/react-select-plus,set(),{'mocha', 'chai'}
+holidaycheck/react-google-tag-manager,set(),{'mocha', 'chai'}
+react-photonkit/epp,set(),set()
+linkiwi/linkr,{'enzyme'},set()
+unsplash/react-trend,{'enzyme'},set()
+reactjs/react-autocomplete,{'enzyme'},{'jest'}
+jsappme/react-native-firebase-starter,set(),{'jest'}
+kulakowka/react-bulma,set(),set()
+tylergaw/colorme,set(),set()
+evetstech/react-native-settings-list,set(),set()
+mstijak/tdo,set(),set()
+shopify/shopify-node-app,set(),set()
+tahnik/react-expressjs,set(),set()
+jsconfcn/ningjs,set(),set()
+matheowis/hdri-to-cubemap,set(),set()
+operationcode/operationcode_frontend,set(),{'jest'}
+tinytacoteam/zazu,set(),{'chai'}
+animachine/animachine,set(),{'mocha', 'chai'}
+mitchgavan/react-multi-choice-quiz,set(),set()
+linkiwi/react-elemental,{'enzyme'},{'jest'}
+mindinventory/react-native-navigation-animation,set(),{'jest'}
+plotly/dash-table-experiments,{'enzyme'},set()
+nachos-ui/nachos-ui,{'enzyme'},{'jest'}
+jhen0409/remotedev-rn-debugger,set(),{'mocha', 'chai'}
+realorangeone/react-native-mock,set(),{'mocha', 'chai'}
+hana-group/hana-ui,set(),set()
+teamstuq/poster,set(),set()
+bananaoomarang/isomorphic-redux,set(),set()
+lelandrichardson/react-native-safe-module,set(),{'mocha', 'chai'}
+jimmylee/next-postgres-sequelize,set(),set()
+relay-tools/react-router-relay,set(),{'mocha', 'karma', 'chai'}
+elbywan/bosket,set(),set()
+arkency/reactjs_koans,set(),{'mocha'}
+oliviertassinari/serviceworker-webpack-plugin,set(),{'mocha', 'chai'}
+eggjs/egg-ant-design-pro,{'enzyme'},set()
+allan2coder/react-spa,{'@testing-library/react'},set()
+xgfe/react-native-ui-xg,{'enzyme'},{'jest'}
+oliviertassinari/splitme,{'enzyme'},{'mocha', 'chai'}
+adeelibr/react-starter-kit,{'enzyme'},{'jest'}
+christianalfoni/emptybox,set(),set()
+cuke-ui/cuke-ui,{'enzyme'},{'chai', 'jest'}
+alpertuna/react-metismenu,set(),{'jest'}
+rebassjs/grid,set(),{'jest'}
+ph200/cycle-react,set(),{'jest'}
+sergiodxa/next-nprogress,set(),set()
+rafalfilipek/styled-props,{'enzyme'},{'jest'}
+formidablelabs/react-native-responsive-styles,set(),set()
+f/react-wait,{'enzyme'},{'jest'}
+vadimdemedes/reconciled,set(),set()
+expertizo/react-fb-image-grid,set(),set()
+jakesidsmith/react-reorder,set(),set()
+canisminor1990/sketch-select,set(),set()
+erikras/redux-form-material-ui,set(),{'mocha'}
+merlox/casino-ethereum,set(),set()
+codeslayer1/react-ckeditor,set(),set()
+raathigesh/hooks.guide,set(),set()
+aleksei0807/react-images-uploader,set(),set()
+vigetlabs/microcosm,{'enzyme'},{'jest'}
+supermedium/aframe-react,set(),{'chai', 'mocha', 'karma', 'jest'}
+peer-base/peer-pad,{'enzyme'},{'jest'}
+sairion/svg-inline-react,set(),{'mocha', 'karma'}
+juliancwirko/react-s-alert,{'enzyme'},{'mocha', 'chai'}
+proshoumma/mister-poster,set(),set()
+kornil/simple-react-app,{'enzyme'},{'jest'}
+jxnblk/mdx-docs,set(),{'jest'}
+nikgraf/belle,set(),set()
+evanbacon/firebase-instagram,set(),set()
+kimmobrunfeldt/react-progressbar.js,set(),set()
+joerez/react-transitions,set(),set()
+marcysutton/js-a11y-workshop,{'@testing-library/react'},{'jest'}
+yelp/lemon-reset,{'enzyme'},{'jest'}
+odota/mobile,set(),set()
+webpackmonitor/webpackmonitor,set(),{'jest'}
+moroshko/accessible-colors,set(),{'mocha', 'chai'}
+chitezh/react-native-swiper-animated,set(),{'jest'}
+maxmantz/redux-oidc-example,set(),set()
+gaearon/react-document-title,set(),{'mocha'}
+geelen/react-snapshot,set(),set()
+gcedo/react-solitaire,set(),{'mocha'}
+chentsulin/sweetalert-react,{'enzyme'},set()
+linkiwi/orion-web,{'enzyme'},{'jest'}
+saschajullmann/gatsby-starter-gatsbythemes,set(),{'jest'}
+skempin/reactjs-tmdb-app,set(),set()
+guangqiang-liu/onem,set(),{'jest'}
+mbasso/react-decoration,set(),{'mocha'}
+vlad-ignatov/react-numeric-input,set(),{'mocha', 'karma'}
+linuxenko/unstuck-webpack,set(),set()
+react-alpha-beta/alphabeta,{'enzyme'},{'mocha', 'chai'}
+halohalospecial/atom-elmjutsu,set(),set()
+florian/hnclient,set(),set()
+vslinko/ripster,set(),{'chai'}
+omergulen/copycat,set(),{'jest'}
+venmo/react-html-document,set(),{'mocha', 'chai'}
+lenage/react-qiniu,set(),set()
+rexxars/commonmark-react-renderer,set(),{'mocha', 'chai'}
+blankapp/ui,set(),{'jest'}
+bietkul/react-native-form-builder,set(),set()
+raphamorim/react-tv,set(),{'jest'}
+formidablelabs/freactal,{'enzyme'},{'mocha', 'chai'}
+jamesplease/react-composer,{'enzyme'},{'jest'}
+c8r/x0,set(),set()
+poanetwork/token-wizard,{'enzyme'},{'jest'}
+leinov/react-multi-page-app,set(),set()
+hatashiro/react-render-html,set(),set()
+garetmckinley/uigradients,set(),set()
+hustcc/react-adsense,set(),set()
+axuebin/react-blog,set(),set()
+rmfisher/react-measurements,set(),set()
+jedwatson/react-tappable,set(),set()
+nelsonkuang/ant-admin,set(),set()
+ratson/react-intl-redux,{'enzyme'},{'jest'}
+alexkuz/markdown-react-js,set(),{'mocha', 'chai'}
+lin-xin/react-manage-system,set(),set()
+akameco/pixivdeck,{'enzyme'},{'jest'}
+steniowagner/bon-appetit-app,set(),{'jest'}
+carteb/carte-blanche,{'enzyme'},{'mocha', 'chai'}
+vigetlabs/react-ink,set(),set()
+mehmetkose/react-websocket,set(),set()
+bentaylor2/react-structured-data,set(),set()
+erikras/react-redux-universal-hot-example,set(),{'mocha', 'karma', 'chai'}
+browniefed/react-native-animation-book,set(),set()
+catamphetamine/react-pages,set(),{'mocha', 'chai'}
+appandflow/react-native-masonry-list,set(),{'jest'}
+raathigesh/dazzle,{'enzyme'},{'mocha', 'chai'}
+jaredpetersen/codeprinter,{'enzyme'},set()
+dantrain/react-stonecutter,{'enzyme'},{'mocha', 'chai'}
+lukejacksonn/react-slack-clone,set(),set()
+styled-components/styled-theming,set(),{'jest'}
+pburtchaell/react-notification,{'enzyme'},{'mocha', 'chai'}
+alexkuz/react-json-tree,set(),{'mocha'}
+kimmelsg/cj-upload,{'enzyme'},{'jest'}
+jwohlfert23/react-native-tag-input,set(),set()
+single-spa/single-spa-examples,set(),set()
+kentcdodds/react-github-profile,set(),set()
+morikko/sync-tab-groups,set(),{'jasmine'}
+seriousben/embeddable-react-widget,{'enzyme'},{'jest'}
+rsimmons/voracious,set(),set()
+awehook/react-mindmap,set(),{'jest'}
+gcanti/tcomb-form-native,set(),set()
+olahol/react-tagsinput,set(),{'mocha'}
+jxnblk/mdx-go,set(),set()
+saravieira/awesome-talks,{'enzyme'},{'jest'}
+myheritage/uizoo.js,set(),set()
+staltz/use-profunctor-state,set(),set()
+wbinnssmith/react-user-avatar,set(),set()
+ozcanzaferayan/react-native-instagram,set(),{'jest'}
+rcdexta/react-event-timeline,set(),{'jest'}
+reactabular/reactabular,{'enzyme'},{'chai', 'jest'}
+lucasbassetti/react-css-loaders,{'enzyme'},{'mocha', 'chai'}
+galio-org/galio-starter-kit,set(),set()
+dcurletti/redux-infinite-scroll,set(),{'jasmine', 'karma'}
+amfoss/events,set(),set()
+azuqua/react-dnd-scrollzone,set(),{'mocha', 'chai'}
+mathieudutour/react-progress-button,set(),set()
+jrowny/react-absolute-grid,set(),set()
+agutoli/react-styled-select,{'enzyme'},{'chai', 'mocha', 'jest'}
+clauderic/react-infinite-calendar,set(),set()
+ephem/react-aldrin,set(),{'jest'}
+makoto/blockparty,set(),{'jest'}
+gcanti/tcomb-form,set(),{'karma'}
+jmurzy/react-router-native,set(),{'chai'}
+cornflourblue/react-jwt-authentication-example,set(),set()
+metricio/metricio,{'enzyme'},set()
+danjac/podbaby,{'enzyme'},{'mocha', 'chai'}
+boostio/boostnote-mobile,set(),{'jest'}
+clayrisser/react-gantt,set(),set()
+stoeffel/redux-elm-middleware,set(),{'mocha'}
+yhenni1989/reactnativeauth,set(),set()
+mobxjs/mobx-react-todomvc,set(),set()
+richardkall/react-starter,set(),set()
+coryhouse/ps-react,{'enzyme'},{'jest'}
+oslabs-beta/react-chronoscope,{'enzyme'},{'jest'}
+nightwolfz/mobx-starter,set(),set()
+teamwertarbyte/material-ui-time-picker,{'enzyme'},{'jest'}
+griddlegriddle/griddle,{'enzyme'},{'jest'}
+bberak/react-game-engine,set(),{'jest'}
+k-water/react-blog,set(),{'jest'}
+balloob/react-sidebar,set(),set()
+arendjr/selectivity,{'enzyme'},{'jest'}
+imedadel/gatsby-london,set(),set()
+ryanwiemer/gatsby-starter-gcn,set(),set()
+silentcloud/react-native-page-control,set(),set()
+phandd/spotless,set(),set()
+joshwcomeau/blog,set(),set()
+franciscop/react-text,set(),{'jest'}
+jhen0409/react-chrome-extension-boilerplate,set(),{'mocha', 'chai'}
+flexdinesh/react-redux-boilerplate,{'enzyme'},set()
+wadackel/react-stack-grid,{'enzyme'},{'jest'}
+gor181/react-notification-system-redux,{'enzyme'},{'mocha', 'chai'}
+soska/react-keyboardist,set(),set()
+woliveiras/capacita.dev,set(),set()
+kettanaito/react-advanced-form,set(),{'chai', 'jest'}
+hursey013/budget-duo,{'enzyme'},set()
+g787543/infinite-react-carousel,{'enzyme'},{'jest'}
+joshwcomeau/react-flip-move,{'enzyme'},{'mocha', 'karma', 'chai'}
+franciscop/use-tensorflow,set(),set()
+souhe/reactscrollbar,set(),{'mocha', 'karma', 'chai'}
+toxicfork/react-three-renderer,set(),{'mocha', 'karma', 'chai'}
+monte9/react-native-parallax-scrollview,set(),set()
+tachyons-css/generator,set(),set()
+nomangul/react-page-progress,set(),{'jest'}
+bosnaufal/react-file-base64,set(),set()
+mustansirzia/next-express-bootstrap-boilerplate,set(),set()
+kimjuny/koa-react-universal,set(),{'jest'}
+formidablelabs/rapscallion,set(),{'mocha', 'chai'}
+voronianski/react-swipe,set(),set()
+hurricanejames/react-immutable-proptypes,set(),{'mocha'}
+trendmicro-frontend/react-sidenav,{'enzyme'},set()
+mmazzarolo/react-native-login-animation-example,set(),{'jest'}
+souporserious/react-view-pager,{'enzyme'},{'mocha'}
+jackpu/react-native-percentage-circle,{'enzyme'},set()
+bigerfe/koa-react-ssr,set(),set()
+robertcoopercode/gatsby-netlify-cms,set(),set()
+janrywang/doc-scripts,set(),set()
+taijiweb/domcom,set(),{'mocha', 'chai'}
+xjkit/react-goodbye,{'enzyme'},{'jest'}
+tsuyoshiwada/react-stack-grid,{'enzyme'},{'jest'}
+storybookjs/react-treebeard,{'enzyme'},{'jest'}
+timomeh/react-native-material-bottom-navigation,{'enzyme'},{'jest'}
+wooline/react-coat,{'enzyme'},{'jest'}
+mlajtos/moniel,set(),set()
+rhymond/product-compare-react,set(),{'jest'}
+pd4d10/chrome-ui,set(),set()
+alexeyraspopov/react-coroutine,set(),{'jest'}
+leonardocesca/js-docs,set(),set()
+tibotiber/rd3,set(),set()
+songomen/trader24,set(),set()
+trendmicro-frontend/react-dropdown,{'enzyme'},set()
+bluzi/jsonstore,set(),set()
+douglascorrea/react-hot-redux-firebase-starter,{'enzyme'},{'mocha'}
+felixrieseberg/react-spreadsheet-component,set(),{'jest'}
+graphql-designer/graphqldesigner.com,set(),{'jest'}
+liuhong1happy/react-umeditor,set(),set()
+pbeshai/react-url-query,{'enzyme'},{'jest'}
+igniteui/igniteui-react-wrappers,set(),{'karma'}
+tomatau/breko-hub,{'enzyme'},{'mocha', 'chai'}
+format-message/format-message,set(),{'mocha', 'karma', 'chai'}
+xgfe/react-native-label-select,{'enzyme'},{'jest'}
+igorprado/react-notification-system,set(),{'mocha', 'karma', 'chai'}
+alexkuz/react-input-enhancements,set(),{'jest'}
+wix/react-templates,set(),{'mocha'}
+chonyy/handoff-visualizer,{'@testing-library/react'},set()
+jhen0409/react-native-boilerplate,set(),{'jest'}
+vigetlabs/colonel-kurtz,set(),{'jest'}
+niryo/controllerim,{'enzyme'},{'jest'}
+airbnb/hypernova-react,{'enzyme'},{'mocha', 'chai'}
+cllemon/reactnativedemo,set(),{'jest'}
+insin/react-auto-form,set(),set()
+oslabs-beta/thermakube,set(),set()
+jfairbank/redux-saga-router,set(),{'jest'}
+x3388638/react-grid-carousel,set(),set()
+insin/react-maskedinput,set(),set()
+moduscreateorg/budgeting,{'enzyme'},{'jest'}
+automerge/trellis,set(),{'mocha'}
+nccgroup/tracy,set(),set()
+macacajs/app-inspector,set(),{'mocha'}
+coreyginnivan/whocanuse,set(),set()
+stoeffel/react-motion-drawer,set(),set()
+paulhoughton/mortgage,set(),{'jest'}
+genany/gen,{'enzyme'},set()
+nice-table/bitmex-scaled-orders,set(),set()
+gigatables/reactables,{'enzyme'},{'jest'}
+christianalfoni/webpack-express-boilerplate,set(),{'mocha', 'chai'}
+amoreaux/sketch-icons,set(),set()
+wechat-miniprogram/kbone-template-react,set(),set()
+atomiclabs/hyperdex,{'enzyme'},set()
+thekashey/react-locky,{'enzyme'},{'jest'}
+thekashey/react-memoize,{'enzyme'},{'chai', 'jest'}
+fridays/next-routes,set(),{'jest'}
+irath96/electron-react-typescript-boilerplate,{'enzyme'},{'jest'}
+diegoddox/react-redux-toastr,set(),set()
+bertho-zero/react-redux-universal-hot-example,set(),{'chai', 'jest'}
+formidablelabs/victory-cli,set(),{'mocha', 'chai'}
+malvid/malvid,set(),{'mocha', 'chai'}
+maomao1996/react-music,{'@testing-library/react'},set()
+iansinnott/react-static-webpack-plugin,set(),set()
+kendricktan/laice,set(),set()
+fus-marcom/franciscan-react,{'enzyme'},{'chai', 'mocha', 'jest'}
+pierreericgarcia/react-step-progress-bar,set(),{'jest'}
+energydrink9/functional-data-grid,{'enzyme'},{'jest'}
+yoychen/notence,{'@testing-library/react'},set()
+drcmda/the-substance,set(),set()
+rwieruch/gatsby-mdx-blog-starter-project,set(),set()
+the-road-to-graphql/fullstack-apollo-react-boilerplate,set(),set()
+ngokevin/react-file-reader-input,set(),{'mocha', 'karma'}
+bootstrap-styled/bootstrap-styled,{'enzyme'},set()
+alloyteam/phytouch,set(),set()
+react-d3-library/react-d3-library,set(),set()
+nhn/toast-ui.doc,{'enzyme'},{'jest'}
+fabe/gatsby-starter-deck,set(),set()
+hqwlkj/umi-dva-antd-mobile,set(),set()
+drcmda/react-zdog,set(),set()
+learn-anything/react-mindmap,set(),set()
+consensysmesh/rimble-ui,{'enzyme'},set()
+kuhami/react-ant,{'enzyme'},set()
+ajayns/gatsby-absurd,set(),set()
+vadimdemedes/import-jsx,set(),set()
+aman-atg/react-product-card,{'@testing-library/react'},set()
+pietropizzi/app-talk,set(),set()
+mileung/react-native-physics,set(),{'jest'}
+andrepolischuk/react-rotation,{'enzyme'},set()
+waynecz/dadda-translate-crx,set(),set()
+canner/canner-slate-editor,{'enzyme'},{'jest'}
+rauchg/jamstack-ecommerce,set(),set()
+sivanesh-s/react-google-authentication,{'@testing-library/react'},set()
+trazyn/ieasemusic,set(),set()
+bootstrap-styled/v4,{'enzyme'},set()
+trazyn/wewechat,set(),set()
+visipedia/annotation_tools,set(),set()
+oslabs-beta/protographql,{'enzyme'},{'jest'}
+stevelacy/msi-keyboard-gui,set(),set()
+augurproject/augur-app,set(),{'mocha'}
+elizabeth-warren/spoke,{'enzyme'},{'jest'}
+spicyshrimp/misses,set(),{'jest'}
+moroshko/react-autowhatever,set(),{'mocha', 'chai'}
+rousan/electron-menubar,set(),set()
+davidwong9785/react-virtualized-scroll,{'enzyme'},{'jest'}
+thymeapp/thyme,{'enzyme'},set()
+rnosov/react-reveal,{'enzyme'},{'jest'}
+mpigsley/sectors-without-number,{'enzyme'},set()
+bencripps/react-redux-grid,{'enzyme'},{'mocha', 'karma', 'chai'}
+99x/first-born,set(),{'jest'}
+shine-design/shine-design,{'enzyme'},{'jest'}
+lekoarts/gatsby-starter-portfolio-bella,set(),set()
+nathanbuchar/react-hook-thunk-reducer,{'@testing-library/react'},{'jest'}
+chenckang/react-json-pretty,{'enzyme'},{'jest'}
+hiradary/reoverlay,set(),set()
+futurice/pepperoni-app-kit,{'enzyme'},{'jest'}
+reacttraining/react-media,{'@testing-library/react'},{'jest'}
+huanxsd/meituan,set(),{'jest'}
+iraul/creative-portfolios,set(),set()
+gil2015/react-native-table-component,set(),set()
+ohanhi/hyperscript-helpers,set(),{'mocha'}
+eiriklv/react-masonry-component,set(),{'mocha', 'karma'}
+flipace/lovli.js,set(),set()
+augurproject/augur-ui,{'enzyme'},{'jest'}
+janpaul123/paperprograms,set(),set()
+ggordan/react-infinite-grid,set(),set()
+haradakunihiko/react-confirm,{'@testing-library/react'},{'jest'}
+zacharyrsmith/react-router-navigation-prompt,set(),set()
+loogle18/xray-react,set(),set()
+gabrielbull/react-desktop,set(),{'mocha', 'chai'}
+fjc0k/yapi-x,set(),set()
+revivek/oy,set(),{'jasmine'}
+diegohaz/singel,{'enzyme'},set()
+digitalglobe/jetset,set(),{'jest'}
+kirankumarambati/i-can-not-react,set(),set()
+formidablelabs/ecology,set(),{'mocha', 'karma', 'chai'}
+brigand/babel-plugin-flow-react-proptypes,set(),{'jest'}
+miyabi/react-native-safe-area,set(),set()
+opengov/react-leaflet-heatmap-layer,set(),set()
+fmsouza/wcode,set(),set()
+tvler/compose-state,set(),{'jest'}
+full-stack-serverless/conference-app-in-a-box,set(),{'jest'}
+overlookmotel/react-async-ssr,set(),{'jest'}
+zzish/react-latex,set(),{'mocha'}
+slmgc/react-hint,set(),set()
+ademilter/turkce-sozluk,set(),{'jest'}
+lucasmontano/openweathermap-reactnative,set(),{'jest'}
+react-theming/storybook-addon,set(),set()
+bogoslavskiy/rn-search-bar-animation,set(),set()
+vincentcatillon/react-native-confetti-cannon,set(),{'jest'}
+danfessler/react-panelgroup,set(),set()
+andywer/ava-ts,set(),set()
+dferber90/gatsby-starter-help-center,set(),set()
+txd-team/docsite,set(),set()
+xotahal/react-native-motion,set(),set()
+bchao1/chart-race-react,set(),set()
+jedireza/hapi-react-views,set(),set()
+tudorgergely/use-scroll-to-bottom,set(),set()
+ethanselzer/react-cursor-position,{'enzyme'},{'jest'}
+jrgarciadev/nextjs-todo-list,set(),set()
+testing-library/native-testing-library,set(),{'jest'}
+taion/react-router-scroll,set(),{'mocha', 'karma', 'chai'}
+illinois/next-page-transitions,set(),set()
+pau1fitz/react-slidez,set(),set()
+idiotwu/react-smooth-scrollbar,set(),set()
+sospedra/mayre,{'enzyme'},{'jest'}
+leankit-labs/lux.js,set(),{'mocha', 'chai'}
+josx/ra-data-feathers,set(),{'mocha', 'chai'}
+erikras/react-native-listener,set(),set()
+godaddy/ekke,set(),{'mocha', 'chai'}
+didierbrun/react-path-recognizer,set(),set()
+elemefe/react-amap,set(),set()
+2d-inc/flare-react,set(),set()
+vthommeret/mathtocode,set(),set()
+react-native-web-community/react-native-web-webview,set(),set()
+transitive-bullshit/react-particle-effect-button,set(),set()
+maykbrito/covid-19,set(),set()
+azmenak/react-stripe-checkout,{'enzyme'},{'mocha'}
+dreyescat/react-rating,set(),{'mocha', 'chai'}
+nitin42/terminal-in-react,set(),{'jest'}
+alexgilleran/jsx-control-statements,set(),{'mocha', 'chai'}
+hubspot/general-store,{'enzyme'},{'jest'}
+kiwicom/margarita,set(),{'jest'}
+bailicangdu/react-pxq,set(),{'jest'}
+jasminmif/react-interactive-paycard,set(),set()
+vkbansal/react-contextmenu,{'enzyme'},{'jest'}
+moroshko/rxviz,set(),{'jest'}
+alexnm/react-ssr,{'enzyme'},{'jest'}
+ericyd/gdrive-copy,set(),{'mocha'}
+aranja/rakning-c19-app,set(),set()
+erichbehrens/react-animated-slider,set(),{'jest'}
+mhssmnn/redux-form-saga,set(),{'mocha', 'chai'}
+esxjs/esx,set(),set()
+casesandberg/reactcss,set(),{'jest'}
+formidablelabs/react-music,set(),set()
+sergeysova/styled-normalize,set(),set()
+skoob13/react-masonry-infinite,set(),set()
+unclecheese/react-selectable,set(),set()
+stratos-vetsos/react-selectrix,set(),set()
+lelandrichardson/react-primitives,set(),{'chai', 'mocha', 'karma', 'jest'}
+krasimir/stent,{'enzyme'},{'mocha', 'chai'}
+morajabi/styled-media-query,set(),set()
+kunokdev/cra-runtime-environment-variables,set(),set()
+stefalda/react-localization,set(),{'jasmine'}
+fluffgfx/jolteon,set(),set()
+jacklein/rn-bottom-drawer,set(),set()
+gin-admin/gin-admin-react,set(),set()
+solid/react-components,set(),{'jest'}
+malaman/react-image-zoom,set(),set()
+icalialabs/alpha,{'enzyme'},set()
+seedstars/django-react-redux-base,{'enzyme'},{'mocha', 'chai'}
+elemefe/element-react,{'enzyme'},{'jest'}
+times/cardkit,set(),{'mocha', 'chai'}
+greglobinski/gatsby-starter-hero-blog,set(),set()
+nicedash/vibe,set(),set()
+mhart/react-server-routing-example,set(),set()
+simpletut/universal-react-apollo-registration,{'enzyme'},{'jest'}
+ueno-llc/gsap-tools,set(),set()
+jargonist/jargon.ist,{'enzyme'},{'jest'}
+fermorg/fermionjs,{'enzyme'},{'jest'}
+kradio3/react-mdc-web,set(),set()
+kozea/formol,{'enzyme'},{'jest'}
+truffle-box/react-auth-box,set(),{'jest'}
+tuantle/react-native-search-header,set(),{'jest'}
+axilis/react-native-responsive-layout,set(),{'jest'}
+kureev/react-native-side-menu,set(),set()
+tvillarete/apple-music-js,set(),set()
+deanmcpherson/react-native-sortable-listview,set(),{'jest'}
+jhamlet/svg-react-loader,{'enzyme'},{'mocha', 'karma'}
+mxstbr/sharingbuttons.io,set(),{'mocha'}
+krasimir/kuker,set(),set()
+brh55/react-native-masonry,set(),{'jest'}
+andyyou/react-coverflow,set(),{'mocha', 'chai'}
+skpm/sketch-dev-tools,set(),set()
+sbekrin/styled-email-components,set(),{'jest'}
+tddbin/tddbin-frontend,set(),{'mocha'}
+broltes/react-touch-loader,set(),set()
+xxczaki/styled-react-boilerplate,{'@testing-library/react'},{'jest'}
+adeperio/base,set(),{'mocha', 'chai'}
+faceyspacey/redux-first-router-demo,set(),{'jest'}
+mac-s-g/github-help-wanted,set(),set()
+guigrpa/jest-html,set(),{'jest'}
+alexkrolick/use-conditional-effect,set(),set()
+davidtheclark/react-aria-tabpanel,set(),set()
+katopz/react-apollo-graphql-github-example,set(),set()
+fullstackacademy/firebones,{'enzyme'},{'mocha', 'chai'}
+shifeng1993/react-native-qr-scanner,set(),set()
+ctrlplusb/react-async-bootstrapper,{'enzyme'},{'jest'}
+jimmybow/visdcc,{'enzyme'},set()
+linsight/react-keyboard-event-handler,{'enzyme'},{'mocha', 'chai'}
+march08/animated-burgers,set(),set()
+makeomatic/redux-connect,{'enzyme'},{'jest'}
+bvaughn/react-select-fast-filter-options,set(),set()
+royalicing/react-organism,set(),set()
+jsainsburyplc/react-timelines,{'enzyme'},{'jest'}
+jacobp100/hooks-test,set(),set()
+dsternlicht/react-dynamic-charts,set(),set()
+jasonbai007/react-seed,set(),set()
+singhkshitij/my-landing-page,set(),set()
+cezerin/cezerin,set(),set()
+kevlened/isomorphic-webcrypto,set(),{'jasmine', 'karma', 'jest'}
+bevacqua/react-dragula,set(),set()
+danawoodman/react-fontawesome,set(),{'mocha', 'chai'}
+nickpisacane/react-dynamic-swiper,{'enzyme'},{'mocha', 'karma', 'chai'}
+iamshadmirza/react-native-design-system,set(),{'jest'}
+yomguithereal/baobab-react,{'enzyme'},{'mocha'}
+bluebill1049/react-flip-numbers,{'enzyme'},{'jest'}
+instamobile/react-native-firebase,set(),set()
+satansdeer/minecraft-react,{'@testing-library/react'},set()
+secretyouth/react-datez,set(),set()
+lang-ai/react-emails,set(),set()
+souporserious/react-measure,set(),{'jest'}
+formidablelabs/react-fast-compare,{'@testing-library/preact'},{'mocha', 'karma'}
+oliver-gomes/csswand,set(),set()
+lit-forest/react-magic,set(),set()
+marko-js/isomorphic-ui-benchmarks,set(),set()
+localjo/react-tater,set(),set()
+techniq/react-fetch-component,set(),{'jest'}
+wildhoney/keo,{'enzyme'},set()
+vakhtang/react-search-bar,{'enzyme'},{'jest'}
+snakajima/firebase-startup-kit,set(),set()
+github/github-graphql-relay-example,set(),set()
+aquigorka/webrtc-qr,set(),set()
+sedgwickz/new_v2ex,set(),{'jest'}
+bmealhouse/next-redux-saga,{'enzyme'},{'jest'}
+nanxiaobei/retalk,{'@testing-library/react'},set()
+satya164/monaco-editor-boilerplate,set(),set()
+ashinzekene/react-music-player,set(),set()
+fauntleroy/gifit,set(),set()
+no-stack-dub-sack/cs-playground-react,set(),set()
+arunoda/use-magic-link,set(),set()
+deseretdigital/dayzed,set(),set()
+luffyzh/next-antd-scaffold,set(),set()
+souporserious/react-aria,set(),set()
+wabisabi-js/isthereuber.in,set(),set()
+galio-org/galio,set(),set()
+garetmckinley/hedron,set(),set()
+sanyuan0704/react-cloud-music,set(),set()
+bolan9999/react-native-largelist,set(),{'jest'}
+dsheiko/puppetry,{'enzyme'},{'jest'}
+synvox/rehook,{'enzyme'},set()
+oslabs-beta/reactmonitor,{'enzyme', '@testing-library/react'},{'jest'}
+tjmehta/primus-graphql,set(),{'chai', 'mocha', 'karma', 'jest'}
+yumeisoft/commonfrontutils,{'@testing-library/react'},set()
+franciscop/react-plain-router,set(),{'jest'}
+kdeloach/react-lineto,set(),set()
+wabisabi-js/boredaf.app,set(),set()
+ericelliott/react-pure-component-starter,set(),set()
+biaochenxuying/blog-react-admin,{'enzyme'},set()
+xiaody/react-lines-ellipsis,{'enzyme'},set()
+lmammino/judo-heroes,set(),set()
+hatashiro/pen,set(),{'mocha'}
+godaddy/svgs,{'enzyme'},{'mocha'}
+leoaj/react-itunes-search,{'enzyme'},{'jest'}
+klarna/higher-order-components,set(),set()
+jaanauati/react-dfp,set(),{'mocha', 'karma', 'chai'}
+thechinedu/overhaul,set(),set()
+jamiebuilds/unstated,set(),{'jest'}
+jcmcneal/react-step-wizard,set(),{'jest'}
+jedwatson/react-codemirror,set(),set()
+geotiff/geotiff.io,set(),set()
+sqren/fb-sleep-stats,set(),set()
+developerdizzle/react-virtual-list,set(),{'jest'}
+imandyie/react-native-airbnb-clone,set(),{'jest'}
+yoonic/nicistore,set(),set()
+schiehll/react-alert,{'@testing-library/react'},set()
+n0rush/the-art-of-reading,set(),set()
+instamobile/recipes-app-react-native,set(),set()
+amfoss/amdec-website,set(),set()
+saitoxu/instaclone,set(),{'jest'}
+florinpop17/quiz-app,set(),set()
+sasa95/pomodor,{'enzyme', '@testing-library/react'},set()
+strapi/strapi-legacy-gatsby-blog,set(),set()
+emmelleppi/codrops-r3f-mirrors,set(),set()
+someshkar/covid19india-cluster,set(),set()
+eragonj/kaku,set(),{'mocha', 'chai'}
+csepulv/electron-with-create-react-app,set(),set()
+afonsopacifer/react-pomodoro,{'enzyme'},{'mocha', 'chai'}
+paulcollett/react-masonry-css,set(),set()
+colinmorris/songsim,set(),set()
+jon-biz/simple-static-react-firebase,set(),set()
+kleopetroff/react-webpack-boilerplate,{'enzyme'},{'jest'}
+patw0929/react-intl-tel-input,{'enzyme'},{'jest'}
+junedomingo/movieapp,set(),{'jest'}
+w3layouts/gatsby-starter-delog,set(),set()
+amruthpillai/resumeontheweb-gatsby,set(),set()
+joshjhargreaves/react-native-event-calendar,set(),set()
+javascriptair/site,set(),set()
+dextapp/dext,set(),{'jest'}
+whoisryosuke/next-mdx-deck,set(),set()
+embiem/react-canvas-draw,{'enzyme'},set()
+redux-saga/redux-saga-devtools,set(),{'jest'}
+rishabhbhatia/react-native-awesome-alerts,set(),{'jest'}
+jonathontoon/tweet-tray,{'enzyme'},{'jest'}
+niklasmtj/gatsby-starter-julia,set(),set()
+davfoundation/missions,set(),{'jest'}
+chibicode/reactions,set(),set()
+madneal/subway-shanghai,set(),set()
+rutikwankhade/coverview,{'@testing-library/react'},set()
+tomchentw/react-google-maps,set(),set()
+joinspontaneous/react-native-loading-spinner-overlay,set(),set()
+iuap-design/tinper-bee,set(),{'mocha'}
+algolia/expect-jsx,set(),{'mocha'}
+stockulus/pouchdb-react-native,set(),{'mocha'}
+availity/react-block-ui,{'enzyme'},{'mocha', 'chai'}
+entria/react-native-fontawesome,set(),{'jest'}
+dekoruma/react-native-web-modal,set(),{'jest'}
+renrenbit-zz/rrwallet,set(),{'jest'}
+tajo/react-portal,{'enzyme'},{'jest'}
+typicode/hotel,set(),set()
+atomiks/tippyjs-react,{'@testing-library/react'},{'jest'}
+alexanmtz/material-sense,set(),set()
+netlify/headlesscms.org,set(),set()
+lesnitsky/howtodothisinflutter,set(),set()
+victorkvarghese/react-native-messenger,set(),{'jest'}
+odrick/free-tex-packer,set(),set()
+mother/react-files,set(),set()
+philnash/react-express-starter,set(),set()
+wonism/gatsby-advanced-blog,set(),set()
+chrisrzhou/react-wordcloud,set(),set()
+eddyerburgh/simple-redux,{'enzyme'},{'jest'}
+thinhvo0108/react-paypal-express-checkout,{'enzyme'},{'mocha', 'chai'}
+react-boilerplate/redux-injectors,{'@testing-library/react'},set()
+sanity-io/block-content-to-react,set(),{'jest'}
+jhonnymichel/react-hookstore,{'enzyme'},{'jest'}
+oslabs-beta/irisql,{'enzyme'},{'jest'}
+final-form/react-final-form-arrays,{'@testing-library/react'},{'jest'}
+jasonfenggit/visualizer,{'@testing-library/react'},{'mocha'}
+marouanekadiri/accordion-collapse-react-native,set(),{'jest'}
+plotly/dash-daq,{'enzyme'},{'jest'}
+sunft1996/ant-back,{'enzyme'},set()
+corygibbons/react-file-icon,set(),{'jest'}
+airbnb/prop-types,{'enzyme'},{'mocha', 'chai'}
+yiminghe/dom-align,set(),set()
+bigpipe/react-jsx,set(),{'mocha'}
+itsnitinr/driwwwle,set(),set()
+davidtheclark/react-aria-modal,set(),set()
+apsl/redux-i18n,set(),{'mocha'}
+hooram/ownphotos-frontend,set(),set()
+ryanhefner/react-scroll-trigger,{'enzyme'},{'jest'}
+wulkano/getkap.co,set(),set()
+faceyspacey/react-universal-component,set(),{'jest'}
+stephenchou1017/react-big-scheduler,set(),{'mocha'}
+capgemini/mesos-ui,set(),set()
+yomguithereal/kotatsu,set(),set()
+oslabs-beta/osiris,set(),set()
+panr/gatsby-starter-hello-friend,set(),set()
+postmanlabs/covid-19-apis,set(),set()
+lagmoellertim/cryption,set(),set()
+commaai/connect,{'@testing-library/react'},{'jest'}
+formidablelabs/react-ssr-prepass,set(),{'jest'}
+bolan9999/react-native-spring-scrollview,set(),{'jest'}
+assnctr/unfx-proxy-checker,set(),set()
+dashboardpack/architectui-react-theme-free,{'@testing-library/react'},set()
+vulcanjs/vulcan-starter,set(),set()
+threepointone/glamor,set(),{'mocha', 'karma'}
+wrakky/react-html-parser,set(),{'karma'}
+jmperez/c,set(),set()
+pocket/extension-save-to-pocket,set(),{'jest'}
+i18next/i18next-scanner,{'@testing-library/react'},{'jest'}
+vikliegostaiev/react-page-scroller,set(),set()
+limenius/liform-react,{'enzyme'},{'jest'}
+ifanrx/react-ueditor,set(),set()
+discourse/discoursemobile,set(),{'jest'}
+fullstackreact/google-maps-react,{'enzyme'},{'mocha', 'chai'}
+tvke/react-native-tailwindcss,set(),{'jest'}
+fezvrasta/react-resize-aware,set(),set()
+aaronshaf/react-toggle,{'enzyme'},{'mocha', 'chai'}
+rpl/flow-coverage-report,set(),{'jest'}
+lemoncode/react-promise-tracker,{'@testing-library/react'},{'jest'}
+oslabs-beta/filamentql,{'enzyme'},{'jest'}
+victorkvarghese/react-native-feature-boilerplate,set(),{'jest'}
+dehydr8/elevation-of-privilege,{'@testing-library/react'},set()
+i-like-robots/react-tags,set(),{'jasmine'}
+wsmd/react-use-form-state,set(),{'jest'}
+catamphetamine/react-phone-number-input,set(),{'mocha', 'chai'}
+datav-team/datav-react,set(),set()
+trungdq88/react-router-page-transition,set(),set()
+netceteragroup/skele,{'enzyme'},{'jest'}
+cameronroe/react-star-rating,set(),{'mocha', 'karma', 'chai'}
+midudev/react-slidy,{'@testing-library/react'},{'jest'}
+cerebral/cerebral,set(),{'mocha', 'jest'}
+azz/styled-css-grid,set(),{'jest'}
+nkbt/react-collapse,set(),set()
+nas5w/typeofnan-javascript-quizzes,set(),set()
+bberak/react-native-game-engine-handbook,set(),set()
+commissure/redbox-react,set(),set()
+faceyspacey/webpack-flush-chunks,set(),{'jest'}
+willb335/chessboardjsx,set(),{'jest'}
+luehang/react-native-masonry-list,set(),{'jest'}
+thierryc/react-fullpage,set(),set()
+albertogasparin/react-magnetic-di,{'@testing-library/react'},{'jest'}
+leaffm/react-infinite-carousel,set(),set()
+kamranahmedse/githunt,set(),set()
+swiftcarrot/react-ui-tree,set(),{'jest'}
+brianlovin/security-checklist,set(),set()
+realdennis/md2pdf,{'@testing-library/react'},set()
+pascalopitz/unoffical-sonos-controller-for-linux,{'enzyme'},{'jest'}
+anmol098/anmolsingh.me,set(),set()
+kousun12/eternal,set(),set()
+geraldoramos/crypto-bar,set(),set()
+sar-gupta/space,{'enzyme'},{'jest'}
+igravitystudios/matchimals.fun,set(),{'jest'}
+oyyd/youdao-collins-chrome-extension,set(),{'jest'}
+aribouius/jsonapi-react,set(),{'jest'}
+junghsuan/react-native-collapsible-tabview,set(),{'jest'}
+chrisbateman/webpack-visualizer,set(),set()
+producthunt/chai-enzyme,{'enzyme'},{'mocha', 'chai'}
+notrab/create-react-app-redux,set(),set()
+aljullu/react-lazy-load-image-component,{'enzyme'},{'jest'}
+kentcdodds/react-toggled,{'enzyme'},set()
+magjac/graphviz-visual-editor,{'enzyme', '@testing-library/react'},set()
+mrtoph/react-native-progress-circle,set(),set()
+milosjanda/react-scroll-up,{'enzyme'},{'mocha', 'chai'}
+gvergnaud/nextjs-dynamic-routes,set(),{'jest'}
+boyney123/github-actions,set(),set()
+one-nexus/synergy,set(),{'mocha'}
+nsisodiya/react-json-viewer,set(),set()
+asjadanis/react-three-boilerplate,set(),set()
+moeplayer/react-dplayer,set(),set()
+tyroprogrammer/learn-react-app,set(),set()
+onegraph/graphiql-explorer,set(),{'chai'}
+guiqui/react-timeline-gantt,{'enzyme'},{'jest'}
+salvoravida/react-universal-hooks,set(),set()
+tinacms/tina-starter-grande,set(),set()
+gpietro/react-numpad,{'enzyme', '@testing-library/react'},{'chai', 'jest'}
+ecency/esteem-surfer,{'enzyme'},{'jest'}
+tailwindlabs/tailwindcss-custom-forms,set(),{'jest'}
+nolimits4web/skeleton-elements,set(),set()
+sauzy34/react-native-multi-selectbox,set(),{'jest'}
+kriasoft/aspnet-starter-kit,set(),{'mocha', 'chai'}
+kirjs/react-highcharts,set(),{'mocha'}
+creativetimofficial/argon-react-native,set(),set()
+creativetimofficial/material-kit-react-native,set(),set()
+telescopejs/telescope,set(),{'jest'}
+victorcazanave/react-svg-map,{'enzyme'},{'jest'}
+bebraw/react-pagify,set(),set()
+creativetimofficial/nextjs-material-kit,set(),set()
+binary-com/binary-bot,set(),{'chai', 'jest'}
+u-wave/react-youtube,set(),{'mocha'}
+topheman/npm-registry-browser,{'enzyme'},set()
+creativetimofficial/now-ui-react-native,set(),set()
+yury-dymov/react-autocomplete-input,{'enzyme'},{'mocha', 'chai'}
+jubianchi/semver-check,{'enzyme'},set()
+caseywebdev/react-list,set(),set()
+wix/react-native-crash-course,set(),{'mocha', 'jest'}
+faceyspacey/universal-demo,set(),set()
+nhn/toast-ui.react-image-editor,set(),set()
+derrickpelletier/react-loading-overlay,set(),{'jest'}
+bornfight/gocart.js,set(),{'jest'}
+plangrid/react-file-viewer,{'enzyme'},{'jest'}
+orbitdb/orbit-web,set(),{'jest'}
+hshoff/viewsource,set(),set()
+datproject/dat-desktop,{'enzyme'},set()
+teamwertarbyte/material-auto-rotating-carousel,set(),set()
+ayastreb/money-tracker,set(),set()
+sealninja/react-grid-system,set(),set()
+pshrmn/curi,{'@vue/test-utils'},{'jest'}
+creativetimofficial/notus-nextjs,set(),set()
+alexgarces/react-typeform-embed,{'enzyme'},set()
+hashnode/mern-starter,{'enzyme'},{'chai'}
+geosigno/simpleparallax.js,set(),set()
+enuchi/react-google-apps-script,set(),{'jest'}
+ygyooo/react-draggable-tags,set(),set()
+magalhini/firstaidgit,set(),set()
+teamwertarbyte/material-ui-search-bar,set(),set()
+plotly/react-cytoscapejs,set(),{'mocha', 'chai'}
+ryandrewjohnson/react-localize-redux,{'enzyme'},{'jest'}
+dmitrymorozoff/react-spinners-kit,{'enzyme'},{'jest'}
+1egoman/funnies,set(),{'mocha', 'chai'}
+rherwig/template-react-ssr,set(),{'jest'}
+checkfront/react-storybook-addon-chapters,{'enzyme'},{'mocha', 'chai'}
+benjamintd/benmaps.fr,{'enzyme'},set()
+merri/react-lazy,set(),{'jest'}
+coldiary/react-image-mapper,{'enzyme'},{'mocha', 'chai'}
+globalizejs/react-globalize,{'enzyme'},{'mocha', 'chai'}
+captivationsoftware/react-sticky,{'enzyme'},{'mocha', 'chai'}
+qit-team/taro-yanxuan,set(),set()
+enzymejs/enzyme-matchers,{'enzyme'},{'jest'}
+davidchin/react-input-range,{'enzyme'},{'karma'}
+cvdlab/react-planner,set(),set()
+donavon/use-dark-mode,set(),{'jest'}
+cornflourblue/react-redux-registration-login-example,set(),set()
+designrevision/shards-react,set(),set()
+digiaonline/react-foundation,{'enzyme'},{'mocha', 'chai'}
+loicmahieu/react-styled-flexboxgrid,set(),{'mocha', 'karma', 'chai'}
+final-form/react-final-form-hooks,set(),{'jest'}
+cornflourblue/react-redux-jwt-authentication-example,set(),set()
+viclm/numeric-keyboard,set(),{'karma'}
+hijiangtao/glmaps,set(),{'mocha'}
+asteinheiser/react-rpg.com,set(),set()
+jaketrent/react-social-icons,{'enzyme'},{'mocha'}
+adamrisberg/react-image-magnifiers,{'enzyme'},{'jest'}
+mwakerman/kanbanist,set(),set()
+dawiwt/react-component-echarts,set(),set()
+gnaeus/react-ioc,set(),{'jest'}
+cornflourblue/react-role-based-authorization-example,set(),set()
+oklas/react-breadcrumbs-dynamic,{'enzyme'},{'chai', 'jest'}
+kiwicom/mobile,set(),{'jest'}
+zmitry/redux-form-antd,set(),set()
+techniq/mui-virtualized-table,set(),{'jest'}
+manufont/react-swipeable-bottom-sheet,set(),set()
+heartbeatua/pulse-boilerplate,set(),set()
+redux-form/redux-form,set(),{'jest'}
+shizukuichi/winxp,set(),set()
+quickbase/babel-plugin-styled-components-css-namespace,set(),{'jest'}
+formidablelabs/radium,{'enzyme'},{'mocha', 'karma', 'chai'}
+zenoamaro/react-quill,{'enzyme'},{'mocha', 'chai'}
+jekyll/jekyll-admin,{'enzyme'},set()
+davidkpiano/react-redux-form,set(),{'mocha', 'chai'}
+renatorib/react-powerplug,set(),{'jest'}
+berzniz/react-overdrive,set(),{'jest'}
+animatedjs/animated,set(),set()
+7kfpun/financereactnative,set(),set()
+deepsweet/hocs,{'enzyme'},set()
+algram/ytdl-webserver,set(),set()
+bvaughn/redux-search,set(),set()
+namespace-ee/react-calendar-timeline,{'enzyme'},{'jest'}
+jsonmaur/jumpsuit,set(),set()
+cxs-css/cxs,set(),set()
+bvaughn/react-virtualized-select,set(),{'jasmine', 'karma'}
+reduction-admin/react-reduction,set(),set()
+formidablelabs/component-playground,set(),{'mocha', 'karma', 'chai'}
+adriantoine/enzyme-to-json,{'enzyme'},{'jest'}
+leejaen/react-lz-editor,set(),set()
+pushtell/react-ab-test,set(),{'mocha', 'karma', 'chai'}
+mermaidjs/mermaid-live-editor,{'enzyme'},{'jest'}
+petrovicstefanrs/30_seconds_of_knowledge,set(),set()
+belinchung/react-native-hiapp,set(),{'jest'}
+javivelasco/react-css-themr,set(),{'mocha'}
+duheng/mozi,set(),{'jest'}
+whoisandy/react-rangeslider,{'enzyme'},{'jest'}
+rstacruz/remount,set(),{'jest'}
+cedricblondeau/world-cup-2018-cli-dashboard,set(),{'jest'}
+embbnux/kails,set(),{'mocha', 'chai'}
+tscanlin/next-blog,set(),set()
+bvaughn/react-presents,set(),set()
+ghosh/cssfilters,set(),set()
+geeofree/kalendaryo,set(),{'jest'}
+robinpowered/glamorous-native,{'enzyme'},{'jest'}
+javivelasco/react-tunnels,{'enzyme'},{'jest'}
+romainberger/react-portal-tooltip,set(),{'mocha'}
+skidding/react-mock,set(),{'jest'}
+fkhadra/react-on-screen,{'enzyme'},{'jest'}
+limenius/symfony-react-sandbox,set(),set()
+shooterrao/react-native-fruitstore,set(),{'jest'}
+tim-soft/react-particles-webgl,set(),set()
+ctxhou/react-tabtab,{'enzyme'},{'jest'}
+sbayd/react-flippy,set(),set()
+tinysymphony/react-native-calendar-select,{'enzyme'},{'jest'}
+bcrumbs/reactackle,{'enzyme'},{'jest'}
+decisiv/styled-components-modifiers,set(),{'jest'}
+billmalarky/react-native-image-cache-hoc,set(),{'jest'}
+kentor/react-click-outside,{'enzyme'},{'jest'}
+sergiitk/pagerbeauty,set(),{'chai'}
+joeldenning/simple-single-spa-webpack-example,set(),{'jest'}
+expo/expo-pixi,set(),{'jest'}
+giuseppeg/style-sheet,set(),set()
+yoctol/react-messenger-customer-chat,{'enzyme'},{'jest'}
+green-arrow/react-firestore,{'enzyme'},set()
+proshoumma/organigram,set(),{'jest'}
+calesce/redux-slider-monitor,set(),set()
+didierfranc/react-code-splitting,set(),set()
+martinhoefling/molten,set(),{'karma'}
+firstlookmedia/react-scripts,{'enzyme'},{'jest'}
+yasintoy/vecihi,set(),{'jest'}
+paullaux/eth-hot-wallet,{'enzyme'},set()
+sultan99/react-on-lambda,set(),{'jest'}
+evai/rnexampleapp,set(),{'jest'}
+xaviervia/react-dream,set(),set()
+keelii/code-sketch,set(),set()
+khan/react-multi-select,{'enzyme'},{'mocha', 'chai'}
+rafaelklaessen/react-tradingview-widget,set(),{'jest'}
+ar5had/ecommerce-site-template,{'enzyme'},{'jest'}
+mythicalfish/react-native-tailwind,set(),set()
+generative-music/blossom,set(),set()
+shystruk/create-react-redux-app-structure,{'enzyme'},{'jest'}
+keske/react-native-easy-gestures,set(),{'jest'}
+slopeninja/slopeninja-native,set(),set()
+bcbcarl/react-c3js,set(),set()
+buildbreakdo/style-it,set(),{'jest'}
+10clouds/fluidbottomnavigation-rn,set(),{'jest'}
+martinnov92/react-splitters,set(),set()
+aaronvanston/react-flexa,{'enzyme'},{'jest'}
+argelius/react-onsenui-redux-weather,set(),set()
+kenshoo/react-multi-select,{'enzyme'},{'jest'}
+alpcanaydin/githubist,{'enzyme'},{'jest'}
+react-native-web-community/react-native-web-maps,set(),set()
+jaywcjlove/amac,set(),{'jest'}
+brigad/redux-rest-easy,set(),set()
+reactstrap/component-template,{'enzyme'},set()
+bloodyowl/react-translate,set(),{'jest'}
+francisrstokes/react-machinery,{'enzyme'},set()
+helkyle/focus,{'enzyme'},{'jest'}
+mati365/micro-racing,set(),set()
+oayres/react-ssr,{'enzyme'},{'jest'}
+cameronbourke/react-hamburger-menu,set(),set()
+peterh32/react-drag-drop-container,set(),set()
+nodkz/relay-northwind-app,set(),set()
+vgteam/sequencetubemap,{'@testing-library/react'},set()
+guonanci/react-images-viewer,{'enzyme'},{'jest'}
+mohitgupta8888/react-currency-format,{'enzyme'},{'jasmine', 'karma'}
+hugozap/react-svgmt,{'enzyme'},set()
+realadvisor/rifm,set(),{'jest'}
+gitpoint/git-point,{'enzyme'},{'jest'}
+roman01la/html-to-react-components,set(),{'jest'}
+brijeshb42/medium-draft,{'enzyme'},{'mocha', 'chai'}
+jasonmerino/react-native-simple-store,set(),{'jest'}
+timfpark/react-native-location,set(),set()
+summitech/gitexplorer,set(),set()
+pd4d10/json-viewer,set(),set()
+jacklam718/react-native-button-component,set(),{'jest'}
+flexdinesh/react-socks,{'enzyme'},{'chai'}
+tasti/react-linkify,set(),{'jest'}
+malte-wessel/react-textfit,set(),{'mocha'}
+imshubhamsingh/file-system-react,set(),set()
+sharlaan/material-ui-superselectfield,{'enzyme'},set()
+ahuth/raycast,set(),set()
+notabugio-archived/notabug-ui,set(),set()
+jsillitoe/react-currency-input,set(),{'mocha', 'chai'}
+satansdeer/react-firebase-auth,set(),set()
+blaze33/droneworld,set(),{'jest'}
+segmentio/analytics-react,set(),set()
+zwug/react-full-page,set(),set()
+guilouro/formcat,{'@testing-library/react'},{'jest'}
+mimshwright/mimstris,set(),set()
+carloluis/webpack-demo,set(),set()
+aaroncox/vessel,set(),{'jest'}
+swiftcarrot/react-input-slider,set(),{'jest'}
+oblador/react-native-animatable,set(),{'jest'}
+yaledhlab/flask-react-boilerplate,set(),{'jest'}
+aksonov/react-native-router-flux,set(),{'jest'}
+sly777/ran,set(),set()
+malte-wessel/react-custom-scrollbars,set(),{'mocha', 'karma'}
+ctrlplusb/react-async-component,{'enzyme'},{'jest'}
+gaearon/react-side-effect,{'enzyme'},{'mocha', 'chai'}
+skidding/jobs-done,set(),set()
+diegohaz/styled-tools,set(),set()
+apsl/react-native-button,set(),{'jest'}
+pugjs/babel-plugin-transform-react-pug,set(),{'jest'}
+braposo/graphql-css,set(),{'jest'}
+marcio/react-skylight,set(),{'mocha', 'karma', 'chai'}
+skidding/react-testing-examples,{'enzyme'},{'jest'}
+thekashey/react-focus-lock,{'enzyme', '@testing-library/react'},{'mocha', 'chai'}
+alexadam/printable-mockups,set(),set()
+codesandbox/codesandboxer,set(),{'jest'}
+jossmac/react-scrolllock,{'enzyme'},{'jest'}
+nkbt/react-debounce-input,set(),set()
+avocode/react-shortcuts,{'enzyme'},{'mocha', 'chai'}
+livechat/octopus,set(),{'jest'}
+uber-common/vis-academy,set(),set()
+cameronbourke/react-cardstack,set(),set()
+tommoor/emojione-picker,set(),{'jest'}
+jpuri/draftjs-to-html,{'enzyme'},{'mocha', 'chai'}
+thangngoc89/react-howler,set(),set()
+shinychang/react-text-truncate,set(),set()
+mobilusoss/react-web-notification,set(),{'mocha', 'karma', 'chai'}
+secretmapper/react-image-annotation,{'enzyme'},{'chai'}
+cooperka/react-native-immutable-list-view,set(),{'jest'}
+saravieira/react-social-sharing,{'enzyme'},{'jest'}
+zevenfang/react-native-redux-zhihudaily,{'enzyme'},{'mocha', 'chai'}
+cpunion/react-actioncable-provider,{'enzyme'},{'chai', 'jest'}
+kareemaly/react-items-carousel,set(),set()
+tinysymphony/react-native-drawer-menu,{'enzyme'},{'jest'}
+geraldoramos/nikola,set(),set()
+zeecoder/container-query,set(),{'karma', 'jest'}
+sunify/react-relative-portal,set(),set()
+carsonwah/react-native-push-notification-popup,set(),set()
+ant-design/scaffold-market,set(),set()
+gaearon/react-deep-force-update,set(),{'jest'}
+valentinogagliardi/react-redux-tutorial,set(),set()
+jameslnewell/styled-components-grid,set(),set()
+dennitz/timetable,{'enzyme'},{'jest'}
+cbothner/react-activestorage-provider,set(),{'jest'}
+tombatossals/react-chords,set(),set()
+stripe/react-stripe-elements,{'enzyme'},{'jest'}
+aautio/react-modal-image,set(),set()
+fram-x/fluidtransitions,set(),{'jest'}
+jserwang/rc-bmap,set(),set()
+jasoncharnes/run.rb,set(),{'jest'}
+zhui-team/zhui,{'enzyme'},{'jest'}
+jakubgarfield/expenses,set(),set()
+haoxins/react-flatpickr,{'enzyme'},{'jest'}
+mbasso/react-wasm,set(),{'jest'}
+ooade/nextsimplestarter,set(),set()
+lokiuz/redraft,set(),{'chai', 'mocha', 'jest'}
+ibrahimtelman/subcolor,{'@testing-library/react'},set()
+networknt/react-schema-form,{'enzyme'},set()
+darenju/react-flip-page,{'enzyme'},{'jest'}
+mishig25/3d-posenet,set(),set()
+ecerroni/apollo-cache-updater,set(),set()
+securedeveloper/react-data-export,{'enzyme'},{'jest'}
+henrybuilt/react-sticky-table,{'enzyme'},{'mocha', 'chai'}
+kevinsqi/react-piano,{'enzyme'},{'jest'}
+rcaferati/react-awesome-slider,{'enzyme'},{'jest'}
+sallar/github-contributions-chart,set(),set()
+plotly/react-plotly.js,{'enzyme'},{'jest'}
+sophiebits/react-dom-mini,set(),set()
+linasmnew/react-graceful-image,{'enzyme'},{'jest'}
+jpuri/draftjs-utils,{'enzyme'},{'mocha', 'chai'}
+watadarkstar/react-native-typing-animation,set(),set()
+estevanmaito/windmill-dashboard-react,{'@testing-library/react'},set()
+summer-andy/react-loading,{'enzyme'},{'jest'}
+felippenardi/lottie-react-web,{'enzyme'},{'mocha', 'chai'}
+abraztsov/reactsimpleflexgrid,set(),set()
+peterpalau/react-bnb-gallery,{'enzyme'},{'jest'}
+julianrubisch/attractor,set(),set()
+lxieyang/vertical-tabs-chrome-extension,set(),set()
+kidkarolis/tiny-atom,set(),set()
+madox2/react-tagcloud,set(),set()
+llorentegerman/react-admin-dashboard,set(),set()
+mxmzb/react-marquee-slider,set(),set()
+formidablelabs/victory-native,{'enzyme'},{'mocha', 'chai'}
+kylemath/eegedu,set(),set()
+caldis/react-zmage,set(),set()
+tienpham94/react-awesome-spinners,set(),{'jest'}
+amitmishrg/code-resume,set(),set()
+shamahoque/mern-social,set(),set()
+aragon/ui,{'@testing-library/react'},{'jest'}
+chanzuckerberg/czi-prosemirror,set(),set()
+aichbauer/styled-bootstrap-components,set(),{'jest'}
+oslabs-beta/watchmo,{'enzyme'},{'jest'}
+cornflourblue/react-hooks-redux-registration-login-example,set(),set()
+pessimistress/minecraft-chunk-viewer,set(),set()
+y-takey/rails-dashboard,set(),set()
+shamahoque/mern-skeleton,set(),set()
+neighborhood999/react-gh-like-diff,{'@testing-library/react'},{'jest'}
+jamesctucker/teach-yourself-code,set(),{'jest'}
+dejorrit/scroll-data-hook,set(),set()
+miguelgrinberg/react-flask-app,{'@testing-library/react'},set()
+cornflourblue/react-signup-verification-boilerplate,set(),set()
+shamahoque/mern-mediastream,set(),set()
+snipsco/react-inview-monitor,set(),set()
+shamahoque/mern-expense-tracker,set(),set()
+shamahoque/mern-classroom,set(),set()
+callstack/react-native-ios-kit,set(),{'jest'}
+deepakaggarwal7/react-social-login,set(),set()
+jeffersonlicet/react-motion-layout,set(),set()
+blaze33/map33.js,{'@testing-library/react'},{'jest'}
+lokesh-coder/blobs.app,set(),set()
+walker-tw/algorithm-visualizer,{'enzyme', '@testing-library/react'},set()
+lynnaloo/mullet,{'enzyme'},{'jest'}
+charlesstover/optimal-react-file-structure,set(),set()
+nkbt/react-height,set(),set()
+lightsinthesky/react-node-graph,set(),set()
+joserfelix/nextjs-starter-blog,set(),set()
+rudeg/react-input-calendar,{'enzyme'},{'mocha', 'chai'}
+pomelott/webpack4-cli,set(),set()
+ashutosh1919/truvisory,{'@testing-library/react'},set()
+ralphhanna/bpmn-server,set(),{'mocha', 'chai'}
+quran/quran.com-frontend,{'enzyme'},{'mocha', 'karma', 'chai'}
+mironov/react-redux-loading-bar,{'enzyme'},{'mocha'}
+codeclou/display-override-propertylist-file-parser-and-generator-with-hidpi-support-for-scaled-resolutions,{'@testing-library/react'},set()
+reactjsresources/react-webpack-babel,{'enzyme'},{'jest'}
+ryanmcdermott/3rs-of-software-architecture,{'enzyme'},set()
+davidtheclark/react-aria-menubutton,{'enzyme'},{'jest'}
+sfatihk/react-world,set(),set()
+jeffersonlicet/use-image-color,set(),set()
+ilyalesik/react-fetch-hook,set(),{'jest'}
+safetyculture/grpc-web-devtools,set(),set()
+survivejs-demos/webpack-demo,set(),set()
+larissaabreu/contrata-se-dev,set(),set()
+cwlsn/rinse-react,set(),set()
+xiaody/react-touch-carousel,set(),set()
+georgeosddev/react-draggable-tab,set(),{'mocha', 'karma', 'chai'}
+circleci-public/circleci-demo-javascript-express,{'enzyme'},{'chai'}
+u-wave/react-vimeo,set(),{'mocha'}
+nhn/toast-ui.react-calendar,set(),set()
+chadly/react-bs-notifier,set(),set()
+g1eb/reactjs-calendar-heatmap,set(),set()
+hprobotic/react-telegram-login,set(),set()
+geekyants/vue-native-core,set(),{'jasmine', 'jest'}
+formidablelabs/react-animations,set(),{'jest'}
+xgfe/react-native-datepicker,{'enzyme'},{'jest'}
+xboxyan/dytt,set(),{'jest'}
+trekhleb/use-position,set(),{'jest'}
+harishjangra/react-native-easy-starter,set(),{'jest'}
+s-yadav/react-meta-tags,set(),set()
+soaple/stickyboard,set(),set()
+researchgate/react-intersection-list,set(),set()
+styxlab/gatsby-starter-try-ghost,set(),set()
+guillaumejasmin/react-table-hoc-fixed-columns,set(),set()
+just1and0/react-native-paystack-webview,set(),{'jest'}
+spekt8/spekt8,{'enzyme'},{'chai', 'jest'}
+cncjs/cncjs,set(),set()
+quick123official/quick_redis_blog,{'@testing-library/react'},set()
+wmira/react-icons-kit,set(),{'jest'}
+carbon-native/carbon-native,set(),set()
+zsajjad/react-facebook-pixel,set(),set()
+patreon/nion,{'@testing-library/react'},{'jest'}
+esr360/one-nexus,set(),{'mocha'}
+frontend-collective/react-sortable-tree-theme-file-explorer,{'enzyme'},{'jest'}
+konstantinmuenster/gatsby-starter-portfolio-minimal,set(),set()
+primer/primer.style,set(),set()
+blakesanie/react-bubble-ui,set(),set()
+drmas/firechat,set(),set()
+ptmt/react-native-macos,set(),{'jest'}
+fisshy/react-scroll,set(),{'mocha', 'karma'}
+margox/braft-editor,set(),set()
+pixielabs/cavy,set(),{'jest'}
+globocom/megadraft,{'enzyme'},{'jest'}
+fullcalendar/fullcalendar-react,{'@testing-library/react'},{'karma'}
+headzoo/react-moment,set(),{'jest'}
+tizmagik/react-head,set(),{'jest'}
+urbica/react-map-gl,{'enzyme'},{'jest'}
+donavon/use-event-listener,set(),{'jest'}
+icd2k3/react-router-breadcrumbs-hoc,{'enzyme'},{'jest'}
+mberneti/react-datepicker2,{'enzyme'},{'jest'}
+sanusart/react-dropdown-select,set(),{'jest'}
+oslabs-beta/interspect,set(),{'mocha', 'chai'}
+pjijin/cover-image-generator,set(),set()
+dozoisch/react-async-script,{'@testing-library/react'},{'jest'}
+relayjs/relay-devtools,set(),{'jest'}
+floating/restore,set(),set()
+bufferapp/buffer-components,{'enzyme'},{'jest'}
+probot/smee.io,{'enzyme'},{'jest'}
+didinj/mern-stack-crud,set(),set()
+arnelenero/react-entities,{'enzyme'},{'jest'}
+azirbel/npoint,set(),{'jest'}
+jledentu/vue-finder,{'@vue/test-utils'},set()
+sandstreamdev/react-swipeable-list,{'@testing-library/react'},{'jest'}
+brandonarmand/binari,{'@testing-library/react'},{'jest'}
+esthor/react-native-swipeable-list,set(),set()
+christianalfoni/formsy-react,set(),set()
+tj/react-enroute,set(),set()
+democracyearth/dapp,{'@testing-library/react'},set()
+zcreativelabs/react-simple-maps,set(),{'mocha'}
+karlhadwen/netflix,{'@testing-library/react'},set()
+airbnb/react-with-styles,{'enzyme'},{'mocha', 'chai'}
+oblosys/react-lifecycle-visualizer,{'@testing-library/react'},{'jest'}
+jaydenseric/graphql-react,set(),set()
+jangouts/jangouts,{'@testing-library/react'},set()
+alexdevero/electron-react-webpack-boilerplate,set(),set()
+craig1123/react-recipes,{'@testing-library/react'},{'jest'}
+lanjingling0510/react-mobile-datepicker,{'enzyme'},{'mocha', 'chai'}
+ahfarmer/emoji-search,set(),set()
+hazyzh/jest-html-reporters,{'@testing-library/react'},{'jest'}
+planttheidea/crio,set(),set()
+nlaz/flashcards-for-developers,{'enzyme'},set()
+avishayil/react-native-user-avatar,set(),{'jest'}
+bodymovin/bodymovin-extension,set(),{'jest'}
+diogomoretti/use-reading-time,{'@testing-library/react'},set()
+rolwin100/rolwinreevan_gatsby_blog,set(),set()
+bpetetot/conference-hall,set(),set()
+mfix22/calendarx,{'@testing-library/react'},{'jest'}
+andreaswilli/react-verification-input,{'@testing-library/react'},{'jest'}
+valcol/react-hydration-on-demand,{'@testing-library/react'},{'jest'}
+workshopper/learnyoureact,set(),set()
+ameerthehacker/kubelive,{'enzyme'},{'jest'}
+gaearon/suspense-experimental-github-demo,set(),set()
+haysclark/gatsby-starter-casper,set(),set()
+skratchdot/react-github-corner,{'enzyme'},{'jest'}
+taylorbryant/next-starter-tailwind,set(),set()
+trueadm/react-compiler,set(),set()
+devtography/electron-react-typescript-webpack-boilerplate,set(),{'jest'}
+wingkwong/react-quiz-component,set(),set()
+ximing/fabric-photo,set(),{'mocha'}
+laurenashpole/react-inner-image-zoom,set(),set()
+akxcv/vuera,set(),{'jest'}
+benhurott/react-native-masked-text,set(),{'jest'}
+bndw/wifi-card,{'@testing-library/react'},set()
+oslabs-beta/protostar-relay,{'enzyme'},{'jest'}
+starptech/next-localization,{'@testing-library/react'},{'jest'}
+reactide/reactide,{'enzyme'},{'mocha', 'chai'}
+jondot/react-flight,{'enzyme'},{'jest'}
+didierfranc/react-waterfall,set(),{'jest'}
+bluebill1049/react-simple-img,{'enzyme'},{'jest'}
+gothinkster/react-mobx-realworld-example-app,set(),set()
+ethanselzer/react-image-magnify,{'enzyme'},{'mocha', 'chai'}
+nnajm/orb,set(),{'jasmine'}
+500tech/mimic,set(),{'karma'}
+bamlab/react-native-formik,{'enzyme'},{'jest'}
+tegon/traktflix,{'enzyme'},{'mocha', 'karma', 'chai'}
+smpio/kubernator,set(),set()
+slikts/js-equality-game,set(),set()
+jakehartnell/react-images-upload,set(),set()
+andrewredican/react-json-editor-ajrm,{'enzyme'},{'jest'}
+pagarme/react-event-components,set(),set()
+austintackaberry/ydkjs-exercises,set(),{'jest'}
+joefazz/react-native-web-starter,set(),set()
+chrisjpatty/react-dragtastic,set(),{'jest'}
+nordicgiant2/react-nice-resume,{'@testing-library/react'},set()
+tomchentw/react-prism,set(),set()
+aurbano/react-ds,{'enzyme'},{'jasmine', 'jest'}
+metroxe/react-border-wrapper,set(),set()
+austintgriffith/dapparatus,set(),set()
+yusinto/react-site-nav,set(),set()
+wtjs/what-the-splash,set(),set()
+enegrecer/enegrecer-web,{'enzyme'},{'chai'}
+amaurym/react-redux-auth0-kit,{'enzyme'},set()
+amrlabib/react-timer-hook,set(),set()
+danesparza/influxdb-ui,set(),set()
+philnash/react-web-audio,set(),set()
+jonatanklosko/material-ui-confirm,{'@testing-library/react'},{'jest'}
+agontuk/schema-designer,set(),{'jest'}
+lukehaas/regexhub,set(),{'mocha', 'chai'}
+zerosoul/chinese-colors,set(),set()
+joshwcomeau/use-sound,set(),set()
+tannerlinsley/react-query-devtools,{'@testing-library/react'},{'jest'}
+hitachi-automotive-and-industry-lab/semantic-segmentation-editor,set(),set()
+storeon/storeon,set(),{'jest'}
+anish000kumar/redux-box,set(),{'jest'}
+karlhadwen/todoist,{'@testing-library/react'},set()
+anomalyinnovations/serverless-stack-demo-client,{'@testing-library/react'},set()
+gossamer-react/lucid,set(),{'jest'}
+saravieira/starter-book,set(),set()
+chromaui/learnstorybook-code,set(),set()
+pushtell/react-bootstrap-date-picker,set(),{'mocha', 'karma'}
+webscopeio/react-textarea-autocomplete,{'enzyme'},{'jest'}
+ryanvanderpol/expo-analytics,set(),set()
+chrisrzhou/react-globe,set(),set()
+availity/availity-reactstrap-validation,{'enzyme'},{'mocha', 'chai'}
+cedricdelpoux/gatsby-source-google-docs,set(),{'jest'}
+metamask/metamask-snaps-beta,{'enzyme'},{'mocha', 'karma', 'chai'}
+banthagroup/fslightbox-react,set(),set()
+davidmfoley/react-router-modal,{'enzyme'},{'mocha', 'chai'}
+rnaga/wordpress-rest-admin,set(),{'jest'}
+nicholasboll/cypress-storybook,set(),set()
+codebushi/gatsby-starter-lander,set(),set()
+vercel/title-site,set(),set()
+taskrabbit/react-native-parsed-text,set(),{'jest'}
+anthonyjgrove/react-google-login,{'enzyme'},{'jest'}
+karolis-sh/tailwind-bootstrap-grid,set(),set()
+donavon/use-persisted-state,set(),{'jest'}
+steniowagner/mindcast,set(),set()
+chromakode/react-html-email,set(),{'jest'}
+ytakkar/react-instagram-clone-2.0,{'enzyme'},{'jest'}
+plotly/react-pivottable,set(),{'jest'}
+rclone/rclone-webui-react,{'enzyme'},set()
+biaochenxuying/blog-react,set(),{'jest'}
+uxpin/adele,{'enzyme'},{'jest'}
+dai-shi/react-hooks-async,{'@testing-library/react'},{'jest'}
+praneetrohida/twitter-clone,set(),set()
+austintgriffith/burner-wallet,set(),{'chai', 'mocha', 'jest'}
+sivadass/react-shopping-cart,{'@testing-library/react'},set()
+paaatrick/playball,set(),set()
+lxieyang/chrome-extension-boilerplate-react,set(),set()
+tommoor/react-emoji-render,set(),{'jest'}
+andresxi/netflix-clone,{'@testing-library/react'},{'jest'}
+waleedahmad/node-stream,set(),set()
+vibertthio/beact,set(),set()
+use-hooks/react-hooks-axios,set(),{'jest'}
+jackdh/rasatalk,{'enzyme'},set()
+currency-cop/currency-cop,set(),set()
+lucifier129/react-imvc,set(),{'mocha'}
+houseops/houseops,{'enzyme'},{'mocha', 'jest'}
+ytakkar/react-mini-social-network,set(),set()
+vsch/laravel-translation-manager,set(),{'jest'}
+lbryio/spee.ch,set(),{'mocha', 'chai'}
+sejr/react-messenger,set(),set()
+rocketseat-content/youtube-react-native-nubank,set(),{'jest'}
+gavin1995/dms,{'enzyme'},set()
+adnanrahic/serverless-side-rendering-react-next,set(),set()
+rapid7/awsaml,set(),{'jest'}
+alheimsins/bigfive-web,set(),set()
+torchping/torch-web,set(),set()
+gzgogo/antd-pro-mobx,set(),set()
+flipbyte/formik-json-schema,{'enzyme'},set()
+mariusbrataas/flowpoints.js,set(),set()
+cleod9/syncmarx-webext,set(),set()
+aditya-sridhar/simple-reactjs-app,set(),set()
+autodesk-forge/viewer-react-express-headless,set(),set()
+omariosouto/pokedex,set(),set()
+moiseshilario/delivery-app-mobile,set(),{'jest'}
+ctrlplusb/react-sizeme,{'enzyme'},{'jest'}
+mcnamee/react-native-starter-kit,set(),{'jest'}
+planttheidea/fast-copy,set(),{'jest'}
+nlrx-wjc/react-antd-admin-template,{'@testing-library/react'},set()
+objtube/front-end-roadmap,set(),set()
+jamstack-cms/jamstack-cms,set(),set()
+saasforge/open-source-saas-boilerpate,set(),set()
+alvin0216/react-blog,set(),{'jest'}
+uilibrary/matx-react,set(),set()
+huchenme/hacker-tab-extension,{'@testing-library/react'},set()
+smakosh/gatsby-portfolio-dev,set(),set()
+daiyz/react-native-easy-chat-ui,set(),{'jest'}
+mariusbrataas/flowpoints_ml,set(),set()
+storybookjs/marksy,{'@testing-library/react'},{'jest'}
+maurocarrero/sinon-jest-cheatsheet,{'enzyme'},{'jest'}
+dimaportenko/magento-react-native,set(),{'jest'}
+ayastreb/bandwidth-hero,set(),{'jest'}
+salvoravida/react-adal,set(),set()
+nnmer/azure-services-map,set(),set()
+phishy/wflow,set(),set()
+jkk/shinkgs,set(),set()
+syun0216/goforeat,set(),{'jest'}
+watarumaeda/react-native-boilerplate,set(),{'jest'}
+bithoven-dev/reactnavigationauthenticationflowswithhooks,set(),{'jest'}
+uowac/nextjs-antd-admin,set(),set()
+jamiebuilds/react-loadable,set(),{'jest'}
+negomi/react-burger-menu,set(),{'mocha', 'chai'}
+0wczar/airframe-react,set(),set()
+open-source-labs/swell,{'@testing-library/react'},{'mocha', 'jest', 'chai'}
+ngs/draft-js-markdown-shortcuts-plugin,{'enzyme'},{'mocha', 'chai'}
+salt-ui/saltui,set(),set()
+v4iv/gatsby-starter-business,set(),set()
+fortawesome/react-native-fontawesome,set(),{'jest'}
+rtivital/react-pages-boilerplate,{'enzyme'},{'jest'}
+mockingbot/react-resizable-rotatable-draggable,set(),set()
+hideoo/intro.js-react,{'enzyme'},{'jest'}
+bbkolton/reactify-wc,set(),set()
+b-gran/object-editor-react,set(),{'jest'}
+awais-fastian/react-native-boilerplate,set(),{'jest'}
+naufaldi/next-landing-vpn,set(),set()
+motasimfoad/portfolio-2020,set(),set()
+allenfang/react-bootstrap-table,set(),set()
+denisraslov/react-spreadsheet-grid,set(),{'jest'}
+joshwnj/react-visibility-sensor,set(),{'mocha', 'karma'}
+skevy/graphiql-app,set(),{'mocha', 'chai'}
+ahfarmer/calculator,set(),{'chai'}
+chrvadala/react-svg-pan-zoom,set(),{'jest'}
+mobxjs/mobx-devtools,set(),{'mocha', 'chai'}
+2fps/recorder,set(),{'jest'}
+airbnb/babel-plugin-inline-react-svg,set(),set()
+satendra02/react-chrome-extension,set(),{'jest'}
+leovoel/embed-visualizer,set(),set()
+santomegonzalo/react-native-floating-action,set(),set()
+zesik/react-splitter-layout,set(),{'jest'}
+ishandeveloper/github-wrapped,set(),set()
+allan2coder/react-ssr,set(),set()
+jowayyoung/bruce-cli,set(),set()
+evenchange4/react-progressive-bg-image,{'enzyme'},{'jest'}
+iconfont-cli/taro-iconfont-cli,set(),set()
+claus/react-dat-gui,{'@testing-library/react'},{'jest'}
+jamesbrill/react-speech-recognition,set(),{'jest'}
+duthaho/js-quiz,set(),set()
+react-ld/react-wx-images-viewer,set(),set()
+chrispahm/chartjs-plugin-dragdata,{'@testing-library/vue', '@testing-library/react'},{'jest'}
+alexislepresle/gatsby-shopify-theme,set(),set()
+prabushitha/gremlin-visualizer,set(),set()
+jcoelho93/personal-website,set(),set()
+safdarjamal/quiz-app,{'@testing-library/react'},set()
+cesarwbr/react-input-emoji,{'@testing-library/react'},{'jest'}
+moroshko/react-autosuggest,set(),{'mocha', 'chai'}
+jesperlekland/react-native-svg-charts,set(),{'jest'}
+sanniassin/react-input-mask,set(),{'mocha', 'karma', 'chai'}
+nmn/react-timeago,{'@testing-library/react'},{'jest'}
+mirrorjs/mirror,set(),{'jest'}
+jamiebuilds/create-react-context,{'enzyme'},{'jest'}
+teamwertarbyte/material-ui-chip-input,{'enzyme'},{'jest'}
+saadpasta/react-blog-github,{'@testing-library/react'},set()
+jamesplease/react-request,{'enzyme'},{'jest'}
+harveyd/react-component-library,{'@testing-library/react'},{'jest'}
+zehfernandes/react-native-3dcube-navigation,set(),set()
+okonet/react-container-dimensions,{'enzyme'},{'mocha', 'chai'}
+guanpengchn/blog,set(),set()
+expo-community/expo-firebase-starter,set(),set()
+devexpress/testcafe-react-selectors,set(),{'chai'}
+filestack/filestack-react,{'@testing-library/react'},set()
+ndimatteo/hull,set(),set()
+stripe/stripe-demo-connect-kavholm-marketplace,set(),set()
+makecontributions/markdown-dungeon,set(),set()
+chenglou/react-motion,set(),{'karma'}
+xotahal/react-native-material-ui,set(),{'jest'}
+nkbt/react-copy-to-clipboard,set(),set()
+reactjs/react-a11y,set(),{'mocha', 'karma', 'chai'}
+oblador/react-native-collapsible,set(),set()
+crsnbrt/keysim,{'@testing-library/react'},set()
+jasonboy/koa-web-kit,set(),{'jest'}
+ashutosh1919/react-liquidswipe,set(),set()
+gkhan205/cwg-react-starter,{'@testing-library/react'},set()
+michalszorad/react-social-login-buttons,{'@testing-library/react'},{'jest'}
+philnash/twilio-video-react-hooks,set(),set()
+reactjs/server-components-demo,set(),set()
+lawnstarter/react-native-picker-select,{'enzyme'},{'jest'}
+manikandanraji/youtubeclone-frontend,{'@testing-library/react'},set()
+akiran/react-highlight,set(),{'jest'}
+eosio/eosio-explorer,set(),set()
+packtpublishing/react-material-ui-cookbook,set(),set()
+raicem/impulse-blocker,set(),{'jest'}
+humaans/react-machine,set(),set()
+germavinsmoke/bmi-calculator,{'enzyme'},set()
+markusenglund/react-switch,{'@testing-library/react'},{'jest'}
+bvaughn/react-virtualized,set(),{'jest'}
+pedrobern/react-tiger-transition,{'enzyme'},{'jest'}
+hustcc/gantt-for-react,set(),set()
+indreklasn/simple-trello,set(),{'jest'}
+busyorg/busy,{'enzyme'},{'chai', 'jest'}
+jl978/spotify-clone-client,{'@testing-library/react'},set()
+debdut/react-fast-charts,set(),set()
+lahsivjar/react-stomp,{'enzyme'},{'mocha', 'chai'}
+fuse-box/fuse-box,set(),{'jest'}
+lanif-ui/dva-boot-admin,set(),set()
+mauriciopoppe/greuler,set(),{'mocha', 'jest'}
+kriasoft/isomorphic-style-loader,set(),{'jest'}
+michalochman/react-pixi-fiber,set(),{'jest'}
+react-csv/react-csv,{'enzyme'},{'mocha'}
+howtographql/react-apollo,{'@testing-library/react'},set()
+leefsmp/re-flex,set(),set()
+gribnoysup/react-yandex-maps,set(),{'jest'}
+newbieyoung/simple-crop,set(),set()
+sheaivey/react-axios,set(),{'jest'}
+pgilad/react-page-visibility,{'enzyme'},set()
+vercel/hyper-site,set(),set()
+moxystudio/next-layout,set(),{'jest'}
+happo/happo.io,set(),{'jest'}
+giorgosart/react-easy-edit,{'enzyme', '@testing-library/react'},set()
+opentok/opentok-react,{'enzyme'},{'karma'}
+wojtekmaj/enzyme-adapter-react-17,{'enzyme'},set()
+pjijin/show-path,set(),set()
+mertjf/tailblocks,{'@testing-library/react'},set()
+moxystudio/next-router-scroll,{'@testing-library/react'},{'jest'}
+mdtanrikulu/use-metamask,{'enzyme', '@testing-library/react'},{'jest'}
+coryhouse/react-slingshot,{'enzyme'},{'jest'}
+inlet/react-pixi,set(),{'jest'}
+react-component/animate,set(),set()
+stevenpersia/tinder-react-native,set(),{'jest'}
+dowjones/react-dropdown-tree-select,{'enzyme'},set()
+ryanfitzgerald/devblog,set(),set()
+jackhutu/jackblog-react,set(),set()
+flexible-agency/react-native-map-link,set(),{'jest'}
+mikenikles/html-to-react,set(),{'mocha'}
+bjnortier/dxf,set(),{'mocha'}
+webextensions/live-css-editor,set(),set()
+jasonsalzman/react-add-to-calendar,{'enzyme'},{'mocha', 'karma', 'chai'}
+jodit/jodit-react,set(),set()
+ga-mo/react-confirm-alert,set(),{'mocha', 'chai'}
+wintercounter/mhy,{'enzyme', '@testing-library/react'},{'jest'}
+rehypejs/rehype-react,set(),set()
+listenzz/myapp,set(),{'jest'}
+moxystudio/next-with-moxy,{'@testing-library/react'},{'jest'}
+supervons/explorern,set(),{'jest'}
+dvajs/dva,set(),set()
+ctrlplusb/easy-peasy,{'@testing-library/react'},{'jest'}
+reactjs/react-modal,set(),{'mocha', 'karma'}
+duxianwei520/react,{'enzyme'},{'jest'}
+bvaughn/react-highlight-words,set(),{'mocha', 'karma'}
+mjrussell/redux-auth-wrapper,{'enzyme'},{'mocha', 'chai'}
+react-redux-antd-es6/react,{'enzyme'},{'jest'}
+skidding/flatris,set(),{'jest'}
+alex-saunders/glicky,set(),set()
+evanbacon/expo-crossy-road,set(),set()
+aermin/ghchat,set(),set()
+vincentriemer/io-808,set(),set()
+fabe/gatsby-universal,set(),set()
+coding-coach/coding-coach,set(),set()
+nguymin4/react-videocall,set(),set()
+gatsbycentral/gatsby-starter-wordpress,set(),set()
+diogomoretti/react-snakke,{'enzyme'},{'chai'}
+contentful-userland/gatsby-contentful-starter,set(),set()
+dabit3/gatsby-auth-starter-aws-amplify,set(),set()
+thriveweb/yellowcake,set(),set()
+margueriteroth/gatsby-prismic-starter-prist,set(),set()
+tannercollin/notica,set(),set()
+dondido/webrtc-video-room,set(),set()
+alexdebrie/dynamodbguide.com,set(),set()
+hzzly/credit-bi-react,set(),set()
+fullstackacademy/boilermaker,{'enzyme'},{'mocha', 'chai'}
+justinwhall/gatsby-wordpress-netlify-starter,set(),set()
+fujitsulaboratories/cattaz,{'enzyme'},set()
+austintgriffith/eth.build,set(),set()
+brumm/tako,set(),set()
+zonayedpca/js.zonayed.me,set(),set()
+wp-graphql/gatsby-wpgraphql-blog-example,set(),set()
+mayneyao/gine-blog,set(),set()
+gabdorf/gabriel-adorf-portfolio,set(),set()
+baobabkoodaa/gatsby-starter-infinite-scroll,set(),set()
+justinformentin/gatsby-v2-tutorial-starter,set(),set()
+willianjusten/gatsby-course,set(),set()
+imedadel/automatic-gatsbyjs-app-landing-page,set(),set()
+sambernhardt/ipad-cursor,set(),set()
+jonkwheeler/scrollscene,set(),set()
+gillkyle/gatsby-starter-landing-page,set(),set()
+laurabeatris/amazon-next,set(),set()
+gil--/gatsby-starter-shopify-app,set(),set()
+epam/miew,set(),set()
+blopa/resume-builder,set(),set()
+cloudinary/cloudinary-react,{'enzyme'},{'jest'}
+cwise89/react-detect-offline,{'enzyme'},{'jest'}
+codypearce/material-bread,set(),{'jest'}
+andrewbranch/gatsby-remark-vscode,set(),{'jest'}
+react-photonkit/react-photonkit,set(),{'mocha', 'karma'}
+daviferreira/react-sanfona,set(),{'mocha'}
+monzo/progression-framework,set(),set()
+sambego/storybook-state,{'enzyme'},{'jest'}
+alichtman/deadbolt,set(),set()
+shamahoque/mern-marketplace,set(),set()
+swydo/ddp-apollo,set(),{'chai'}
+sdvoynikov/color-themes,set(),set()
+vote4hk/warsinhk,set(),set()
+joshwcomeau/dark-mode-minimal,set(),set()
+contentful/starter-gatsby-blog,set(),set()
+postlight/account,{'@testing-library/react'},set()
+kamleshchandnani/awesome-interview-processes,set(),set()
+jvalen/pixel-art-react,set(),{'jest'}
+matterwiki/matterwiki,set(),set()
+cassidoo/todometer,{'@testing-library/react'},set()
+hibiken/react-places-autocomplete,{'enzyme'},{'jest'}
+autodesk/react-base-table,set(),{'jest'}
+zillow/react-slider,set(),set()
+sindresorhus/react-extras,set(),set()
+diogofcunha/react-virtualized-tree,set(),{'jest'}
+callstack/react-theme-provider,set(),{'jest'}
+sindresorhus/react-router-util,{'enzyme'},set()
+seek-oss/seek-style-guide,{'enzyme'},{'chai', 'jest'}
+ineo6/git-master,set(),set()
+pitou/redux-easy-app,set(),set()
+martin36/react-gauge-chart,set(),set()
+ohif/react-vtkjs-viewport,set(),set()
+orangecoding/fredy,set(),{'mocha', 'chai'}
+beautifulinteractions/beautiful-react-diagrams,{'@testing-library/react'},{'mocha', 'chai'}
+openblockcc/openblock-desktop,set(),set()
+xavxyz/nextjs-page-transitions,set(),set()
+kirankalyan5/react-native-segmented-control-tab,set(),{'jest'}
+bietkul/react-reactive-form,set(),set()
+alexreardon/use-memo-one,{'enzyme'},{'jest'}
+andreicalazans/rn-tooltip,set(),{'jest'}
+bengrunfeld/rexpack,{'enzyme'},{'jest'}
+stackrole/gatsby-starter-foundation,set(),set()
+sjfkai/maplocation,set(),set()
+xojs/eslint-config-xo-react,set(),set()
+jakezatecky/react-dual-listbox,{'@testing-library/react'},{'mocha', 'chai'}
+cedricdelpoux/react-responsive-masonry,{'enzyme'},{'jest'}
+atapas/theme-builder,{'@testing-library/react'},set()
+reach/router,set(),{'jest'}
+silenceleo/snowb-bmf,{'@testing-library/react'},set()
+react-toolbox/react-toolbox,set(),{'mocha', 'karma'}
+jpuri/react-draft-wysiwyg,{'enzyme'},{'mocha', 'chai'}
+jetbrains/svg-sprite-loader,set(),{'mocha', 'chai'}
+vanila-io/wireflow,{'@testing-library/react'},set()
+reduxjs/cra-template-redux,{'@testing-library/react'},{'jest'}
+smooth-code/smooth-ui,set(),{'jest'}
+nfl/react-metrics,set(),{'mocha', 'karma', 'chai'}
+kentcdodds/stop-runaway-react-effects,{'@testing-library/react'},set()
+baukh789/gridmanager,set(),{'karma'}
+kentcdodds/es6-todomvc,set(),{'mocha', 'karma', 'chai'}
+disqus/disqus-react,{'@testing-library/react'},{'jest'}
+okonet/react-scroll-sync,set(),{'jest'}
+kentcdodds/react-ava-workshop,set(),set()
+vrizo/uibook,set(),set()
+khan/math-input,{'enzyme'},{'jest'}
+kentcdodds/react-jest-workshop,{'enzyme'},{'jest'}
+kentcdodds/eslint-config-kentcdodds,set(),{'jest'}
+nfl/react-gpt,set(),{'mocha', 'karma', 'chai'}
+wix/remx,set(),{'jest'}
+hamishmw/portfolio,set(),set()
+studentinsights/studentinsights,{'enzyme'},{'jest'}
+suchipi/chai-jest-snapshot,set(),{'mocha', 'chai'}
+bjgrosse/react-resize-panel,set(),set()
+osmicsx/osmicsx,set(),{'jest'}
+creativetimofficial/notus-react,set(),set()
+hackjutsu/lepton,set(),set()
+algorithm-visualizer/algorithm-visualizer,set(),set()
+risingstack/react-easy-state,{'@testing-library/react'},{'jest'}
+pomax/react-onclickoutside,set(),{'mocha', 'chai'}
+react-bootstrap-table/react-bootstrap-table2,{'enzyme'},{'jest'}
+nysamnang/react-native-raw-bottom-sheet,set(),{'jest'}
+kartikchugh/otto,{'@testing-library/react'},set()
+gameboyvito/react-native-ultimate-listview,set(),{'jest'}
+fraserxu/react-dropdown,set(),set()
+kirill3333/react-avatar,set(),set()
+huiyan-fe/react-bmap,set(),set()
+pluralsight/react-styleable,set(),{'mocha'}
+hepsiburada/voltranjs,{'enzyme'},{'jest'}
+steams/ra-data-hasura-graphql,set(),set()
+x-orpheus/blog,set(),set()
+pia-foss/extension-chrome,set(),{'chai', 'mocha', 'jest'}
+atlassian/extract-react-types,{'enzyme'},{'jest'}
+mabelanger/react-html5-camera-photo,set(),{'jest'}
+sealninja/react-i18nify,set(),{'jest'}
+gaearon/react-hot-loader,{'enzyme'},{'jest'}
+jpvalery/portfolio,set(),set()
+marshallofsound/google-play-music-desktop-player-unofficial-,{'enzyme'},{'mocha', 'chai'}
+luin/medis,set(),set()
+phobal/ivideo,{'enzyme'},{'jest'}
+kamranahmedse/pennywise,set(),{'mocha'}
+strml/react-grid-layout,{'enzyme'},{'jest'}
+jhen0409/react-native-debugger,set(),{'jest'}
+react-proto/react-proto,{'enzyme'},{'jest'}
+maisano/react-router-transition,set(),set()
+plotly/falcon,{'enzyme'},{'chai', 'jest'}
+formidablelabs/electron-webpack-dashboard,{'enzyme'},{'jest'}
+gielcobben/caption,set(),{'jest'}
+cityofzion/neon-wallet,{'enzyme'},{'jest', 'chai'}
+bukinoshita/taskr,set(),set()
+kkemple/react-native-sideswipe,set(),set()
+caijinyc/here,set(),set()
+kilian/fromscratch,set(),set()
+k0kubun/nocturn,set(),set()
+mjmlio/mjml-app,set(),set()
+lucasferreira/react-native-flash-message,set(),set()
+pau1fitz/react-spotify,{'enzyme'},{'chai', 'jest'}
+elxris/turnip-calculator,{'@testing-library/react'},set()
+ilime/petal,{'enzyme'},set()
+beizhedenglong/react-hooks-lib,{'@testing-library/react'},{'jest'}
+leerob/youtube-to-mp3,set(),set()
+khan/simple-markdown,set(),{'mocha'}
+bunqcommunity/bunqdesktop,{'enzyme'},{'mocha', 'jest'}
+docnow/hydrator,set(),{'chai'}
+web-pal/chronos-timetracker,set(),set()
+kitze/twizzle,set(),set()
+gkaemmer/react-fade-in,set(),set()
+cloud-annotations/object-detection-react,set(),set()
+pbarbiero/basic-electron-react-boilerplate,set(),set()
+tarnadas/net64plus,set(),{'jest'}
+abahmed/deer,{'enzyme'},{'jest'}
+zenghongtu/saladict-desktop,{'enzyme'},{'chai', 'jest'}
+dasniko/keycloak-reactjs-demo,set(),set()
+sag1v/react-elastic-carousel,{'enzyme'},set()
+johnpolacek/design-system-playground,set(),set()
+joeroddy/firestation,set(),set()
+oslabs-beta/lucidql,{'enzyme'},{'jest'}
+zalmoxisus/remotedev-app,{'enzyme'},{'jest'}
+ln-juggernaut/juggernaut-desktop,{'enzyme'},{'jest'}
+kazuar/mook,set(),{'mocha'}
+nomadinteractive/screenshot-tracker,{'enzyme'},{'jest'}
+rkclark/pullp,{'enzyme'},{'jest'}
+carlelieser/flixerr,set(),set()
+reime005/react-native-camera-hooks,{'enzyme'},{'jest'}
+education/classroom-assistant,{'enzyme'},{'mocha', 'chai'}
+dabeng/react-orgchart,set(),set()
+fakob/movieprint_v004,{'enzyme'},{'jest'}
+anthonyraymond/joal-desktop,{'enzyme'},{'jest'}
+hulufei/electron-as-browser,set(),set()
+casesandberg/react-color,{'enzyme'},{'chai', 'mocha', 'jest'}
+google-map-react/google-map-react,set(),set()
+raphamorim/react-ape,set(),{'jest'}
+chenqingspring/react-lottie,{'enzyme'},{'mocha', 'chai'}
+tscanlin/tocbot,set(),{'mocha', 'chai'}
+tongyy/react-native-draggable,set(),{'jest'}
+vikpe/react-webpack-typescript-starter,{'@testing-library/react'},{'jest'}
+eidam/cf-workers-status-page,set(),set()
+kryptokinght/react-extension-boilerplate,set(),{'jest'}
+popcodeorg/popcode,set(),{'jest'}
+creativetimofficial/material-dashboard-react,set(),set()
+ganeshrvel/openmtp,set(),set()
+xtremilicious/projectlearn-project-based-learning,set(),set()
+wildhoney/reactshadow,{'enzyme'},set()
+bkrem/react-d3-tree,{'enzyme'},{'jest'}
+lucasbassetti/react-simple-chatbot,{'enzyme'},{'mocha', 'chai'}
+glennflanagan/react-collapsible,{'enzyme'},{'jest'}
+rpldy/react-uploady,{'@testing-library/react'},{'chai'}
+taylorbryant/gatsby-starter-tailwind,set(),set()
+oslabs-beta/torchql,{'enzyme'},{'chai', 'mocha', 'jest'}
+rebuild-black-business/rbb-website,{'@testing-library/react'},{'jest'}
+boazpoolman/strapi-plugin-sitemap,set(),{'jest'}
+nadavshaar/react-grid-table,set(),set()
+demchenkoalex/react-native-module-template,set(),{'jest'}
+pion/ion-app-web,set(),set()
+jrgarciadev/react-iconly,set(),set()
+farahat80/react-open-weather,{'enzyme'},{'jest'}
+eggjs/egg,set(),set()
+webtorrent/webtorrent-desktop,set(),set()
+supasate/connected-react-router,{'enzyme'},{'jest'}
+ashutosh1919/masterportfolio,set(),set()
+rebassjs/rebass,{'@testing-library/react'},{'jest'}
+vercel/ncc,set(),{'jest'}
+jest-community/snapshot-diff,{'enzyme'},{'jest'}
+calpa/gatsby-starter-calpa-blog,set(),set()
+meteor/chromatic,set(),set()
+dunnock/react-sigma,set(),{'jest'}
+40818419/react-code-input,{'enzyme'},{'jest'}
+backyourstack/backyourstack,set(),{'jest'}
+palerdot/react-d3-speedometer,{'@testing-library/react'},{'jest'}
+chillzhuang/sword,{'enzyme'},set()
+noriginmedia/react-spatial-navigation,set(),{'jest'}
+focallocal/fl-maps,{'enzyme'},{'jest'}
+compulim/react-scroll-to-bottom,set(),{'jest'}
+cometchat-pro/react-native-chat-app,set(),{'jest'}
+wbkd/react-starter,set(),set()
+creativetimofficial/nextjs-material-dashboard,set(),set()
+percy/percy-storybook,set(),{'jasmine'}
+eggheadio/gatsby-starter-egghead-blog,set(),set()
+carlosrocha/react-data-components,set(),{'jest'}
+react-component/switch,{'enzyme'},set()
+hackclub/design-system,{'enzyme'},{'jest'}
+mfrachet/server-push-hooks,set(),set()
+maslianok/react-responsive-tabs,set(),set()
+primer/design,set(),set()
+subeshb1/developer-community-stats,set(),{'jest'}
+maslianok/react-select-me,set(),set()
+bvaughn/react-window,set(),set()
+hcaptcha/react-hcaptcha,set(),{'jest'}
+clauderic/react-sortable-hoc,set(),set()
+covid19india/covid19india-react,{'enzyme', '@testing-library/react'},set()
+jamstack-cms/jamstack-ecommerce,set(),set()
+react-component/form,{'enzyme'},{'jest'}
+flatlogic/react-material-admin,set(),set()
+tameemsafi/typewriterjs,{'@testing-library/react'},{'jest'}
+revelcw/react-hooks-helper,set(),{'jest'}
+higlass/higlass,{'enzyme'},{'chai'}
+prettier/prettier-browser-extension,set(),{'jest'}
+react-next-boilerplate/react-next-boilerplate,{'@testing-library/react'},set()
+aikar/timings,set(),set()
+recharts/react-smooth,{'@testing-library/react'},set()
+rsms/scripter,set(),set()
+muzam1l/tclone,{'@testing-library/react'},set()
+avwo/whistle,set(),set()
+jacklam718/react-native-modals,{'enzyme'},{'jest'}
+sghall/react-move,{'enzyme'},{'mocha', 'chai'}
+fortawesome/react-fontawesome,set(),{'jest'}
+testing-library/react-testing-library,set(),set()
+react-component/calendar,{'enzyme'},set()
+react-materialize/react-materialize,{'@testing-library/react'},{'jest'}
+styled-components/jest-styled-components,{'enzyme', '@testing-library/react'},{'jest'}
+uber/react-digraph,{'enzyme'},{'jest'}
+glortho/react-keydown,set(),set()
+jedwatson/react-input-autosize,set(),set()
+atlassian/react-sweet-state,{'@testing-library/react'},{'jest'}
+awesomejerry/react-native-qrcode-svg,set(),{'jest'}
+aeksco/react-typescript-web-extension-starter,set(),{'jest'}
+jhackshaw/tspvis,set(),set()
+wix-incubator/mjml-react,set(),{'chai'}
+xizon/uix-kit,set(),set()
+moove-it/react-native-template,set(),{'jest'}
+nos/client,{'enzyme'},{'jest'}
+shanmugharajk/react-point-of-sale,set(),set()
+nextjs-ja-translation/nextjs-ja-translation-docs,set(),set()
+fbaiodias/react-video-recorder,{'enzyme'},{'jest'}
+acdlite/recompose,{'enzyme'},{'jest'}
+officialpm/slideshare-downloader,{'@testing-library/react'},set()
+kyleamathews/typography.js,set(),{'jest'}
+final-form/react-final-form,{'@testing-library/react'},{'jest'}
+odota/web,set(),set()
+airbnb/rheostat,{'enzyme'},{'chai', 'jest'}
+iamcco/markdown-preview.nvim,set(),set()
+zhw2590582/subplayer,set(),set()
+kevinsqi/react-calendar-heatmap,{'enzyme'},{'jest'}
+testing-library/testing-playground,{'@testing-library/react'},set()
+maxpou/gatsby-starter-morning-dew,set(),set()
+jhen0409/rn-webrtc-arkit-integration,set(),set()
+cht8687/react-hover,{'enzyme'},set()
+gregnb/mui-datatables,{'enzyme'},{'mocha', 'chai'}
+airbnb/react-dates,{'enzyme'},{'mocha', 'karma', 'chai'}
+muyunyun/reactspa,set(),set()
+listen1/listen1_mobile,set(),{'jest'}
+dawnlabs/alchemy,set(),{'chai', 'jest'}
+rtivital/omatsuri,set(),set()
+bvaughn/react-window-infinite-loader,set(),set()
+hernansartorio/react-nice-dates,{'@testing-library/react'},{'jest'}
+aframevr/aframe-inspector,set(),{'jest'}
+vercel/next-server-components,set(),set()
+globocom/react-native-draftjs-render,set(),{'jest'}
+calebnance/expo-netflix,set(),set()
+bruderstein/unexpected-react,set(),{'mocha', 'jest'}
+soroushchehresa/unsplash-wallpapers,{'enzyme'},{'jest'}
+issaafalkattan/react-landing-page-template,{'@testing-library/react'},set()
+calebnance/expo-disneyplus,set(),set()
+djizco/mern-boilerplate,{'@testing-library/react'},{'jest'}
+ibi-group/datatools-ui,{'enzyme'},set()
+downshift-js/downshift,{'@testing-library/preact', '@testing-library/react'},set()
+wix/react-native-interactable,set(),{'mocha', 'jest'}
+pomber/git-history,set(),set()
+opendatacam/opendatacam,set(),set()
+anvaka/pm,set(),set()
+kfiroo/react-native-cached-image,set(),{'jest'}
+sh-dv/hat.sh,set(),set()
+react-theming/storybook-addon-material-ui,{'enzyme'},{'chai'}
+open-sauced/open-sauced,{'enzyme', '@testing-library/react'},{'jest'}
+teamwertarbyte/mdi-material-ui,set(),set()
+enzeberg/tonzhon-music,set(),{'jest'}
+steamgriddb/steamgriddb-manager,set(),set()
+timhagn/gatsby-background-image,{'@testing-library/react'},{'jest'}
+uptick/react-keyed-file-browser,set(),set()
+femioladeji/react-slideshow,{'@testing-library/react'},set()
+johno/gatsby-theme-documentation,set(),set()
+brucou/kingly,set(),set()
+iaphub/react-native-iaphub,set(),{'jest'}
+ryanfitzgerald/devfolio,set(),set()
+keegn/gatsby-starter-saas-marketing,set(),set()
+iondrimba/pwa-music-player,{'enzyme'},set()
+lakesare/memcode,{'enzyme'},{'mocha', 'karma', 'chai'}
+commaai/cabana,{'enzyme'},set()
+video-react/video-react,{'enzyme'},{'jest'}
+shahshubh/socialapp-react-native,set(),set()
+taniarascia/taniarascia.com,set(),set()
+mac-s-g/react-json-view,{'enzyme'},{'mocha', 'chai'}
+arturbien/react95,{'@testing-library/react'},{'jest'}
+operationcode/front-end,{'@testing-library/react'},set()
+adamgruber/mochawesome-report-generator,{'enzyme'},{'mocha', 'chai'}
+mikbry/material-ui-color,{'@testing-library/react'},{'jest'}
+jeffeb3/sandify,set(),{'jest'}
+denniskigen/react-weather,{'@testing-library/react'},{'jest'}
+yomguithereal/react-blessed,set(),{'mocha'}
+react-dropzone/react-dropzone,{'@testing-library/react'},{'jest'}
+green-labs/rescript-in-korean,set(),set()
+gitalk/gitalk,{'enzyme'},{'jest'}
+rrag/react-stockcharts,set(),set()
+borisyankov/react-sparklines,{'enzyme'},{'mocha', 'chai'}
+react-native-datetimepicker/datetimepicker,set(),{'jest'}
+ostera/tldr.jsx,set(),set()
+ymfe/json-schema-editor-visual,set(),set()
+joepuzzo/informed,{'@testing-library/react'},{'jest'}
+shopify/shopify-demo-app-node-react,set(),set()
+yuvaleros/material-ui-dropzone,set(),set()
+greymass/anchor,{'enzyme'},{'jest'}
+jslancerteam/react-google-flight-datepicker,{'enzyme', '@testing-library/react'},{'jest'}
+rambler-digital-solutions/rambler-ui,{'enzyme'},{'karma'}
+unchained-capital/caravan,{'@testing-library/react'},{'jest'}
+no23reason/react-qr-svg,set(),{'jest'}
+feathericons/feathericons.com,set(),set()
+toptal/simple-react-calendar,{'enzyme', '@testing-library/react'},{'jest'}
+bartdominiak/vue-snap,set(),set()
+smucode/react-world-flags,set(),{'jest'}
+erikrichardlarson/unbox,set(),set()
+jaimeadf/betterdiscordplugins,set(),set()
+nozbe/watermelondb,set(),{'jest'}
+blocks/blocks,set(),{'jest'}
+astrofox-io/astrofox,set(),{'jest'}
+frontend-collective/react-image-lightbox,{'enzyme'},{'jest'}
+alitajs/umi-antd-pro,{'enzyme'},set()
+brainhubeu/react-permissible,{'enzyme'},{'mocha', 'chai'}
+esausilva/react-starter-boilerplate-hmr,set(),set()
+virtuslab/strapi-plugin-comments,set(),{'jest'}
+tnfe/c2f,set(),set()
+jeffshek/writeup-frontend,set(),set()
+santosfrancisco/gatsby-starter-cv,set(),set()
+davidkpiano/frontend-masters-react-workshop,{'@testing-library/react'},set()
+publichealthengland/coronavirus-dashboard,set(),set()
+glook/webpack-typescript-react,set(),set()
+akiran/react-slick,{'@testing-library/react'},{'jest'}
+bjcarlson42/benjamincarlson.io,set(),set()
+hypeserver/react-date-range,{'enzyme'},{'jest'}
+xiaolin/react-image-gallery,{'@testing-library/react'},{'jest'}
+ericelliott/riteway,set(),set()
+rcdexta/react-trello,set(),{'jest'}
+rcaferati/react-awesome-button,{'enzyme', '@testing-library/react'},{'jest'}
+react-container-query/react-container-query,set(),{'mocha', 'karma'}
+wonday/react-native-orientation-locker,set(),set()
+uber/streetscape.gl,{'enzyme'},set()
+gillkyle/sol-journal,set(),set()
+whawker/react-jsx-highcharts,{'@testing-library/react'},{'jest'}
+reustle/covid19japan,set(),set()
+kloudless/file-picker,set(),set()
+jzillmann/pdf-to-markdown,set(),{'mocha', 'chai'}
+amfoss/website,set(),set()
+significa/react-snuggle,set(),set()
+elbywan/hyperactiv,{'@testing-library/react'},{'jest'}
+peterp/react-native-tags,{'enzyme'},{'jest'}
+joshhunt/destinysets,set(),set()
+reachfive/fake-smtp-server,set(),set()
+sakhnyuk/rc-scrollbars,set(),{'mocha', 'karma'}
+bchiang7/v4,set(),set()
+gregberge/loadable-components,{'@testing-library/react'},{'jest'}
+strml/react-draggable,set(),{'karma'}
+prescottprue/react-redux-firebase,{'enzyme'},{'mocha', 'chai'}
+glennreyes/react-countup,{'@testing-library/react'},{'jest'}
+couds/react-bulma-components,{'enzyme'},{'chai', 'jest'}
+renyuanz/leonids,set(),set()
+bl00mber/react-phone-input-2,set(),{'jest'}
+focus-trap/focus-trap-react,{'@testing-library/react'},{'jest'}
+staticallyio/statically,set(),set()
+goldenyz/react-perfect-scrollbar,set(),set()
+lourenci/react-kanban,{'@testing-library/react'},{'jest'}
+shopify/shopify-app-node,{'enzyme'},{'jest'}
+netlify/explorers,set(),set()
+levelopers/ecommerce-reactjs,set(),set()
+rafaelgoulartb/next-ecommerce,set(),set()
+artcoholic/akar-icons,set(),set()
+mifi/simpleinstabot,set(),set()
+hackclub/v2,set(),set()
+filipowm/boogi,set(),set()
+mifi/react-lottie-player,set(),{'jest'}
+openneuroorg/openneuro,set(),set()
+oblador/react-native-vector-icons,set(),set()
+nfl/react-helmet,set(),{'mocha', 'karma', 'chai'}
+twobin/react-lazyload,set(),{'mocha', 'karma', 'chai'}
+civiccc/react-waypoint,set(),{'karma', 'jest'}
+kriasoft/react-firebase-starter,set(),{'chai'}
+stereobooster/react-ideal-image,set(),set()
+jetbrains/create-react-kotlin-app,set(),set()
+researchgate/react-intersection-observer,set(),set()
+apexcharts/react-apexcharts,set(),{'jest'}
+dozoisch/react-google-recaptcha,{'@testing-library/react'},{'jest'}
+netlify/next-on-netlify,set(),{'jest'}
+tresko/react-datepicker,{'@testing-library/react'},{'jest'}
+akaspanion/ui-neumorphism,set(),set()
+paralleldrive/react-feature-toggles,set(),set()
+rmariuzzo/react-new-window,set(),set()
+codingzeal/redux-persist-sensitive-storage,set(),{'jest'}
+hmsk/frontmatter-markdown-loader,{'@vue/test-utils'},{'jest'}
+joshwcomeau/beatmapper,set(),{'jest'}
+microsoft/react-native-test-app,set(),set()
+raindropio/app,set(),set()
+ipzard/electron-react-python-template,{'@testing-library/react'},set()
+belaczek/hodlwatch,set(),{'jest'}
+zalmoxisus/redux-devtools-extension,{'enzyme'},{'mocha'}
+pranjaljain0/portfolio-react,set(),set()
+jquense/react-big-calendar,set(),{'jest'}
+jondot/hygen,set(),{'jest'}
+segmentio/evergreen,{'@testing-library/react'},{'jest'}
+jossmac/react-toast-notifications,set(),set()
+4catalyzer/astroturf,{'enzyme'},{'jest'}
+vadimdemedes/tailwind-rn,set(),set()
+primefaces/primereact,{'@testing-library/react'},{'jest'}
+shellscape/webpack-manifest-plugin,set(),set()
+dustinbrett/x,{'@testing-library/react'},{'jest'}
+danielbayerlein/dashboard,set(),set()
+epoberezkin/fast-deep-equal,set(),{'mocha'}
+danielcaldas/react-d3-graph,set(),{'jest'}
+strml/react-resizable,{'enzyme'},{'jest'}
+proshoumma/reforum,set(),{'jest'}
+bugidev/react-native-calendar-strip,{'enzyme'},{'jest'}
+sitebase/react-avatar,set(),set()
+gatsbyjs/store.gatsbyjs.org,set(),set()
+tableau/webdataconnector,{'enzyme'},{'mocha'}
+alphasp/pxview,set(),{'jest'}
+inoda/ontrack,set(),set()
+stephenou/fruitionsite,set(),set()
+jaeyeophan/gatsby-starter-bee,set(),set()
+brandonweiss/charge,set(),set()
+takeshape/shape-form,{'enzyme'},{'jest'}
+react-component/scroll-anim,set(),set()
+oslabs-beta/allok8,set(),{'jest'}
+idanlo/react-spotify-api,{'enzyme'},set()
+vercel/nft,set(),{'jest'}
+tableau/extensions-api,set(),set()
+prescottprue/fireadmin,set(),set()
+ilkeraltin/react-ssr-news,set(),set()
+react-native-segmented-control/segmented-control,set(),{'jest'}
+universaldatatool/react-image-annotate,set(),set()
+react-component/banner-anim,set(),set()
+etalab/adresse.data.gouv.fr,set(),set()
+formio/react-formio,{'@testing-library/react'},{'jest'}
+altafino/react-webpack-5-tailwind-2,{'@testing-library/react'},{'jest'}
+ladybug-podcast/ladybug-website,set(),set()
+leandrowd/react-easy-swipe,{'enzyme'},{'mocha', 'chai'}
+mathpix/mathpix-markdown-it,set(),{'mocha', 'chai'}
+benso-io/posta,set(),set()
+react-component/resize-observer,{'enzyme', '@testing-library/react'},set()
+timothypholmes/startup-page,set(),set()
+semantic-org/semantic-ui-react,{'enzyme'},{'mocha', 'karma', 'chai'}
+jossmac/react-images,set(),set()
+gothinkster/react-redux-realworld-example-app,set(),set()
+oliviertassinari/react-swipeable-views,{'enzyme'},{'mocha', 'chai'}
+facebook/prop-types,set(),{'jest'}
+s-yadav/react-number-format,{'@testing-library/react'},set()
+adeled/react-paginate,{'@testing-library/react'},set()
+chromaui/learnstorybook.com,set(),set()
+generative-music/generative.fm,set(),set()
+ln-zap/zap-desktop,{'enzyme'},{'jest'}
+opensourcetogether/hacktoberfest-2020,set(),set()
+unofficial-protonmail-desktop/application,{'enzyme'},{'chai', 'mocha', 'jest'}
+hashemkhalifa/webpack-react-boilerplate,{'enzyme'},{'jest'}
+kiarash-z/react-modern-calendar-datepicker,{'@testing-library/react'},{'jest'}
+themesberg/volt-react-dashboard,{'@testing-library/react'},set()
+vivaxy/react-native-auto-height-image,set(),set()
+haxzie/instagram-live-streamer,{'@testing-library/react'},set()
+cypress-io/cypress-example-todomvc,set(),set()
+bhp-devhub/react-timeline-9000,{'enzyme'},{'mocha', 'chai'}
+iondrimba/react-weather-app,{'enzyme', '@testing-library/react'},{'jest'}
+tpkahlon/cs1000,set(),set()
+jacobworrel/react-windowed-select,{'enzyme', '@testing-library/react'},{'jest'}
+hoangnm/react-native-week-view,set(),{'jest'}
+kyechan99/capsule-render,set(),{'jest'}
+fdelmazo/fiuba-map,set(),set()
+welldone-software/why-did-you-render,{'@testing-library/react'},{'jest'}
+jaywcjlove/hotkeys,set(),{'jest'}
+tailwindlabs/tailwindcss-typography,set(),{'jest'}
+algolia/react-element-to-jsx-string,{'@testing-library/react'},{'jest'}
+mg901/styled-breakpoints,{'@testing-library/react'},set()
+remarkjs/remark-react,set(),set()
+webdevscom/webdevscom,set(),set()
+georgeosddev/react-fileupload-progress,set(),{'mocha', 'karma', 'chai'}
+microlinkhq/www,set(),set()
+brandly/lax,set(),{'jest'}
+chatscope/chat-ui-kit-react,set(),set()
+lunaroyster/latex-search,set(),{'jest'}
+deeppatel234/react-context-devtool,set(),set()
+excalidraw/excalidraw-blog,set(),set()
+trustee-wallet/trusteewallet,set(),{'jest'}
+mdx-js/mdx,{'@vue/test-utils'},{'jest'}
+jaredpalmer/razzle,set(),{'jest'}
+jspreadsheet/ce,set(),{'mocha', 'chai'}
+formium/tsdx,set(),{'jest'}
+jeffreyway/laravel-mix,set(),set()
+nathancahill/split,set(),{'karma', 'jest'}
+beautifulinteractions/beautiful-react-hooks,{'@testing-library/react'},{'mocha', 'chai'}
+brasilapi/brasilapi,set(),{'jest'}
+nadbm/react-datasheet,{'enzyme'},{'mocha', 'chai'}
+mbrn/material-table,set(),set()
+electerm/electerm,set(),{'chai'}
+tomkp/react-split-pane,set(),{'chai'}
+keajs/kea,{'@testing-library/react'},{'jest'}
+shreyashankar/gpt3-sandbox,{'@testing-library/react'},set()
+vinissimus/next-translate,{'@testing-library/react'},{'jest'}
+dunky11/react-saas-template,{'@testing-library/react'},set()
+nickcolley/jest-axe,{'@testing-library/vue', '@vue/test-utils', '@testing-library/react'},{'jest'}
+hoangvvo/nextjs-mongodb-app,set(),set()
+mobxjs/mst-gql,set(),{'jest'}
+tbleckert/react-select-search,set(),{'jest'}
+relay-tools/found-relay,set(),{'jest'}
+plotly/react-chart-editor,{'enzyme'},{'jest'}
+rtcamp/wp-decoupled,set(),set()
+createthrive/react-firebase-admin,{'@testing-library/react'},set()
+iearn-finance/iearn-finance,set(),set()
+asabaylus/react-command-palette,{'enzyme', '@testing-library/react'},set()
+orangexc/gank,{'@testing-library/react'},{'jest'}
+jpb12/react-tree-graph,{'enzyme'},{'jest'}
+abhinaba-ghosh/cypress-react-selector,set(),set()
+popeindustries/dvlp,set(),{'mocha', 'chai'}
+jacobbuck/react-beforeunload,{'@testing-library/react'},{'jest'}
+tryghost/gatsby-plugin-advanced-sitemap,set(),{'jest'}
+vergecurrency/vergecurrency.com,set(),set()
+freesewing/freesewing,set(),{'mocha'}
+downforacross/downforacross.com,set(),set()
+axel-dev/distract-me-not,{'@testing-library/react'},set()
+hacs/documentation,set(),set()
+redux-saga/redux-saga,set(),{'jest'}
+diegomura/react-pdf,{'@testing-library/react'},set()
+babel/babel-loader,set(),set()
+styled-system/styled-system,set(),{'jest'}
+react-boilerplate/react-boilerplate,set(),set()
+ant-design/ant-design-landing,set(),set()
+react-syntax-highlighter/react-syntax-highlighter,set(),{'jest'}
+universaldatatool/universal-data-tool,set(),set()
+ipfs-shipyard/ipfs-webui,{'enzyme'},{'jest'}
+prakhar1989/react-tags,{'@testing-library/react'},{'chai', 'jest'}
+hasura/gatsby-gitbook-starter,set(),set()
+enkidevs/seapig,set(),{'jest'}
+hjyssg/shigureader,set(),{'mocha', 'chai'}
+teamwertarbyte/material-ui-image,set(),set()
+adrianocola/spyfall,set(),set()
+olegnn/react-shopping-cart,{'enzyme'},set()
+derogab/coingraph,{'enzyme'},set()
+aminebenkeroum/toggle-switch-react-native,set(),set()
+mayank0255/stackoverflow-clone,{'@testing-library/react'},set()
+pvoznyuk/react-live-clock,set(),set()
+shahabyazdi/react-multi-date-picker,{'@testing-library/react'},{'jest'}
+remarkjs/react-markdown,set(),set()
+ant-design/ant-motion,set(),set()
+single-spa/single-spa-react,{'@testing-library/react'},{'jest'}
+100mslive/100ms-web,set(),set()
+frontend-collective/react-sortable-tree,{'enzyme'},{'jest'}
+phil-r/react-native-looped-carousel,set(),{'jest'}
+jasongaare/react-native-walkthrough-tooltip,{'enzyme'},{'jest'}
+tryghost/gatsby-starter-ghost,set(),set()
+react-native-progress-view/progress-view,set(),{'jest'}
+popperjs/react-popper,{'@testing-library/react'},{'jest'}
+atom/github,{'enzyme'},{'mocha', 'chai'}
+express-labs/pure-react-carousel,{'enzyme'},{'jest'}
+devc-casa/geeksblabla.com,set(),{'jest'}
+bitshares/bitshares-ui,set(),{'mocha'}
+devsonket/devsonket.github.io,set(),set()
+elastic/apm-agent-rum-js,{'enzyme', '@vue/test-utils'},{'jasmine', 'karma'}
+go-faast/faast-web,set(),set()
+dr4fters/dr4ft,set(),{'mocha'}
+vitessce/vitessce,{'enzyme'},{'mocha', 'karma'}
+light-keeper/react-singleton-hook,{'@testing-library/react'},{'jest'}
+cssinjs/jss,set(),{'mocha', 'karma'}
+poooi/poi,set(),{'jest'}
+flatlogic/light-blue-react-template,set(),{'jest'}
+cookpete/react-player,set(),set()
+betagouv/react-elasticsearch,set(),set()
+wwayne/react-tooltip,{'@testing-library/react'},{'jest'}
+hound-search/hound,set(),{'jest'}
+hackclub/hackathons,set(),set()
+xanderfrangos/twinkle-tray,set(),set()
+sparkdesignsystem/spark-design-system,set(),{'chai'}
+godaddy/gasket,set(),set()
+colbyfayock/next-wordpress-starter,set(),set()
+material-table-core/core,{'@testing-library/react'},{'jest'}
+swizec/serverlesshandbook.dev,set(),set()
+i18next/react-i18next,{'@testing-library/react'},set()
+junaid33/opensource.builders,set(),set()
+codaxy/cxjs,set(),{'mocha'}
+lunaroyster/latex.guide,set(),{'jest'}
+netlify/netlify-cms,{'@testing-library/react'},{'jest'}
+facebook/draft-js,set(),{'jest'}
+microsoft/botframework-webchat,set(),{'jest'}
+gooddollar/gooddapp,set(),{'jest'}
+degitx/rats-search,set(),{'mocha', 'chai'}
+jakezatecky/react-checkbox-tree,{'@testing-library/react'},{'mocha', 'chai'}
+coreui/coreui-free-react-admin-template,{'enzyme'},set()
+sweetalert2/sweetalert2-react-content,set(),set()
+linuswillner/react-console-emulator,{'enzyme'},{'jest'}
+yunity/karrot-frontend,{'@testing-library/vue', '@vue/test-utils'},set()
+etalab/covid19-dashboard,set(),set()
+ekzhang/setwithfriends,set(),set()
+blitz-js/blitzjs.com,set(),set()
+commercetools/ui-kit,{'@testing-library/react'},{'jest'}
+carbon-app/carbon,set(),set()
+cristianbote/goober,set(),{'jest'}
+lijinke666/react-music-player,{'enzyme'},{'jest'}
+flareact/flareact,{'@testing-library/react'},{'jest'}
+szhsin/react-menu,{'@testing-library/react'},{'jest'}
+rahuljoshi44/graphvega,{'@testing-library/react'},set()
+hudovisk/react-optimize,{'enzyme'},{'mocha', 'karma', 'chai'}
+hodgef/react-simple-keyboard,{'enzyme'},{'jest'}
+hodgef/js-library-boilerplate,{'@testing-library/react'},{'jest'}
+revtel/react-native-nfc-rewriter,set(),{'jest'}
+emurgo/yoroi-frontend,set(),{'chai', 'jest'}
+garris/backstopjs,set(),{'mocha'}
+tryghost/admin,set(),{'chai'}
+jenkoian/hacktoberfest-checker,set(),set()
+datocms/gatsby-source-datocms,set(),{'jest'}
+chatwoot/chatwoot-mobile-app,set(),{'jest'}
+crystallizeapi/crystallize-nextjs-boilerplate,set(),set()
+kentcdodds/mdx-bundler,{'@testing-library/react'},set()
+wooorm/xdm,set(),set()
+emotion-js/emotion,{'enzyme', '@testing-library/react'},{'jest'}
+county-of-simcoe-gis/simcoecountywebviewer,set(),set()
+reactstrap/reactstrap,{'@testing-library/react'},{'jest'}
+vercel/styled-jsx,set(),set()
+reactjs/react-tabs,{'@testing-library/react'},{'jest'}
+netlify-templates/gatsby-starter-netlify-cms,set(),set()
+rezach/secure-electron-template,set(),{'mocha'}
+pmndrs/drei,set(),set()
+ledgerhq/ledger-live-desktop,set(),{'jest'}
+wesbos/wesbos,set(),set()
+filecoin-project/slate,set(),set()
+testing-library/testing-library-docs,set(),set()
+colbyfayock/gatsby-starter-leaflet,{'enzyme'},{'jest'}
+teselagen/openvectoreditor,set(),set()
+webaverse/app,set(),set()
+garmeeh/next-seo,{'@testing-library/react'},{'jest'}
+frctl/fractal,set(),{'jest'}
+react-navigation/react-navigation.github.io,set(),set()
+jarred-sumner/git-peek,set(),set()
+neherlab/covid19_scenarios,{'@testing-library/react'},{'jest'}
+javaluo/react-luo,set(),set()
+awslabs/aws-amplify-identity-broker,{'@testing-library/react'},{'mocha'}
+vercel/next.js,{'@testing-library/react'},{'jest'}
+11ty/eleventy,set(),set()
+devexpress/testcafe,set(),{'chai'}
+nexxtway/react-rainbow,{'enzyme', '@testing-library/react'},{'jest'}
+scaleflex/filerobot-image-editor,set(),set()
+ethereum/ethereum-org-website,set(),set()
+expensify/expensify.cash,set(),{'jest'}
+swellstores/swell-js,set(),{'jest'}
+lbryio/lbry-desktop,set(),set()
+facebookexperimental/recoil,set(),set()
+hans-lizihan/bull-master,{'enzyme'},{'jest'}
+mikecao/umami,set(),{'jest'}
+satansdeer/ultimate-react-hook-form-form,{'@testing-library/react'},set()
+saviomartin/gradientking,{'@testing-library/react'},set()
+react-grid-layout/react-resizable,{'enzyme'},{'jest'}
+react-grid-layout/react-grid-layout,{'enzyme'},{'jest'}
+react-grid-layout/react-draggable,set(),{'karma'}
+realjustinlee/liag,{'@testing-library/react'},set()
+weferralhq/weferral,set(),set()
+katerinalupacheva/react-progress-bar,set(),set()
+yearn/iearn-finance,set(),set()
+virtualvivek/react-windows-ui,set(),set()
+arnelenero/simpler-state,{'enzyme'},{'jest'}
+yearn/yearn-finance,set(),set()
+amiroff/nextbook,set(),set()
+craigary/nobelium,set(),set()
+mthli/webrtc-tutorial,set(),set()
+codeforcauseorg/edu-client,{'@testing-library/react'},set()
+ipfs/ipfs-webui,{'enzyme'},{'jest'}
+oslabs-beta/atomos,set(),{'jest'}
+karlhadwen/instagram,{'@testing-library/react'},set()
+dsuarezv/satellite-tracker,set(),set()
+wonderfullandingpage/mylandingpage,{'@testing-library/react'},set()
+uidotdev/usehooks,set(),set()
+yaozeyuan/stablog,set(),set()
+aavshr/aava.sh,{'@testing-library/react'},set()
+cometchat-pro/javascript-react-chat-app,{'@testing-library/react'},set()
+maslick/koder,set(),set()
+yinkakun/gatsby-starter-glass,set(),set()
+drkprince/agilix,{'@testing-library/react'},set()
+boazpoolman/strapi-plugin-config-sync,set(),{'jest'}
+veruscoin/verus-mobile,set(),{'jest'}
+walletconnect/walletconnect-registry,set(),set()
+cryptofyre/apple-music-electron,set(),set()
+btahir/next-shopify-starter,set(),set()
+naturalcrit/homebrewery,set(),{'jest'}
+cweijan/vscode-office,set(),set()
+whitep4nth3r/nextjs-contentful-blog-starter,set(),set()
+yifaneye/react-gallery-carousel,set(),set()
+salil-naik/css-art-gallery,{'@testing-library/react'},set()
+neutralinojs/neutralinojs.github.io,set(),set()
+aladinyo/whatsappyapp,{'@testing-library/react'},set()
+surajv311/one4all,{'@testing-library/react'},set()
+meilisearch/mini-dashboard,set(),set()
+beyondcode/tailwind-jit-api,set(),set()
+ipld/explore.ipld.io,{'enzyme', '@testing-library/react'},set()
+binnyva/gatsby-garden,set(),set()
+vivek9patel/vivek9patel.github.io,set(),set()
+katherinepeterson/readme.so,{'@testing-library/react'},{'jest'}
+react-ladies/react-ladies,set(),set()
+tailwind-mobile/tailwind-mobile,set(),set()
+boyney123/eventbridge-atlas,set(),set()
+chrishutchinson/cardkit,set(),{'mocha', 'chai'}
+wooorm/server-components-mdx-demo,set(),set()
+gossip-ink/gossip,set(),set()
+table-library/react-table-library,set(),{'jest'}
+shaifarfan/ayans-portfolio,{'@testing-library/react'},set()
+flybayer/twitter-bookmarks-search,set(),set()
+samuelkraft/notion-blog-nextjs,set(),set()
+robpethick/react-custom-scrollbars-2,set(),{'mocha', 'karma'}
+drumnickydrum/sequencer64,{'@testing-library/react'},set()
+rescript-association/rescript-lang.org,set(),set()
+archit-p/editable-react-table,set(),set()
+devhudi/gatsby-starter-hoodie,set(),set()
+pmndrs/market,set(),set()
+tastejs/next-movies,set(),set()
+halmesn/hotflix,set(),set()
+oslabs-beta/atomickafka,set(),set()
+boringdesigners/boring-avatars,set(),{'jest'}
+oslabs-beta/reactron,{'@testing-library/react'},{'jest'}
+octokatherine/readme.so,{'@testing-library/react'},{'jest'}
+wokwi/wokwi-docs,set(),set()
+flutterkit/c2f,set(),set()
+flatlogic/sofia-react-template,{'@testing-library/react'},set()
+erikmartinjordan/jsonmatic,{'@testing-library/react'},set()
+safdarjamal/crud-app,{'@testing-library/react'},set()
+xemle/home-gallery,set(),set()
+pawitp/protobuf-decoder,{'@testing-library/react'},set()
+vscode-ext-studio/vscode-office,set(),set()
+xtendui/xtendui,set(),set()
+tintinweb/smart-contract-inspector,set(),set()
+dai-shi/will-this-react-global-state-work-in-concurrent-rendering,set(),{'jest'}
+princewilliroka/gmail_clone,set(),{'jest'}
+asseinfo/react-kanban,{'@testing-library/react'},{'jest'}
+emilkowalski/ui-snippets,set(),set()
+devtranslate/devtranslate.github.io,set(),set()
+saviomartin/codehouse,set(),set()
+noteplan/plugins,set(),{'jest'}
+cube-js/awesome-tools,set(),set()
+abdulrcs/abdulrahman.id,set(),set()
+princewilliroka/project_management_mobile_app,set(),{'jest'}
+tryshape/tryshape,set(),set()
+lordarcadius/portfolio,set(),set()
+cnfeffery/feffery-antd-components,set(),set()
+shopify/product-reviews-sample-app,set(),set()
+hemmeligorg/hemmelig.app,set(),{'mocha'}
+code-hike/video-tutorial-maker,set(),set()
+stackernews/stacker.news,set(),{'jest'}
+th3wall/fakeflix,{'@testing-library/react'},set()
+nolimits4web/atropos,set(),set()
+sadanandpai/shortest-path-finder,set(),set()
+watwowmap/reactmap,set(),set()
+jdhayford/acid-tabs-extension,set(),set()
+micro-zoe/micro-app,set(),{'jest'}
+saharmor/realtime-transcription-playground,{'@testing-library/react'},set()
+dabit3/polygon-ethereum-nextjs-marketplace,set(),{'chai'}
+akarlsten/cuberun,set(),set()
+berry-pool/nami-wallet,set(),{'jest'}
+bensmithett/tropical,set(),set()
+cardano-foundation/developer-portal,set(),set()
+apple-music-electron/apple-music-electron,set(),set()
+saviomartin/slickr,set(),set()
+inbn/component-gallery,set(),set()
+seigel/pouchdb-react-native,set(),{'mocha'}
+adrianhajdin/project_travel_advisor,{'@testing-library/react'},set()
+ajbura/cinny,set(),set()
+tomgreenwood1/react-datepicker,{'@testing-library/react'},{'jest'}
+githubocto/repo-visualizer,set(),{'jest'}
+oslabs-beta/kur8,{'enzyme'},{'jest'}
+peternewnham/react-html-parser,set(),{'karma'}
+matt765/react-chat-app,{'@testing-library/react'},set()
+andrerfneves/lightning-address,set(),set()
+trufflesuite/ganache-ui,set(),{'jest'}
+creativetimofficial/purity-ui-dashboard,set(),set()
+samirdjelal/mail-dev,set(),set()
+antonioru/beautiful-react-hooks,{'@testing-library/react'},{'mocha', 'chai'}
+mehdi-bha/awesomefolio,set(),set()
+wkylin/promotion-web,{'@testing-library/react'},{'jest'}
+rajshekhar26/cleanfolio,{'@testing-library/react'},set()
+tnfe/mdebug,set(),{'jest'}
+laravel-mix/laravel-mix,set(),set()
+techno-tim/littlelink-server,set(),set()
+playcanvas/pcui-graph,set(),set()
+francescoxx/4c-site,set(),set()
+ivelum/job,set(),set()
+imranhsayed/nextjs-woocommerce-restapi,set(),set()
+iskurbanov/shopify-next.js-tailwind,set(),set()
+maggieappleton/digital-gardeners,set(),set()
+mayank0255/stackoverflow-clone-frontend,{'@testing-library/react'},set()
+mvximenko/flat-ui-colors,{'@testing-library/react'},set()
+hashlips/frontend_base_dapp,{'@testing-library/react'},{'chai'}
+harikanani/portfoliov2,set(),set()
+baseadressenationale/adresse.data.gouv.fr,set(),set()
+jaredpalmer/tsdx,set(),{'jest'}
+creativetimofficial/soft-ui-dashboard-react,{'@testing-library/react'},set()
+themerdev/themer-gui,set(),{'jest'}
+z0ccc/locatejs,{'@testing-library/react'},set()
+rgab1508/openstore,set(),{'chai'}
+antonioru/beautiful-react-diagrams,{'@testing-library/react'},{'mocha', 'chai'}
+mdx-js/vscode-mdx,set(),set()
+js-newbee/taro-yanxuan,set(),set()
+nickbullll/reactsimpleflexgrid,set(),set()
+zero-to-mastery/travel-guide,{'@testing-library/react'},set()
+cjslack/grok-debugger,{'@testing-library/react'},set()
+hashlips/hashlips_nft_minting_dapp,set(),set()
+appwrite/demo-todo-with-react,{'@testing-library/react'},set()
+marwincn/auto-group-tabs,{'@testing-library/react'},set()
+whitehoodhacker/whitehoodhacker.net,set(),set()
+jvdutra/open-source-rpg,set(),set()
+react9k/react-timeline-9000,{'enzyme'},{'mocha', 'chai'}
+flavioschneider/graphire,set(),{'jest'}
+zhushenwudi/lovelivemusicplayer,{'enzyme', '@testing-library/react'},{'jest'}
+ambassify/react-avatar,set(),set()
+ethereum-boilerplate/ethereum-react-native-boilerplate,{'enzyme'},{'chai', 'jest'}
+qier222/proxy-provider-converter,set(),set()
+odyseeteam/odysee-frontend,set(),set()
+generativefm/play,set(),{'mocha', 'karma', 'chai'}
+shuding/cobe,set(),set()
+szhsin/react-transition-state,{'@testing-library/react'},{'jest'}
+open-federation/json-schema-editor-visual,set(),set()
+arihant-jain-09/discord-clone,{'@testing-library/react'},set()
+ethereum-boilerplate/ethereum-nft-marketplace-boilerplate,{'@testing-library/react'},set()
+the-stripes-nft/nft-minting-app,set(),set()
+haydenull/logseq-plugin-markdown-table,{'@testing-library/react'},{'jest'}
+laravel/breeze-next,set(),set()
+ciderapp/apple-music-electron,set(),set()
+konstaui/konsta,set(),set()
+entria/jobs,set(),set()
+tangly1024/notionnext,set(),set()
+teslamotors/informed,{'@testing-library/react'},{'jest'}
+buildship-dev/webflow-nft-components,{'@testing-library/react'},set()
+shakogegia/markdown-editor,set(),set()
+memory-stack/memory-stack,{'@testing-library/react'},set()
+dat-ecosystem-archive/dat-desktop,{'enzyme'},set()
+eddiehubcommunity/linkfree,set(),set()
+nicollecnunes/windows-11,set(),set()
+kaustubh-karkare/glados,set(),{'jest'}
+dustinbrett/daedalos,{'@testing-library/react'},{'jest'}
+jaynil1611/javascript-interview-preparation,set(),set()
+bvaughn/planner,set(),set()
+feature-sliced/documentation,set(),set()
+cereallarceny/gradient-path,set(),set()
+reactive-resume/reactive-resume,{'@testing-library/react'},{'jest'}
+creativetimofficial/vision-ui-dashboard-chakra,set(),set()
+blocks-editor/blocks,{'@testing-library/react'},set()
+johoop/personal-website-react,{'@testing-library/react'},set()
+devangthakkar/wordle_archive,{'@testing-library/react'},set()
+floating-ui/react-popper,{'@testing-library/react'},{'jest'}
+aurora-opensource/streetscape.gl,{'enzyme'},set()
+drawcall/c2f,set(),set()
+react-dates/react-dates,{'enzyme'},{'mocha', 'karma', 'chai'}
+darkguy10/botclient,{'@testing-library/react'},set()
+mehtaansh/blockchainvoting,set(),{'mocha'}
+rakeshpotnuru/portfolio,set(),set()
+craftzdog/electron-markdown-editor-tutorial,set(),set()
+creativetechguy/reacttemplate,{'@testing-library/react'},{'jest'}
+kenmingwang/azusa-player,set(),set()
+ubaimutl/react-portfolio,set(),set()
+netlify-templates/nextjs-blog-theme,set(),set()
+vercel/next-react-server-components,set(),set()
+mshuber1981/github-react-portfolio-template,set(),set()
+sylvenas/react-magic,set(),set()
+oslabs-beta/fflow,{'@testing-library/react'},{'jest'}
+jokenox/goopt,set(),set()
+react-robins/website,set(),set()
+wtr07/react-native-boilerplate,set(),{'jest'}
+vercel/reactions,set(),set()
+metalex9/blossom,set(),set()
+intocode/iqa-frontend,{'@testing-library/react'},set()
+skymakerolof/dxf,set(),{'mocha'}
+dynamicstrategies/cardano-wallet-connector,{'@testing-library/react'},set()
+morsdyce/mimic,set(),{'karma'}
+creativetimofficial/vision-ui-dashboard-react,{'@testing-library/react'},set()
+priyaraj17/companylist,{'@testing-library/react'},set()
+arjayosma/nextacular,set(),set()
+smartcontracts/eth2-book,set(),set()
+openai/openai-quickstart-node,set(),set()
+democracyearth/wallet,{'@testing-library/react'},set()
+tomsouthall/turnstone,{'@testing-library/react'},set()
+ahyiru/web-design,set(),set()
+snapcrunch/electron-preferences,set(),set()
+oslabs-beta/vantage,{'@testing-library/react'},{'jest'}
+gis-ops/valhalla-app,set(),set()
+fabianoriccardi/killed-by-microsoft,{'enzyme'},{'jest'}
+webxdao/blockchain-dev-path,set(),set()
+margelo/react-native-bignumber,set(),set()
+faultaddr/react-blog,set(),{'jest'}
+codedthemes/mantis-free-react-admin-template,set(),set()
+solidos/solid-panes,set(),{'jest'}
+github/maintainermonth,{'@testing-library/react'},{'jest'}
+dabit3/titter,set(),set()
+horizon-ui/horizon-ui-chakra,{'@testing-library/react'},set()
+haixiangyan/guitar-tabs-editor,set(),set()
+tuanmanhcao/digital-garden,set(),set()
+haixiangyan/linter-tutorial,set(),set()
+stripe-archive/stripe-demo-connect-kavholm-marketplace,set(),set()
+harryheman/my-js,set(),set()
+nextacular/nextacular,set(),set()
+markdoc/docs,set(),set()
+timonwa/techroadmap,set(),set()
+markdoc/next.js,set(),{'jest'}
+livebud/bud,set(),set()
+kinngh/shopify-node-express-mongodb-app,set(),set()
+spacebudz/spacebudz,set(),set()
+stitchesjs/stitches,set(),set()
+matschik/component-party,set(),set()
+orbit-love/orbit-model,set(),set()
+shopify/shopify-app-template-node,{'enzyme'},{'jest'}
+rsapkf/42,set(),set()
+reactplay/react-play,{'@testing-library/react'},set()
+codingtrain/thecodingtrain.com,set(),{'jest'}
+shopify/shopify-frontend-template-react,set(),set()
+taniyow/react-portfolio,{'@testing-library/react'},set()
+honzaap/pathfinding,set(),set()
+rishipurwar1/coding-space,{'@testing-library/react'},set()
+rodrigo-arenas/portfolio,{'@testing-library/react'},set()
+izuolan/next-craft,set(),set()
+just-moh-it/mockoops,set(),set()
+patrik-piskay/react-truncate-markup,set(),{'jest'}
+hygraph/reference-marketing-website,set(),set()
+ihtml5/mdebug,set(),{'jest'}
+ndom91/briefkasten,set(),set()
+gabdorf/gatsby-portfolio,set(),set()
+findyourmagic/dber,set(),set()
+the-hideout/tarkov-dev,{'@testing-library/react'},set()
+hygraph/hygraph-commerce-starter,set(),set()
+wkylin/pro-react-admin,{'@testing-library/react'},{'jest'}
+arbprotocol/solana-jupiter-bot,set(),set()
+pycoder2000/blog,set(),set()
+jawerty/myalgorithm,set(),set()
+ladjs/react-native-loading-spinner-overlay,set(),set()
+cuttle-cards/cuttle,set(),set()
+beekai-oss/react-flip-numbers,{'enzyme'},{'jest'}
+devunltd/js-library-boilerplate,{'@testing-library/react'},{'jest'}
+clueless-community/first-contribution,set(),set()
+ristekoss/susunjadwal-frontend,{'@testing-library/react'},set()
+xxxsf/react-ssr,set(),set()
+mayankagarwal09/dev-portfolio,{'@testing-library/react'},set()
+rmwc/rmwc,{'@testing-library/react'},set()
+errsole/errsole.js,set(),{'jest'}
+themefisher/bookworm-light-nextjs,set(),set()
+aralroca/next-translate,{'@testing-library/react'},{'jest'}
+ngrok/webhooks.fyi,set(),set()
+kielx/terminal-portfolio,set(),set()
+berry-pool/nami,set(),{'jest'}
+zeke/inpainter,set(),set()
+yashitanamdeo/yashitanamdeo.github.io,set(),set()
+harrykanani/portfoliov2,set(),set()
+novuhq/hacksquad-website,set(),set()
+bhrott/react-native-masked-text,set(),{'jest'}
+n0rush/n0rush.me,set(),set()
+alexbainter/blossom,set(),set()
+realstoman/react-tailwindcss-portfolio,{'@testing-library/react'},set()
+smartcontracts/ethereum-book,set(),set()
+jayden320/meituan,set(),{'jest'}
+codingmonk-yt/chat-app,{'@testing-library/react'},set()
+replicate/inpainter,set(),set()
+izuolan/notionic,set(),set()
+spyware007/animating-buttons,{'@testing-library/react'},set()
+creativetimofficial/material-tailwind-dashboard-react,set(),set()
+beekai-oss/react-simple-img,{'enzyme'},{'jest'}
+midudev/password-generator,set(),{'jest'}
+ionorg/ion-app-web,set(),set()
+mryechkin/nextjs-supabase-auth,set(),set()
+openproxyspace/unfx-proxy-checker,set(),set()
+codemistic/web-development,{'@testing-library/react'},set()
+creativetimofficial/muse-ant-design-dashboard,{'@testing-library/react'},set()
+oslabs-beta/dacheql,set(),{'jest'}
+facebookarchive/draft-js,set(),{'jest'}
+t0gre/react-datepicker,{'@testing-library/react'},{'jest'}
+drkostas/drkostas.github.io,set(),set()
+idosal/assistant-chat-gpt,set(),set()
+appbaseio/dejavu,set(),set()
+pixijs/pixi-react,set(),{'jest'}
+shubh73/devfolio,set(),set()
+sjzhan9/sj-land,set(),set()
+ariabuckles/simple-markdown,set(),{'mocha'}
+pedropalau/react-bnb-gallery,{'enzyme'},{'jest'}
+davidtran/react-google-flight-datepicker,{'enzyme', '@testing-library/react'},{'jest'}
+aycanogut/front-end-resources,set(),set()
+oslabs-beta/knight-owl-display,set(),set()
+msfrisbie/chat-gpt-assistant,set(),set()
+timonwa/react-chat,{'@testing-library/react'},set()
+paralleldrive/riteway,set(),set()
+themefisher/bigspring-light-nextjs,set(),set()
+twa-dev/sdk,set(),set()
+vivictorg/vivict,set(),set()
+srobbin01/daisyui-admin-dashboard-template,{'@testing-library/react'},set()
+excalith/git-cheats,set(),set()
+zahidkhawaja/langchain-chat-nextjs,set(),set()
+artgenexyz/webflow-nft-components,{'@testing-library/react'},set()
+excalith/excalith-start-page,set(),set()
+meta-quest/immersive-web-emulator,set(),set()
+kinngh/shopify-nextjs-prisma-app,set(),set()
+midudev/preguntas-entrevista-react,set(),set()
+replicate/paint-by-text,set(),set()
+bahmutov/cypress-split,set(),set()
+josstorer/chatgpt-search-engine-extension,set(),set()
+davila7/code-gpt-docs,set(),set()
+harikanani/harikanani.github.io,set(),set()
+teeteeteeteetee/adobe-discord-rpc,set(),set()
+atlamors/portfolio,{'@testing-library/react'},{'jest'}
+horizon-ui/horizon-tailwind-react,{'@testing-library/react'},set()
+one-piece-official/imageflow,set(),set()
+seanghay/vector-drawable-nextjs,set(),set()
+astroturfcss/astroturf,{'enzyme'},{'jest'}
+amitmerchant1990/linksnatch,set(),set()
+nilooy/character-animation-combiner,{'@testing-library/react'},set()
+kholmogorov27/chevron,set(),set()
+jacob-lcs/fe-blog,set(),set()
+wix-incubator/react-native-interactable,set(),{'mocha', 'jest'}
+wix-incubator/remx,set(),{'jest'}
+zhao-stanley/chroma-ai,set(),set()
+filipedeschamps/clone-tabnews,set(),{'jest'}
+replicate/scribble-diffusion,set(),set()
+mdx-js/mdx-analyzer,set(),set()
+varunshenoy/graphgpt,{'@testing-library/react'},set()
+together-100devs/together,{'@testing-library/react'},{'jest'}
+paralleldrive/cuid2,set(),set()
+frontend-engineering/chatgpt-webapp-fullstack,set(),set()
+geeksblabla/geeksblabla.com,set(),{'jest'}
+ukhsa-internal/coronavirus-dashboard,set(),set()
+lovelivemusicplayer/lovelivemusicplayer,{'enzyme', '@testing-library/react'},{'jest'}
+ahyiru/huxy-admin,set(),set()
+decaporg/decap-cms,{'@testing-library/react'},{'jest'}
+ericdiviney/react-handbook,set(),set()
+daniel31x13/linkwarden,set(),set()
+maproulette/maproulette3,{'enzyme', '@testing-library/react'},set()
+healthstack01/frontend,{'@testing-library/react'},set()
+decaporg/gatsby-starter-decap-cms,set(),set()
+jacob-lcs/react-webpack5-template,set(),set()
+cyfershepard/jellystat,{'@testing-library/react'},set()
+homanp/langchain-ui,set(),set()
+oslabs-beta/reaper,set(),{'jest'}
+oslabs-beta/spyglass,set(),set()
+codewithvoid/askdevs,set(),set()
+jasondsouza212/free-hit,{'@testing-library/react'},set()
+shardeum/shardeum-docs,set(),set()
+statichunt/statichunt,set(),set()
+z0ccc/voat-extension,set(),set()
+masa-finance/docs,set(),set()
+roadtocode4u/spaceship,set(),set()
+sparkgpt001/gpt-tutorial-101,set(),set()
+josstorer/chatgptbox,set(),set()
+solstice23/refined-now-playing-netease,set(),set()
+onebeyond/cybersecurity-handbook,set(),{'jest'}
+kanaverse/kana,{'@testing-library/react'},set()
+dohooo/react-native-table-component,set(),set()
+pashpashpash/vault-ai,set(),set()
+ixartz/react-native-boilerplate,set(),{'jest'}
+ladunjexa/threejs-3d-portfolio,set(),set()
+natebaldwindesign/proportio,{'@testing-library/react'},set()
+sauravhathi/atsresume,set(),set()
+jaywcjlove/hotkeys-js,set(),{'jest'}
+ryan-yang125/chatllm-web,set(),set()
+primefaces/primeflex,set(),set()
+dmalvia/react_redux_tutorial,{'@testing-library/react'},set()
+cangsdarm/illustrate,set(),set()
+wix-incubator/react-templates,set(),{'mocha'}
+cometchat-pro/cometchat-chat-sample-app-react-native,set(),{'jest'}
+amupedia2021/project-amupedia,set(),set()
+truethari/reactfolio,{'@testing-library/react'},set()
+dev-family/admiral,set(),set()
+tamalcodes/milan,set(),set()
+etherspot/transaction-kit,{'@testing-library/react'},{'jest'}
+pmndrs/react-zdog,set(),set()
+chfritz/lineselect,set(),set()
+arslanym/starterhive,set(),set()
+ykdojo/kaguya,set(),set()
+shyamtawli/devfind,{'@testing-library/react'},set()
+0xmoei/basedapp,set(),set()
+imsyy/site-status,set(),set()
+pnpm/pnpm.io,set(),set()
+vincenius/workout-lol,set(),set()
+matschik/component-party.dev,set(),set()
+nextjs-kr/nextjs.kr,{'@testing-library/react'},{'jest'}
+workout-lol/workout-lol,set(),set()
+codescandy/dashui-free-nextjs-admin-template,set(),set()
+betaacid/expo-analytics,set(),set()
+stevenliuyi/covid19,set(),set()
+LaniJ/invoice-dragon,set(),set()
+chesslablab/react-chess,{'enzyme'},set()
+ssitvit/Games-and-Go,{'@testing-library/react'},set()
+MilanCommunity/Milan,set(),set()
+BeforeIDieCode/BeforeIDieAchievements,{'@testing-library/react'},set()
+couetilc/react-social-icons,{'enzyme'},{'mocha'}
+z0ccc/extension-detector,{'@testing-library/react'},set()
+the-rarbg/yaps,set(),set()
+school-of-athens/schoolofathens-world-next,set(),set()
+z0ccc/comet,set(),set()
+Dabble-Studio/3d-to-photo,set(),set()
+robbins23/daisyui-admin-dashboard-template,{'@testing-library/react'},set()
+ektogamat/threejs-holographic-material,set(),set()
+quantizor/buttermilk,set(),{'jest'}
+thisisqubika/react-native-template,set(),{'jest'}
+SamurAIGPT/Open-Custom-GPT,set(),set()
+amupedia2021/amupedia-web,set(),set()
+margelo/react-native-release-profiler,set(),{'jest'}
+nxshell/nxshell,set(),set()
+BrowserBoost/Extension,set(),set()
+UdaraJay/Pile,{'@testing-library/react'},{'jest'}
+WeiWenda/effect-note,set(),set()
+chaitin/xtools,set(),set()
+EddieHubCommunity/RepoRater,set(),set()
+sparrow-js/ant-codeAI,set(),set()
+gauravghai/weatherApp-Reactjs,{'@testing-library/react'},set()
+liu-ziting/PetThoughts,set(),set()
+Kiran1689/Awesome-Dev-Portfolios,{'@testing-library/react'},set()
+CH563/shot-easy-website,set(),set()
+huanghanzhilian/c-shopping,set(),set()
+sergeyleschev/react-custom-hooks,{'@testing-library/react'},set()
+learntocloud/learn-to-cloud,set(),set()
+sparrow-js/an-codeAI,set(),set()
+padraigfl/packard-belle,{'enzyme'},{'jest'}
+ovidiuch/flatris,set(),{'jest'}
+chesslablab/spablab,{'enzyme'},set()
+darkroomengineering/lenis,set(),set()
+rupomsoft/mern-x,set(),set()
+pranavp10/video-compress,set(),set()
+electh/ReactFlux,set(),set()
+huanghanzhilian/c-shopping-rn,set(),set()
+pluginpal/strapi-plugin-config-sync,set(),{'jest'}
+pluginpal/strapi-plugin-sitemap,set(),{'jest'}
+ngoworldcommunity/NGOWorld,set(),set()
+Mihaiii/semantic-autocomplete,set(),set()
+SequelHQ/Sequel,set(),set()
+hugeicons/hugeicons-react,set(),set()
+huanghanzhilian/c-shopping-weapp,set(),{'jest'}
+hyparam/hyparquet,set(),set()
+FlowTestAI/FlowTest,{'@testing-library/react'},set()
+rishipurwar1/FrontendPro,{'@testing-library/react'},set()
+HashLips/hashlips_art_engine_app,{'@testing-library/react'},set()
+joye61/pic-smaller,set(),set()
+ljharb/prop-types-tools,{'enzyme'},{'mocha', 'chai'}
+codervivek5/VigyBag,set(),set()
+zombieyang/sd-ppp,set(),set()
+rjshkhr/cleanfolio,{'@testing-library/react'},set()
+JudiniLabs/code-gpt-docs,set(),set()
+bpetetot/conference-hall-beta,{'enzyme'},set()
+grgia/react-native-qrcode-svg,set(),{'jest'}
+bornfight-studio/goCart.js,set(),{'jest'}
+Expensify/react-native-qrcode-svg,set(),{'jest'}

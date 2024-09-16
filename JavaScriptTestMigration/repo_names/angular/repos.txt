@@ -1,0 +1,29 @@
+vitalii-andriiovskyi/ngx-owl-carousel-o,{'@angular/core'},{'jasmine-core', 'karma'}
+johnpapa/angular2-force,{'@angular/core'},{'jasmine-core', 'karma'}
+matiastucci/ionic-ocr-example,{'@angular/core'},set()
+bradtraversy/angular60,{'@angular/core'},{'jasmine-core', 'karma'}
+salemdar/angular2-cookie,{'@angular/core'},{'jasmine-core', 'karma'}
+datatypevoid/vulgar,{'@angular/core'},{'karma', 'mocha', 'chai'}
+antonybudianto/angular-starter,{'@angular/core'},{'jasmine-core', 'karma'}
+preboot/angular-library-seed,{'@angular/core'},{'jasmine-core', 'karma'}
+auth0-blog/angular2-authentication-sample,{'@angular/core'},set()
+preboot/angular-webpack,{'@angular/core'},{'jasmine-core', 'karma'}
+alexcastillo/ng2-notifications,{'@angular/core'},{'jasmine-core', 'karma'}
+domfarolino/angular2-login-seed,{'@angular/core'},{'jasmine-core', 'karma'}
+airingursb/sunnybaby,{'@angular/core'},set()
+samteb/angular-7-webpack-4-boilerplate,{'@angular/core'},set()
+microsoft/cordova-samples,{'@angular/core'},set()
+filipesilva/angular-quickstart-lib,{'@angular/core'},{'jasmine-core', 'karma'}
+chihu-team/chihu2,{'@angular/core'},set()
+angular/quickstart,{'@angular/core'},{'jasmine-core', 'karma'}
+patrickjs/angular-starter,{'@angular/core'},{'jasmine-core', 'karma'}
+chenqingspring/ng-lottie,{'@angular/core'},{'karma', 'jasmine-core', 'chai'}
+marcoturi/ionic-boilerplate,{'@angular/core'},{'jasmine-core', 'karma'}
+cipchk/ngx-ueditor,{'@angular/core'},{'jasmine-core', 'karma'}
+filenation/filenation,{'@angular/core'},{'jasmine-core', 'karma'}
+hfreire/get-me-a-date,{'@angular/core'},{'jest', 'mocha'}
+chrisguttandin/angular-prerender,{'@angular/core'},{'mocha', 'chai'}
+ganatan/angular-ssr,{'@angular/core'},{'jasmine-core', 'karma'}
+nartc/angular-three,{'@angular/core'},{'jest'}
+ed3ath/cbtracker,{'@angular/core'},{'jasmine-core', 'karma'}
+patrickjs/mfe-starter,{'@angular/core'},{'jasmine-core', 'karma'}
