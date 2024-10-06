@@ -8,3 +8,6 @@ react-stack-grid
 mayre
 react-flexa
 react-itunes-search
+react-native-zoom-image
+styled-jss
+styled-jss
